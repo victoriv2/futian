@@ -1,0 +1,356 @@
+{
+  "project_info": {
+    "name": "FUTIA Campus Map Data",
+    "version": "1.0",
+    "source_document": "school-mini-map.pdf",
+    "total_pois": 17
+  },
+  "locations": [
+    {
+      "id": "gate",
+      "name": "School Gate",
+      "map_legend_id": 16,
+      "category": "Entry/Exit",
+      "search_keywords": ["entrance", "exit", "main gate", "entry"],
+      "visual_attributes": {
+        "size": "Small",
+        "orientation": "Bottom Center"
+      },
+      "spatial_relationships": [
+        {"term": "is right next to", "target": "Security Office"},
+        {"term": "is closest to", "target": "SCIT"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Start",
+        "is_terminal_point": true
+      },
+      "description": "The main entry point to the campus. Located at the southernmost point of the map."
+    },
+    {
+      "id": "security",
+      "name": "Security Office",
+      "map_legend_id": 15,
+      "category": "Administrative",
+      "search_keywords": ["guards", "safety", "check point", "security"],
+      "visual_attributes": {
+        "size": "Small",
+        "orientation": "Right of Gate"
+      },
+      "spatial_relationships": [
+        {"term": "is in front of", "target": "SCIT"},
+        {"term": "is near", "target": "School Gate"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Main Junction Bottom",
+        "is_terminal_point": false
+      },
+      "description": "Located immediately inside the School Gate on the right-hand side."
+    },
+    {
+      "id": "scit",
+      "name": "SCIT",
+      "map_legend_id": 14,
+      "category": "Academic",
+      "search_keywords": ["computing", "information technology", "classes", "department"],
+      "visual_attributes": {
+        "size": "Large",
+        "orientation": "Left of Main Path"
+      },
+      "spatial_relationships": [
+        {"term": "is near", "target": "Security Office"},
+        {"term": "is in front of", "target": "Workshop"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Workshop Junction",
+        "is_terminal_point": false
+      },
+      "description": "A large academic building located on the lower left corridor, adjacent to the Workshop."
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "map_legend_id": 13,
+      "category": "Academic/Technical",
+      "search_keywords": ["engineering", "technical", "lab", "practical"],
+      "visual_attributes": {
+        "size": "Medium",
+        "orientation": "Left of SCIT"
+      },
+      "spatial_relationships": [
+        {"term": "is behind", "target": "Auditorium"},
+        {"term": "is behind", "target": "SCIT"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "SCIT Junction",
+        "is_terminal_point": true
+      },
+      "description": "Located directly next to the SCIT building on the lower left path."
+    },
+    {
+      "id": "auditorium",
+      "name": "Auditorium",
+      "map_legend_id": 11,
+      "category": "Events/General",
+      "search_keywords": ["hall", "events", "gathering", "conference"],
+      "visual_attributes": {
+        "size": "Large",
+        "orientation": "Center Left"
+      },
+      "spatial_relationships": [
+        {"term": "is in between", "target": "Toilet"},
+        {"term": "is in front of", "target": "Workshop"},
+        {"term": "is close to", "target": "School Field"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Central Spine",
+        "is_terminal_point": true
+      },
+      "description": "The central event center located along the main path, directly opposite the School Field."
+    },
+    {
+      "id": "toilet",
+      "name": "Toilet",
+      "map_legend_id": 7,
+      "category": "Facilities",
+      "search_keywords": ["restroom", "bathroom", "wc", "convenience"],
+      "visual_attributes": {
+        "size": "Small",
+        "orientation": "Behind Auditorium"
+      },
+      "spatial_relationships": [
+        {"term": "is in between", "target": "ETEC"},
+        {"term": "is in between", "target": "Auditorium"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Central Spine Branch",
+        "is_terminal_point": true
+      },
+      "description": "A small facility block accessible via a short path branching left after the Auditorium."
+    },
+    {
+      "id": "etec",
+      "name": "ETEC",
+      "map_legend_id": 4,
+      "category": "Academic",
+      "search_keywords": ["engineering technology", "classes", "department"],
+      "visual_attributes": {
+        "size": "Medium",
+        "orientation": "Upper Left Corridor"
+      },
+      "spatial_relationships": [
+        {"term": "is beside", "target": "Library"},
+        {"term": "is opposite", "target": "VC's Office"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Top Junction Left",
+        "is_terminal_point": false
+      },
+      "description": "Located on the upper corridor. First major building on the left after turning at the top junction."
+    },
+    {
+      "id": "store",
+      "name": "Store",
+      "map_legend_id": 3,
+      "category": "Administrative/Utility",
+      "search_keywords": ["storage", "supplies", "logistics"],
+      "visual_attributes": {
+        "size": "Very Small",
+        "orientation": "Opposite ETEC"
+      },
+      "spatial_relationships": [
+        {"term": "is beside", "target": "VC's Office"},
+        {"term": "is in front of", "target": "New Uncompleted Administrative Block"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Top Junction Left",
+        "is_terminal_point": true
+      },
+      "description": "A small structure on the right side of the upper corridor, directly across from ETEC."
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "map_legend_id": 5,
+      "category": "Academic/Study",
+      "search_keywords": ["books", "reading", "research", "study hall"],
+      "visual_attributes": {
+        "size": "Medium",
+        "orientation": "Between ETEC and SPAS"
+      },
+      "spatial_relationships": [
+        {"term": "is in between", "target": "SPAS"},
+        {"term": "is beside", "target": "ETEC"},
+        {"term": "is opposite", "target": "VC's Office"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Upper Corridor Middle",
+        "is_terminal_point": false
+      },
+      "description": "Located in the middle of the upper academic corridor, between ETEC and SPAS."
+    },
+    {
+      "id": "spas",
+      "name": "SPAS",
+      "map_legend_id": 6,
+      "category": "Academic",
+      "search_keywords": ["science", "physical sciences", "classes"],
+      "visual_attributes": {
+        "size": "Medium",
+        "orientation": "Far Left (Below Academic Block)"
+      },
+      "spatial_relationships": [
+        {"term": "is beside", "target": "Library"},
+        {"term": "is near", "target": "Academic Block"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Upper Corridor End",
+        "is_terminal_point": true
+      },
+      "description": "Located towards the far left end of the upper corridor, just before the Academic Block."
+    },
+    {
+      "id": "vc_office",
+      "name": "VC's Office",
+      "map_legend_id": 2,
+      "category": "Administrative",
+      "search_keywords": ["vice chancellor", "admin", "management", "authority"],
+      "visual_attributes": {
+        "size": "Large",
+        "orientation": "Opposite Library"
+      },
+      "spatial_relationships": [
+        {"term": "is beside", "target": "Academic Block"},
+        {"term": "is beside", "target": "Store"},
+        {"term": "is opposite", "target": "ETEC"},
+        {"term": "is opposite", "target": "Library"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Upper Corridor Middle",
+        "is_terminal_point": true
+      },
+      "description": "A major administrative building on the right side of the upper corridor, opposite the Library."
+    },
+    {
+      "id": "academic_block",
+      "name": "Academic Block",
+      "map_legend_id": 1,
+      "category": "Academic",
+      "search_keywords": ["classrooms", "lectures", "faculty"],
+      "visual_attributes": {
+        "size": "Large",
+        "orientation": "Far West Edge"
+      },
+      "spatial_relationships": [
+        {"term": "is beside", "target": "VC's Office"},
+        {"term": "is opposite", "target": "SPAS"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Upper Corridor End",
+        "is_terminal_point": true
+      },
+      "description": "The westernmost building on the map. It runs perpendicular to the main upper pathway."
+    },
+    {
+      "id": "admin_block",
+      "name": "New Uncompleted Administrative Block",
+      "map_legend_id": "8, 9, 10",
+      "category": "Administrative/Under Construction",
+      "search_keywords": ["new admin", "construction", "registry"],
+      "visual_attributes": {
+        "size": "Very Large",
+        "orientation": "Top Center"
+      },
+      "spatial_relationships": [
+        {"term": "is behind", "target": "Store"},
+        {"term": "is far from", "target": "School Gate"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Top Junction Center",
+        "is_terminal_point": true
+      },
+      "description": "The largest building footprint on the map, located at the top center. Marked as uncompleted."
+    },
+    {
+      "id": "field",
+      "name": "School Field",
+      "map_legend_id": 12,
+      "category": "Sports/Recreation",
+      "search_keywords": ["football", "sports", "grass", "playground"],
+      "visual_attributes": {
+        "size": "Huge",
+        "orientation": "Center Right"
+      },
+      "spatial_relationships": [
+        {"term": "is surrounded by", "target": "Academic and Hostel blocks"},
+        {"term": "is next to", "target": "Pavillon"},
+        {"term": "is large and central to", "target": "the campus"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Main Spine",
+        "is_terminal_point": false
+      },
+      "description": "The large green recreational area dominating the right-center of the campus."
+    },
+    {
+      "id": "pavillon",
+      "name": "Pavillon",
+      "map_legend_id": 18,
+      "category": "Sports/Utility",
+      "search_keywords": ["seats", "viewing area", "covered stand"],
+      "visual_attributes": {
+        "size": "Long",
+        "orientation": "Right of Field"
+      },
+      "spatial_relationships": [
+        {"term": "is near", "target": "School Field"},
+        {"term": "is in front of", "target": "Girl's Hostel Block A"},
+        {"term": "is in front of", "target": "Girl's Hostel Block B"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Hostel Path",
+        "is_terminal_point": false
+      },
+      "description": "A long structure bordering the right side of the School Field, likely for viewing sports."
+    },
+    {
+      "id": "hostel_a",
+      "name": "Girl's Hostel Block A",
+      "map_legend_id": "19, 20",
+      "category": "Residential",
+      "search_keywords": ["dorm", "accommodation", "female hostel", "housing"],
+      "visual_attributes": {
+        "size": "Medium",
+        "orientation": "Bottom Right Corner"
+      },
+      "spatial_relationships": [
+        {"term": "is beneath", "target": "Girl's Hostel Block B"},
+        {"term": "is behind", "target": "Pavillon"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Hostel Path End",
+        "is_terminal_point": true
+      },
+      "description": "Located at the far bottom-right of the map. The first hostel block reached when approaching from the gate side."
+    },
+    {
+      "id": "hostel_b",
+      "name": "Girl's Hostel Block B",
+      "map_legend_id": 17,
+      "category": "Residential",
+      "search_keywords": ["dorm", "accommodation", "female hostel", "housing"],
+      "visual_attributes": {
+        "size": "Medium",
+        "orientation": "Top Right Corner (Hostel Area)"
+      },
+      "spatial_relationships": [
+        {"term": "is above", "target": "Girl's Hostel Block A"},
+        {"term": "is behind", "target": "Pavillon"}
+      ],
+      "navigation_metadata": {
+        "nearest_node": "Hostel Path End",
+        "is_terminal_point": true
+      },
+      "description": "Located directly above Block A on the far right side of the map."
+    }
+  ]
+}

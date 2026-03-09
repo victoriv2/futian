@@ -1,0 +1,183 @@
+{
+    "session_details": {
+      "level": "100 Level",
+      "session": "2023/2024",
+      "department": "Electrical & Electronics Engineering",
+      "document_type": "Course Registration Summary"
+    },
+    "semesters": [
+      {
+        "semester": "First Semester",
+        "total_units": 19,
+        "courses": [
+          {
+            "sn": "1",
+            "course_code": "CHM101",
+            "course_title": "General Chemistry I",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "2",
+            "course_code": "CHM107",
+            "course_title": "General Practical Chemistry I",
+            "units": 1,
+            "grade": "C"
+          },
+          {
+            "sn": "3",
+            "course_code": "FCOS101",
+            "course_title": "Introduction to Computing Sciences",
+            "units": 3,
+            "grade": "C"
+          },
+          {
+            "sn": "4",
+            "course_code": "FGET111",
+            "course_title": "Engineering Drawing",
+            "units": 1,
+            "grade": "C"
+          },
+          {
+            "sn": "5",
+            "course_code": "GET101",
+            "course_title": "Engineer in Society",
+            "units": 1,
+            "grade": "C"
+          },
+          {
+            "sn": "6",
+            "course_code": "GST111",
+            "course_title": "Communication in English I",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "7",
+            "course_code": "MTH101",
+            "course_title": "Elementary Mathematics I",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "8",
+            "course_code": "MTH103",
+            "course_title": "Elementary Mathematics III",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "9",
+            "course_code": "PHY101",
+            "course_title": "General Physics I",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "10",
+            "course_code": "PHY103",
+            "course_title": "General Physics III",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "11",
+            "course_code": "PHY107",
+            "course_title": "General Practical Physics I",
+            "units": 1,
+            "grade": "C"
+          }
+        ]
+      },
+      {
+        "semester": "Second Semester",
+        "total_units": 21,
+        "courses": [
+          {
+            "sn": "1",
+            "course_code": "CHM102",
+            "course_title": "General Chemistry II",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "2",
+            "course_code": "CHM108",
+            "course_title": "General Practical Chemistry II",
+            "units": 1,
+            "grade": "C"
+          },
+          {
+            "sn": "3",
+            "course_code": "EEE102",
+            "course_title": "Introduction to Electrical & Electronics Eng.",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "4",
+            "course_code": "FCMT102",
+            "course_title": "Communication Techniques",
+            "units": 1,
+            "grade": "C"
+          },
+          {
+            "sn": "5",
+            "course_code": "FGST122",
+            "course_title": "Use of Library and E-Library Technology",
+            "units": 1,
+            "grade": "C"
+          },
+          {
+            "sn": "6",
+            "course_code": "GET102",
+            "course_title": "Engineering Graphics & Solid Modelling I",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "7",
+            "course_code": "GST112",
+            "course_title": "Nigerian People and Culture",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "8",
+            "course_code": "MTH102",
+            "course_title": "Elementary Mathematics II",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "9",
+            "course_code": "PHY102",
+            "course_title": "General Physics II",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "10",
+            "course_code": "PHY104",
+            "course_title": "General Physics IV",
+            "units": 2,
+            "grade": "C"
+          },
+          {
+            "sn": "11",
+            "course_code": "PHY108",
+            "course_title": "General Practical Physics II",
+            "units": 1,
+            "grade": "C"
+          },
+          {
+            "sn": "12",
+            "course_code": "STA112",
+            "course_title": "Probability I",
+            "units": 3,
+            "grade": "C"
+          }
+        ]
+      }
+    ]
+  }

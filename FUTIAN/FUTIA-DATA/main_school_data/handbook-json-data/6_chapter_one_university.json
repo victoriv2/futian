@@ -1,0 +1,156 @@
+{
+    "chapter": "ONE",
+    "title": "THE UNIVERSITY",
+    "sections": [
+      {
+        "section_number": "1.1",
+        "title": "BRIEF HISTORY OF THE UNIVERSITY",
+        "content": "The Federal University of Technology Ikot Abasi (FUTIA) was established by the Federal Government of Nigeria (FGN) under the administration of His Excellency, President Muhammadu Buhari's led government in June 2021. FUTIA is situated in the South-South region specifically in Akwa Ibom State and was one of the two new Universities of Technology established by the FGN and the other one is situated in Jigawa State in the North-West geopolitical zone of Nigeria. Before the establishment of these two universities, the government had established four universities of Technology in Yola (North East), Akure (South West), Owerri (South East) and Minna (North Central). These six universities of Technology are satellite institutions of a proposed apex National Institute of Technology (NIT) in Abuja, the nation's capital. The NIT is envisaged as a postgraduate center devoted to research and innovation, drawing the best graduates from the six universities of Technology and other outstanding graduates from within and outside Nigeria.\n\nBy establishing FUTIA and other new universities, Nigeria seeks to increase access to university education, achieve balance and equity in the location of facilities and increase knowledge in science and technology. The University in Akwa Ibom State is sited in Ikot Abasi. On February 14, 2022, the Pioneer Principal Officers of the Federal University of Technology, Ikot Abasi were appointed by the Federal Government as follows:",
+        "pioneer_officers": [
+          "i. Professor Leo Daniel - Vice-Chancellor",
+          "ii. Offiongita Esessien Nkang (Mrs.) – Registrar",
+          "iii. Dr. Mbobo Erasmus Mbobo – Bursar",
+          "iv. Professor Phillip U. Akor – Librarian."
+        ],
+        "conclusion": "The establishment of the Federal University of Technology Ikot Abasi (FUTIA) has increased the number of universities in Nigeria to 216. The University started its operation with two hundred (200) academic and non-academic staff, and four hundred and eighty-nine (489) pioneer students in three (3) Schools and twelve (12) Programmes."
+      },
+      {
+        "section_number": "1.2",
+        "title": "VISION, MISSION, CORE VALUES, MOTTO, PHILOSOPHY AND OBJECTIVES OF THE UNIVERSITY",
+        "subsections": [
+          {
+            "subtitle": "1.2.1 THE VISION STATEMENT",
+            "content": "To take the lead in the advancement and dissemination of knowledge in Science, Technology and Engineering through cutting edge research and development."
+          },
+          {
+            "subtitle": "1.2.2 THE MISSION STATEMENT",
+            "content": "Our mission is to equip our students with innovative skills in ground breaking research that will transform our communities and nation."
+          },
+          {
+            "subtitle": "1.2.3 OUR CORE VALUES",
+            "list": [
+              "i. Faith in God",
+              "ii. Academic Excellence in Teaching and Research",
+              "iii. Creativity and Innovation",
+              "iv. Integrity",
+              "v. Transparency and Accountability"
+            ]
+          },
+          {
+            "subtitle": "1.2.4 MOTTO",
+            "content": "The motto of FUTIA is “Innovation Drives Transformation”. The motto conveys a unique identity and personality of the University that defines her existence, processes and responsibility as an ivory tower and a citadel of learning."
+          },
+          {
+            "subtitle": "1.2.5 PHILOSOPHY OF THE UNIVERSITY",
+            "intro": "The philosophy of the university is anchored on:",
+            "list": [
+              "i. The desire to promote cutting edge knowledge of Engineering, Science and Technology especially in Aviation and Space Technology, Oil and Gas, Maritime and Ship Building, Computing Technology, Biotechnology, Informatics and Agricultural Technology and the application of new and innovative knowledge for the improvement of our communities, states and nation.",
+              "ii. The Acquisition of appropriate skills by our staff and students to provide the workforce required in the national economy and to stimulate development through innovation and ultimately drive the growth of the local and national economy.",
+              "iii. The inculcation of the culture of dedication, hard work, discipline, integrity in staff and students by providing excellent atmosphere for scholarship, research innovation and collaboration with other institutions, government and non-governmental organizations.",
+              "iv. The desire to be known as the bedrock of excellent teaching, research and innovative ideas using contemporary technological advancements, Information and Communication Technology."
+            ]
+          },
+          {
+            "subtitle": "1.2.6 OBJECTIVES OF THE UNIVERSITY",
+            "intro": "The objectives of the University are set out with the aim of achieving the Vision, Mission and Philosophy of the University and are as follows:",
+            "list": [
+              "i. Encourage the advancement of learning and to hold out to all persons without distinction of race, creed, sex, or political conviction the opportunity of acquiring a higher and technical education.",
+              "ii. Provide sources of instruction and other facilities for the pursuit of learning in all its branches, and to make those facilities available on proper terms to such persons as are equipped to benefit from them.",
+              "iii. Encourage and promote scholarship and conduct research in all fields of learning and human endeavor particularly in Science, Technology and Engineering.",
+              "iv. Evolve academic programmes to suit the changing social and economic needs of society through review of curricula and development of new programmes and through programme structural flexibility to respond to societal and technological changes.",
+              "v. Create and expand access and opportunities for education, attract and retain quality students, researchers, and teachers, thereby assisting in developing human capital and mitigating brain drain.",
+              "vi. Produce internationally acceptable graduates that can/will compete favourably with their peers anywhere in the world.",
+              "vii. Carry out basic and applied research leading to the domestication and application of new technology in Nigeria through collaboration and linkages with other academic and research institutions in Nigeria, Africa and the rest of the world.",
+              "viii. Establish a centre for entrepreneurial studies to stimulate job creation and innovative abilities in students from onset of their studies, in such a way that graduates would be resourceful, self-reliant and job creators.",
+              "ix. Under-take other activities appropriate for teaching, research and community service as expected of a University of the highest standard."
+            ]
+          }
+        ]
+      },
+      {
+        "section_number": "1.3",
+        "title": "ACADEMIC PROGRAMMES IN THE UNIVERSITY",
+        "content": "The Federal University of Technology, Ikot Abasi currently has three (3) Schools and twelve (12) Departments.",
+        "subsections": [
+          {
+            "subtitle": "1.3.1 SCHOOLS:",
+            "intro": "There are six (6) Schools in the University, namely:",
+            "list": [
+              "i. School of Agriculture (SCAG)",
+              "ii. School of Computing and Information Technology (SCIT)",
+              "iii. School of Engineering and Engineering Technology (SEET)",
+              "iv. School of Environmental Science and Technology (SEST)",
+              "v. School of Management Technology (SMAT)",
+              "vi. School of Pure and Applied Sciences (SPAS)"
+            ]
+          },
+          {
+            "subtitle": "1.3.2 DEPARTMENTS",
+            "content": "In each School, there are Departments which run the various degree programmes which are:",
+            "departments_list": [
+              {
+                "school_number": "1.",
+                "school_name": "School of Agriculture",
+                "departments": [
+                  "i. Agriculture",
+                  "ii. Food Science and Technology"
+                ]
+              },
+              {
+                "school_number": "2.",
+                "school_name": "School of Computing and Information Technology",
+                "departments": [
+                  "i. Computer Science",
+                  "ii. Cyber Security",
+                  "iii. Software Engineering"
+                ]
+              },
+              {
+                "school_number": "3.",
+                "school_name": "School of Engineering and Engineering Technology",
+                "departments": [
+                  "i. Aerospace Engineering",
+                  "ii. Chemical Engineering",
+                  "iii. Civil Engineering",
+                  "iv. Electrical/Electronics Engineering",
+                  "v. Mechanical Engineering",
+                  "vi. Petroleum and Gas Engineering"
+                ]
+              },
+              {
+                "school_number": "4.",
+                "school_name": "School of Environmental Science and Technology",
+                "departments": [
+                  "i. Architecture",
+                  "ii. Building Technology",
+                  "iii. Naval Architecture",
+                  "iv. Quantity Surveying"
+                ]
+              },
+              {
+                "school_number": "5.",
+                "school_name": "School of Management Technology",
+                "departments": [
+                  "i. Accounting",
+                  "ii. Business Management",
+                  "iii. Library and Information Technology",
+                  "iv. Tourism and Hospitality Management",
+                  "v. Transportation Management Technology"
+                ]
+              },
+              {
+                "school_number": "6.",
+                "school_name": "School of Pure and Applied Sciences",
+                "departments": [
+                  "I. Biochemistry",
+                  "ii. Mathematics/Statistics",
+                  "iii. Microbiology",
+                  "iv. Physics"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

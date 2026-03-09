@@ -1,0 +1,57 @@
+{
+  "session_details": {
+    "level": "300 Level",
+    "session": "2024/2025",
+    "document_type": "Course Registration Summary"
+  },
+  "semesters": [
+    {
+      "semester": "First Semester",
+      "total_units": 17,
+      "courses": [
+        {
+          "course_code": "GET 301",
+          "course_title": "Engineering Mathematics III",
+          "units": 3,
+          "status": "C"
+        },
+        {
+          "course_code": "GET 303",
+          "course_title": "Engineering Economics",
+          "units": 2,
+          "status": "C"
+        },
+        {
+          "course_code": "GET 305",
+          "course_title": "Engineering Statistics and Data Analytics",
+          "units": 3,
+          "status": "C"
+        },
+        {
+          "course_code": "GET 307",
+          "course_title": "Introduction to Artificial Intelligence, Machine Learning & Convergent Technologies",
+          "units": 3,
+          "status": "C"
+        },
+        {
+          "course_code": "EEE 311",
+          "course_title": "Electric Circuit Theory I",
+          "units": 2,
+          "status": "C"
+        },
+        {
+          "course_code": "EEE 321",
+          "course_title": "Analogue Electronic Circuits I",
+          "units": 2,
+          "status": "C"
+        },
+        {
+          "course_code": "FEEE 301",
+          "course_title": "Data Communications",
+          "units": 3,
+          "status": "C"
+        }
+      ]
+    }
+  ]
+}

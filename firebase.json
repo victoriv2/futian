@@ -1,0 +1,16 @@
+{
+    "hosting": {
+        "public": ".",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**",
+            "FUTIAN/backend/**",
+            "FUTIAN/.venv/**",
+            "FUTIAN/FUTIA-DATA/**",
+            "FUTIAN/Dockerfile",
+            "FUTIAN/start_server.bat",
+            "FUTIAN/video-for-support/**"
+        ]
+    }
+}

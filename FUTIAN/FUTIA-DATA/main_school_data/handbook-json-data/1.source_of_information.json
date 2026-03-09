@@ -1,0 +1,91 @@
+{
+    "section_title": "SOURCE OF INFORMATION",
+    "introduction": "Students may obtain information on the following matters from the respective sources indicated below. However, whenever a student is in doubt, he/she should contact the Student Affairs Division.",
+    "directory": [
+      {
+        "category": "ACADEMIC MATTERS",
+        "offices": [
+          "Academic Affairs Division",
+          "Heads of Departments",
+          "Provosts of Schools"
+        ]
+      },
+      {
+        "category": "REGISTRATION",
+        "offices": [
+          "College Secretaries",
+          "Heads of Departments",
+          "Academic Affairs Division"
+        ]
+      },
+      {
+        "category": "FEES",
+        "offices": [
+          "Student Accounts Unit",
+          "University Bursary"
+        ]
+      },
+      {
+        "category": "BOOKS, JOURNALS AND OTHER PUBLICATIONS",
+        "offices": [
+          "University Librarian",
+          "University Library"
+        ]
+      },
+      {
+        "category": "HEALTH CARE",
+        "offices": [
+          "Directorate of Health Services"
+        ]
+      },
+      {
+        "category": "ACADEMIC TRANSCRIPTS",
+        "offices": [
+          "Records Unit",
+          "Academic Affairs Division"
+        ]
+      },
+      {
+        "category": "ACCOMMODATION/STUDENT SERVICES",
+        "offices": [
+          "Student Affairs Division"
+        ]
+      },
+      {
+        "category": "COUNSELLING AND CAREERS",
+        "offices": [
+          "Guidance and Counseling Unit",
+          "Student Affairs Division"
+        ]
+      },
+      {
+        "category": "SCHOLARSHIPS, FINANCIAL AIDS AND PRIZES",
+        "offices": [
+          "Academic Affairs Division",
+          "Student Affairs Division"
+        ]
+      },
+      {
+        "category": "ADMISSIONS",
+        "offices": [
+          "Admissions Unit",
+          "Academic Affairs Division"
+        ]
+      },
+      {
+        "category": "EXAMINATIONS",
+        "offices": [
+          "Academic Affairs Division",
+          "Provosts of Schools",
+          "Heads of Departments",
+          "Examinations Officer"
+        ]
+      },
+      {
+        "category": "SPORTS AND RECREATION",
+        "offices": [
+          "Sports Unit"
+        ]
+      }
+    ]
+  }

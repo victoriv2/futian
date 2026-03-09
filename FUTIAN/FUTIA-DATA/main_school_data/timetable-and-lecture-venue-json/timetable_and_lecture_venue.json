@@ -1,0 +1,568 @@
+{
+    "document_info": {
+      "title": "DRAFT LECTURE TIMETABLE FOR FIRST SEMESTER",
+      "academic_session": "2025/2026",
+      "institution": "FEDERAL UNIVERSITY OF TECHNOLOGY, IKOT ABASI (FUTIA)",
+      "status": "DRAFT"
+    },
+    "timetable": [
+      {
+        "day": "MONDAY",
+        "venues": [
+          {
+            "venue_name": "AUDITORIUM",
+            "slots": [
+              { "time": "8-10", "course": "ENT 211" },
+              { "time": "10-11/11-12", "course": "PHY 101" },
+              { "time": "1-2/2-3", "course": "GET 101 / GET 111" },
+              { "time": "3-5", "course": "CSC 107" }
+            ]
+          },
+          {
+            "venue_name": "PAVILLION",
+            "slots": [
+              { "time": "8-10", "course": "GST 111" },
+              { "time": "10-11/11-12", "course": "GET/FGET 207" },
+              { "time": "1-2/2-3", "course": "IFT 211" },
+              { "time": "3-5", "course": "GET/FGET 209" }
+            ]
+          },
+          {
+            "venue_name": "CIT 1",
+            "slots": [
+              { "time": "8-10", "course": "FDTS 307" },
+              { "time": "10-11/11-12", "course": "BCH/FBCH 201" },
+              { "time": "1-2/2-3", "course": "FCHM 211" },
+              { "time": "3-5", "course": "CYB/FCYB 201" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 1",
+            "slots": [
+              { "time": "8-10", "course": "MCB 305" },
+              { "time": "10-11/11-12", "course": "LIT 111" },
+              { "time": "1-2/2-3", "course": "QTS 101" },
+              { "time": "3-5", "course": "NAR 101" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 2",
+            "slots": [
+              { "time": "8-10", "course": "MTH 300" },
+              { "time": "10-11/11-12", "course": "FSTA 211" },
+              { "time": "1-2/2-3", "course": "PGE 101 / FSTA 221" },
+              { "time": "3-5", "course": "CHE 101" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 3",
+            "slots": [
+              { "time": "8-10", "course": "FSTA/STA 311" },
+              { "time": "10-11/11-12", "course": "FSEN 309" },
+              { "time": "12-1", "course": "FASE 311" },
+              { "time": "1-2/2-3", "course": "BUD 101" },
+              { "time": "3-5", "course": "ASE 101" }
+            ]
+          },
+          {
+            "venue_name": "PAS 1",
+            "slots": [
+              { "time": "8-10", "course": "PHY 301" },
+              { "time": "10-11/11-12", "course": "CSC 203" },
+              { "time": "1-2/2-3", "course": "FAA 121" },
+              { "time": "3-5", "course": "PHY 303" }
+            ]
+          },
+          {
+            "venue_name": "NPC HALL",
+            "slots": [
+              { "time": "8-10", "course": "GET 301" },
+              { "time": "10-11/11-12", "course": "CEE 301" },
+              { "time": "1-2/2-3", "course": "GET 307 / FMEE 311" },
+              { "time": "3-5", "course": "FMEE 313" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 1",
+            "slots": [
+              { "time": "8-10", "course": "BCH 301" },
+              { "time": "10-11/11-12", "course": "FPAS 301" },
+              { "time": "1-2/2-3", "course": "PHY 305" },
+              { "time": "3-5", "course": "MCB 305" }
+            ]
+          },
+          {
+            "venue_name": "E-LIBRARY",
+            "slots": [
+              { "time": "8-10", "course": "LIT 311" },
+              { "time": "1-2/2-3", "course": "FCSC 309" }
+            ]
+          },
+          {
+            "venue_name": "MOBILE LAB",
+            "slots": [
+              { "time": "10-11/11-12", "course": "FAA 221" },
+              { "time": "1-2/2-3", "course": "BUD/FBUD 211" },
+              { "time": "3-5", "course": "ARC 201" }
+            ]
+          },
+          {
+            "venue_name": "ADULT LITERACY CENTRE (HEC, FAS, PL, BLC HALLS)",
+            "slots": [
+              { "time": "8-10", "course": "LIT 319 / FACC 205" },
+              { "time": "12-1", "course": "LIT 217" },
+              { "time": "1-2/2-3", "course": "ACC/FACC 101 / FACC 207" },
+              { "time": "3-5", "course": "LIT 323 / FACC 109" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "TUESDAY",
+        "venues": [
+          {
+            "venue_name": "AUDITORIUM",
+            "slots": [
+              { "time": "8-10", "course": "COS 201" },
+              { "time": "10-11/11-12", "course": "GET 201" }
+            ]
+          },
+          {
+            "venue_name": "PAVILLION",
+            "slots": [
+              { "time": "8-10", "course": "COS/FCOS 101" },
+              { "time": "10-11/11-12", "course": "MTH 103" },
+              { "time": "1-2/2-3", "course": "GET/FGET 211 / BIO 101" },
+              { "time": "3-5", "course": "FCSC 207 / CYB 313" }
+            ]
+          },
+          {
+            "venue_name": "CIT 1",
+            "slots": [
+              { "time": "8-10", "course": "FBCH 205" },
+              { "time": "10-11/11-12", "course": "MCB 231" },
+              { "time": "1-2/2-3", "course": "FCSC 305" },
+              { "time": "3-5", "course": "ARC 111" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 1",
+            "slots": [
+              { "time": "8-10", "course": "AGR 201" },
+              { "time": "10-11/11-12", "course": "BUD 251" },
+              { "time": "1-2/2-3", "course": "PHY 205" },
+              { "time": "3-5", "course": "PHY 213" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 2",
+            "slots": [
+              { "time": "8-10", "course": "CEE 201" },
+              { "time": "10-11/11-12", "course": "FSEN 201" },
+              { "time": "1-2/2-3", "course": "LIT 119" },
+              { "time": "3-5", "course": "CEE 101" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 3",
+            "slots": [
+              { "time": "8-10", "course": "FCSC 303" },
+              { "time": "10-11/11-12", "course": "STA/FSTA 221 / FASE 317" },
+              { "time": "1-2/2-3", "course": "FSTA 211 / MTH 301" },
+              { "time": "3-5", "course": "ASE 301 / STA 321" }
+            ]
+          },
+          {
+            "venue_name": "PAS 1",
+            "slots": [
+              { "time": "8-10", "course": "PHY 315 / CEE 303" },
+              { "time": "10-11/11-12", "course": "FCSC 205" },
+              { "time": "1-2/2-3", "course": "FMCB 205 / FASE 311" },
+              { "time": "3-5", "course": "PHY 307 / EEE 311" }
+            ]
+          },
+          {
+            "venue_name": "NPC HALL",
+            "slots": [
+              { "time": "8-10", "course": "GET 305" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 1",
+            "slots": [
+              { "time": "8-10", "course": "BCH 303" },
+              { "time": "10-11/11-12", "course": "MCB 307" },
+              { "time": "1-2/2-3", "course": "BCH 307" },
+              { "time": "3-5", "course": "MCB 309" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 2",
+            "slots": [
+              { "time": "10-11/11-12", "course": "BCH/FBCH 203" },
+              { "time": "3-5", "course": "BIO 107" }
+            ]
+          },
+          {
+            "venue_name": "E-LIBRARY",
+            "slots": [
+              { "time": "10-11/11-12", "course": "FCSC 307" },
+              { "time": "3-5", "course": "FCSC 311" }
+            ]
+          },
+          {
+            "venue_name": "MOBILE LAB",
+            "slots": [
+              { "time": "8-10", "course": "NAR 203" },
+              { "time": "10-11/11-12", "course": "ARC 207" },
+              { "time": "1-2/2-3", "course": "QTS 201" },
+              { "time": "3-5", "course": "NAR 201" }
+            ]
+          },
+          {
+            "venue_name": "ADULT LITERACY CENTRE (HEC, FAS, PL, BLC HALLS)",
+            "slots": [
+              { "time": "8-10", "course": "LIT 219 / LIT 313" },
+              { "time": "10-11/11-12", "course": "LIT 215 / FACC 107" },
+              { "time": "12-1", "course": "LIT 315 / HTM 101" },
+              { "time": "1-2/2-3", "course": "TPM 101 / FACC 209" },
+              { "time": "3-5", "course": "FBUM 209" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "WEDNESDAY",
+        "venues": [
+          {
+            "venue_name": "AUDITORIUM",
+            "slots": [
+              { "time": "8-10", "course": "GET/FGET 207" },
+              { "time": "10-11/11-12", "course": "GET/FGET 205" },
+              { "time": "1-2/2-3", "course": "ASE 201 / CYB 317" }
+            ]
+          },
+          {
+            "venue_name": "PAVILLION",
+            "slots": [
+              { "time": "8-10", "course": "FSEN 207 / MTH/FMTH 101 / CHEM 101" },
+              { "time": "10-11/11-12", "course": "FGET 111 / CEE 101" }
+            ]
+          },
+          {
+            "venue_name": "CIT 1",
+            "slots": [
+              { "time": "8-10", "course": "STA 201 / MCB 221" },
+              { "time": "10-11/11-12", "course": "FZOO 211" },
+              { "time": "1-2/2-3", "course": "FBCH 211" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 1",
+            "slots": [
+              { "time": "8-10", "course": "MCB 313 / AGR 201 / FMEE 313" },
+              { "time": "10-11/11-12", "course": "AGR 205 / STA 111" },
+              { "time": "1-2/2-3", "course": "FMEE 315" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 2",
+            "slots": [
+              { "time": "8-10", "course": "GET 203 / FASE 317" },
+              { "time": "10-11/11-12", "course": "FLIT 121" },
+              { "time": "1-2/2-3", "course": "LIT 113 / MTH 303" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 3",
+            "slots": [
+              { "time": "8-10", "course": "FASE 311 / MTH 203 / FMTH 205" },
+              { "time": "10-11/11-12", "course": "FAA 103" },
+              { "time": "1-2/2-3", "course": "PHY 211" }
+            ]
+          },
+          {
+            "venue_name": "PAS 1",
+            "slots": [
+              { "time": "8-10", "course": "PHY 201" },
+              { "time": "10-11/11-12", "course": "BUD 221" }
+            ]
+          },
+          {
+            "venue_name": "NPC HALL",
+            "slots": [
+              { "time": "8-10", "course": "GET 307" },
+              { "time": "10-11/11-12", "course": "EEE 321" },
+              { "time": "1-2/2-3", "course": "STA 231" },
+              { "time": "3-5", "course": "GET 301 / FEE 301" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 1",
+            "slots": [
+              { "time": "8-10", "course": "BCH 305" },
+              { "time": "10-11/11-12", "course": "FMCB 331" },
+              { "time": "1-2/2-3", "course": "FMCB 313" },
+              { "time": "3-5", "course": "BCH 309" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 2",
+            "slots": [
+              { "time": "3-5", "course": "CHEM 107" }
+            ]
+          },
+          {
+            "venue_name": "E-LIBRARY",
+            "slots": [
+              { "time": "8-10", "course": "FSEN 301" },
+              { "time": "1-2/2-3", "course": "CYB 305" }
+            ]
+          },
+          {
+            "venue_name": "MOBILE LAB",
+            "slots": [
+              { "time": "8-10", "course": "NAR 207 / ARC 209" },
+              { "time": "10-11/11-12", "course": "QTS 203" },
+              { "time": "1-2/2-3", "course": "BUD/FBUD 291" }
+            ]
+          },
+          {
+            "venue_name": "ADULT LITERACY CENTRE (HEC, FAS, PL, BLC HALLS)",
+            "slots": [
+              { "time": "8-10", "course": "LIT 213 / LIT 321" },
+              { "time": "10-11/11-12", "course": "LIT 317" },
+              { "time": "12-1", "course": "LIT 221" },
+              { "time": "1-2/2-3", "course": "AMS 101" },
+              { "time": "3-5", "course": "HTM 105 / FACC 103" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "THURSDAY",
+        "venues": [
+          {
+            "venue_name": "AUDITORIUM",
+            "slots": [
+              { "time": "8-10", "course": "MTH 201" },
+              { "time": "10-11/11-12", "course": "CYB/FCYB 201 / MTH 103" }
+            ]
+          },
+          {
+            "venue_name": "PAVILLION",
+            "slots": [
+              { "time": "8-10", "course": "PHY 103 / GET 211 / GET 201 / GET 209" },
+              { "time": "10-11/11-12", "course": "CYB 203 / PHY 107" }
+            ]
+          },
+          {
+            "venue_name": "CIT 1",
+            "slots": [
+              { "time": "8-10", "course": "CSC 301" },
+              { "time": "10-11/11-12", "course": "FBCH 205 / FCM 211" },
+              { "time": "1-2/2-3", "course": "FEEE 201" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 1",
+            "slots": [
+              { "time": "8-10", "course": "MEE 101" },
+              { "time": "10-11/11-12", "course": "FCYB 205 / STA 121" },
+              { "time": "1-2/2-3", "course": "MCB 331" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 2",
+            "slots": [
+              { "time": "8-10", "course": "LIT 117" },
+              { "time": "10-11/11-12", "course": "LIT 115" },
+              { "time": "1-2/2-3", "course": "QTS 103" },
+              { "time": "3-5", "course": "PHY 331" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 3",
+            "slots": [
+              { "time": "8-10", "course": "MTH 209 / FSTA 331" },
+              { "time": "10-11/11-12", "course": "BUD 271 / CEE 201" },
+              { "time": "1-2/2-3", "course": "ICT 305" }
+            ]
+          },
+          {
+            "venue_name": "PAS 1",
+            "slots": [
+              { "time": "8-10", "course": "BIO 111" },
+              { "time": "10-11/11-12", "course": "AGR 205 / PHY 319" },
+              { "time": "1-2/2-3", "course": "BUD 201" }
+            ]
+          },
+          {
+            "venue_name": "NPC HALL",
+            "slots": [
+              { "time": "8-10", "course": "GET 303" },
+              { "time": "10-11/11-12", "course": "FCEE 305 / CEE 301 / FEEE 301" },
+              { "time": "1-2/2-3", "course": "FASE 313" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 1",
+            "slots": [
+              { "time": "8-10", "course": "BCH 311" },
+              { "time": "10-11/11-12", "course": "FMCB 321" },
+              { "time": "1-2/2-3", "course": "BCH 313" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 2",
+            "slots": [
+              { "time": "1-2/2-3", "course": "FCHM 319" },
+              { "time": "3-5", "course": "FCHM 207" }
+            ]
+          },
+          {
+            "venue_name": "MOBILE LAB",
+            "slots": [
+              { "time": "10-11/11-12", "course": "QTS 205" },
+              { "time": "1-2/2-3", "course": "NAR 209 / FARC 205" },
+              { "time": "3-5", "course": "NAR 201" }
+            ]
+          },
+          {
+            "venue_name": "ADULT LITERACY CENTRE (HEC, FAS, PL, BLC HALLS)",
+            "slots": [
+              { "time": "8-10", "course": "LIT 221 / LIT 321 / LIT 217 / LIT 311" },
+              { "time": "10-11/11-12", "course": "LIT 319" },
+              { "time": "12-1", "course": "FLIT 223" },
+              { "time": "1-2/2-3", "course": "AMS 103 / FBUM 111" },
+              { "time": "3-5", "course": "FACC 101 / FACC 105" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "FRIDAY",
+        "venues": [
+          {
+            "venue_name": "AUDITORIUM",
+            "slots": [
+              { "time": "8-10", "course": "FBIO 203" },
+              { "time": "10-11/11-12", "course": "FCSC 203" },
+              { "time": "1-2/2-3", "course": "TCH ***" }
+            ]
+          },
+          {
+            "venue_name": "PAVILLION",
+            "slots": [
+              { "time": "8-10", "course": "CYB 103" },
+              { "time": "10-11/11-12", "course": "FCSC 113" },
+              { "time": "1-2/2-3", "course": "STA 111 / MTH 307" },
+              { "time": "3-5", "course": "COS 101" }
+            ]
+          },
+          {
+            "venue_name": "CIT 1",
+            "slots": [
+              { "time": "8-10", "course": "FCHM 213" },
+              { "time": "10-11/11-12", "course": "FST 201" },
+              { "time": "1-2/2-3", "course": "FCSC 317" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 1",
+            "slots": [
+              { "time": "8-10", "course": "STA 121 / MTH 305" },
+              { "time": "10-11/11-12", "course": "FSEN 305" },
+              { "time": "3-5", "course": "FSTA 333" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 2",
+            "slots": [
+              { "time": "8-10", "course": "AGG 101" },
+              { "time": "10-11/11-12", "course": "STA 231" },
+              { "time": "1-2/2-3", "course": "IFT 203" }
+            ]
+          },
+          {
+            "venue_name": "ETEC 3",
+            "slots": [
+              { "time": "8-10", "course": "PHY 313" },
+              { "time": "10-11/11-12", "course": "MTH 207" },
+              { "time": "1-2/2-3", "course": "FASE 317" }
+            ]
+          },
+          {
+            "venue_name": "PAS 1",
+            "slots": [
+              { "time": "8-10", "course": "FBUD 261" },
+              { "time": "10-11/11-12", "course": "NAR 103" },
+              { "time": "1-2/2-3", "course": "FBUD 281" }
+            ]
+          },
+          {
+            "venue_name": "NPC HALL",
+            "slots": [
+              { "time": "8-10", "course": "FASE 315" },
+              { "time": "10-11/11-12", "course": "FMEE 311" },
+              { "time": "1-2/2-3", "course": "FASE 319" }
+            ]
+          },
+          {
+            "venue_name": "RE-HALL 1",
+            "slots": [
+              { "time": "10-11/11-12", "course": "FBCH 315" },
+              { "time": "1-2/2-3", "course": "FMCB 310" }
+            ]
+          },
+          {
+            "venue_name": "MOBILE LAB",
+            "slots": [
+              { "time": "8-10", "course": "ARC 203" },
+              { "time": "10-11/11-12", "course": "NAR 205" },
+              { "time": "1-2/2-3", "course": "BUD/FBUD 291" },
+              { "time": "3-5", "course": "ARC 201" }
+            ]
+          },
+          {
+            "venue_name": "ADULT LITERACY CENTRE (HEC, FAS, PL, BLC HALLS)",
+            "slots": [
+              { "time": "8-10", "course": "LIT 323" },
+              { "time": "10-11/11-12", "course": "LIT 211 / BUM 101" },
+              { "time": "1-2/2-3", "course": "FBUM 107" },
+              { "time": "3-5", "course": "FACC 107 / HTM 103 / HTM 211 / HTM 209" }
+            ]
+          }
+        ]
+      }
+    ],
+    "special_courses": [
+      {
+        "course_code": "FMTH 313",
+        "time": "7-8AM & 5-6PM (MONDAYS)",
+        "venue": "Departmental Office (Teaching Aids to be provided)"
+      },
+      {
+        "course_code": "FMTH 333",
+        "time": "7-8AM & 5-6PM (TUESDAYS)",
+        "venue": "Departmental Office (Teaching Aids to be provided)"
+      },
+      {
+        "course_code": "FSTA 335",
+        "time": "7-8AM & 5-6PM (WEDNESDAYS)",
+        "venue": "Departmental Office (Teaching Aids to be provided)"
+      }
+    ],
+    "venue_keys": {
+      "NPC HALL": "National Productivity Centre Hall",
+      "RE-HALL 1 & 2": "Renovating Hall 1 & 2",
+      "HEC HALL": "Home Economic Hall (Adult Literacy Centre)",
+      "FAS": "Fashion Hall (Adult Literacy Centre)",
+      "PL HALL": "Post Literacy Hall (Adult Literacy Centre)",
+      "BL HALL": "Basic Literacy Hall 1 & 2 (Adult Literacy Centre)"
+    },
+    "committee": {
+      "chairman": "Dr. Okon E. Etim",
+      "secretary": "Dr. Barizorge D. Bestman"
+    }
+  }

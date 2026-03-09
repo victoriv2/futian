@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Navigator | Interactive Map</title>
+    <link rel="icon" type="image/png" href="Futia_LogoX.png">
+    <meta name="description"
+        content="Navigate your campus with our interactive map. Find buildings, discover routes, and explore campus locations.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="sidebar-active">
+    <!-- Sidebar Overlay for Mobile -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <!-- Sidebar Section -->
+    <aside id="sidebar" class="sidebar active">
+        <div class="sidebar-header">
+            <h2>All Building Images</h2>
+            <button id="sidebar-close-btn" class="sidebar-close-btn" title="Close Building Panel">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <div class="sidebar-body">
+            <!-- Loading Spinner for Sidebar -->
+            <div id="sidebar-loading" class="sidebar-loading">
+                <div class="sidebar-spinner"></div>
+                <p>Loading thumbnails...</p>
+            </div>
+            <!-- Grid that matches the reference image (2 columns) -->
+            <div id="sidebar-building-grid" class="sidebar-grid"></div>
+        </div>
+
+        <div class="sidebar-footer">
+            <button id="sidebar-ask-futian-btn" class="sidebar-pill-btn"
+                onclick="window.location.href='../../FUTIAN/front-end/index.html'">
+                Ask FUTIAN
+            </button>
+        </div>
+    </aside>
+
+    <div class="app-container">
+        <!-- Top Nav Bar - Full Width Dark Bar -->
+        <div class="top-nav-bar">
+            <!-- Left Section: Menu & Logo -->
+            <div class="nav-left">
+                <button id="menu-toggle-btn" class="nav-icon-btn" title="Toggle Sidebar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                <div class="logo">
+                    <img src="Futia_LogoX.png" alt="FUTIA Logo" class="logo-icon" />
+                    <span class="brand-text">Campus Navigator</span>
+                </div>
+            </div>
+
+            <!-- Right Section: Find Route, Dark Mode & Help -->
+            <div class="nav-right">
+                <button id="go-btn" class="find-route-pill">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" class="route-btn-icon">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                    <span>Get Direction</span>
+                </button>
+                <button id="dark-mode-btn" class="nav-icon-btn circle-border" title="Toggle dark mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button id="help-btn" class="nav-icon-btn circle-border" title="Help">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Legacy Elements kept for JS functionality but hidden visually -->
+            <button id="start-selector-btn" class="hidden-nav-item"></button>
+            <select id="start-location" class="hidden-select" style="display:none;">
+                <option value="">Starting Point</option>
+            </select>
+            <button id="swap-btn" class="hidden-nav-item"></button>
+            <button id="end-selector-btn" class="hidden-nav-item"></button>
+            <select id="end-location" class="hidden-select" style="display:none;">
+                <option value="">Destination</option>
+            </select>
+            <button id="reset-btn" class="hidden-nav-item"></button>
+            <button id="navigate-btn" class="hidden-nav-item"></button>
+            <button id="ask-futian-btn" class="hidden-nav-item"></button>
+        </div>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="map-wrapper">
+                <div id="map-container" class="map-container">
+                    <div class="map-loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading campus map...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zoom Controls -->
+            <div class="zoom-controls" id="zoom-controls">
+                <button id="zoom-in-btn" class="zoom-btn" title="Zoom In">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        <line x1="11" y1="8" x2="11" y2="14"></line>
+                        <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                </button>
+                <button id="zoom-out-btn" class="zoom-btn" title="Zoom Out">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                </button>
+                <div class="zoom-divider"></div>
+                <button id="zoom-reset-btn" class="zoom-btn" title="Reset View">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path>
+                    </svg>
+                </button>
+                <div class="zoom-divider"></div>
+                <!-- Hide Controls Button -->
+                <button id="zoom-hide-btn" class="zoom-btn zoom-toggle-btn" title="Hide Controls">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 17l5-5-5-5M6 17l5-5-5-5"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Show Controls Tab (appears when zoom controls are hidden) -->
+            <button id="zoom-show-tab" class="zoom-show-tab" title="Show Controls">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="15 6 9 12 15 18"></polyline>
+                </svg>
+                <span>Controls</span>
+            </button>
+
+            <!-- Sidebar Show Tab (appears when sidebar is closed on mobile) -->
+            <button id="sidebar-show-tab" class="sidebar-show-tab" title="Show Buildings">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+                <span>Buildings</span>
+            </button>
+        </section>
+
+    </div>
+
+    <!-- Route Selection Modal (for very small screens 409px and below) -->
+    <div id="route-modal" class="route-modal">
+        <div class="route-modal-overlay"></div>
+        <div class="route-modal-container">
+            <div class="route-modal-header">
+                <div class="route-modal-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                    </svg>
+                </div>
+                <h2>Plan Your Route</h2>
+                <button id="route-modal-close" class="modal-close-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="route-modal-body">
+                <!-- Starting Point Selection -->
+                <div class="route-field">
+                    <label class="route-field-label">
+                        <span class="route-field-icon start">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <circle cx="12" cy="12" r="8" stroke-dasharray="4 2"></circle>
+                            </svg>
+                        </span>
+                        Starting Point
+                    </label>
+                    <button id="route-start-btn" class="route-select-btn" data-type="start">
+                        <span id="route-start-text">Tap to select</span>
+                        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Swap Button -->
+                <button id="route-swap-btn" class="route-swap-btn" title="Swap locations">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 16V4m0 0L3 8m4-4l4 4M17 8v12m0 0l4-4m-4 4l-4-4"></path>
+                    </svg>
+                </button>
+
+                <!-- Destination Selection -->
+                <div class="route-field">
+                    <label class="route-field-label">
+                        <span class="route-field-icon end">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </span>
+                        Destination
+                    </label>
+                    <button id="route-end-btn" class="route-select-btn" data-type="end">
+                        <span id="route-end-text">Tap to select</span>
+                        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="route-modal-footer">
+                <button id="route-modal-go" class="route-btn primary incomplete">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                    <span>Show Route</span>
+                </button>
+                <button id="route-modal-clear" class="route-btn secondary">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                        <path d="M3 3v5h5"></path>
+                    </svg>
+                    <span>Clear</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Redesigned Get Direction Modal -->
+    <div id="get-direction-modal" class="route-modal">
+        <div class="route-modal-overlay"></div>
+        <div class="route-modal-container glass-premium">
+            <div class="route-modal-header">
+                <div class="route-modal-icon pulse-blue">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                    </svg>
+                </div>
+                <h2>Direction Planner</h2>
+                <button id="get-direction-modal-close" class="modal-close-btn-alt">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="route-modal-body-premium">
+                <div class="route-inputs-container">
+                    <!-- Starting Point Trigger -->
+                    <div class="route-input-group">
+                        <label class="input-label-premium">From</label>
+                        <button id="direction-start-trigger" class="location-card-trigger start-theme">
+                            <div class="trigger-content">
+                                <span class="trigger-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                        <circle cx="12" cy="12" r="8" stroke-dasharray="3 2"></circle>
+                                    </svg>
+                                </span>
+                                <div class="trigger-texts">
+                                    <span class="trigger-placeholder">Pick start...</span>
+                                    <span id="direction-start-display" class="trigger-value">Select Location</span>
+                                </div>
+                            </div>
+                            <svg class="trigger-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Swap Button Floating -->
+                    <div class="swap-action-wrapper">
+                        <button id="direction-swap-btn" class="swap-pip" title="Swap locations">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-arrow-down-up-icon lucide-arrow-down-up">
+                                <path d="m3 16 4 4 4-4" />
+                                <path d="M7 20V4" />
+                                <path d="m21 8-4-4-4 4" />
+                                <path d="M17 4v16" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Destination Trigger -->
+                    <div class="route-input-group">
+                        <label class="input-label-premium">To</label>
+                        <button id="direction-end-trigger" class="location-card-trigger end-theme">
+                            <div class="trigger-content">
+                                <span class="trigger-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </span>
+                                <div class="trigger-texts">
+                                    <span class="trigger-placeholder">Pick destination...</span>
+                                    <span id="direction-end-display" class="trigger-value">Select Location</span>
+                                </div>
+                            </div>
+                            <svg class="trigger-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="route-modal-footer-premium">
+                <button id="direction-modal-clear" class="btn-clear-premium" title="Clear all selections">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                        <path d="M3 3v5h5"></path>
+                    </svg>
+                    <span>Reset</span>
+                </button>
+                <button id="direction-modal-go" class="btn-go-premium incomplete">
+                    <span>Show Route</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Hidden inputs to stay compatible with existing logic if needed -->
+            <select id="direction-start-location" class="hidden-select" style="display:none;"></select>
+            <select id="direction-end-location" class="hidden-select" style="display:none;"></select>
+        </div>
+    </div>
+
+    <!-- The Picker "Modula" - Redesigned Location Selection -->
+    <div id="location-modal" class="location-picker-modula">
+        <div class="location-modal-overlay"></div>
+        <div class="picker-container glass-premium">
+            <div class="picker-header">
+                <div class="picker-title-group">
+                    <h2 id="location-modal-title">Select Location</h2>
+                    <p id="picker-subtitle">Choose a building to plan your route</p>
+                </div>
+                <button id="location-modal-close" class="picker-close-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="picker-search-box">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="picker-search-input" placeholder="Search buildings by name...">
+                </div>
+            </div>
+
+            <div class="picker-body">
+                <div id="location-list" class="picker-grid">
+                    <!-- Dynamic Building Cards will be injected here -->
+                </div>
+                <div id="picker-empty-state" class="picker-empty hidden">
+                    <div class="empty-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            <line x1="8" y1="11" x2="14" y2="11"></line>
+                        </svg>
+                    </div>
+                    <p>No buildings found</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Gallery Modal - Redesigned with centered content -->
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="gallery-overlay"></div>
+        <div id="gallery-container" class="gallery-container">
+            <div class="gallery-header">
+                <div class="gallery-title-wrapper">
+                    <h2 id="gallery-title" class="gallery-title">Building Images</h2>
+                </div>
+                <button id="gallery-close" class="gallery-close">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="gallery-body">
+                <!-- Centralized Loading Spinner -->
+                <div id="gallery-loading" class="gallery-loading-container">
+                    <div class="gallery-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring"></div>
+                        <svg class="spinner-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                    </div>
+                    <p class="loading-text">Loading images<span class="loading-dots"></span></p>
+                </div>
+                <div id="gallery-grid" class="gallery-grid"></div>
+                <div id="gallery-no-images" class="gallery-empty">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                        <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                    <p>No images available for this location</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- All Buildings Modal - Shows all buildings with thumbnails -->
+    <div id="all-buildings-modal" class="all-buildings-modal">
+        <div class="all-buildings-overlay"></div>
+        <div class="all-buildings-container">
+            <div class="all-buildings-header">
+                <div class="all-buildings-title-wrapper">
+                    <svg class="all-buildings-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                        <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                    <h2 class="all-buildings-title">All Building Images</h2>
+                </div>
+                <button id="all-buildings-close" class="all-buildings-close">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="all-buildings-body">
+                <!-- Loading Spinner -->
+                <div id="all-buildings-loading" class="all-buildings-loading">
+                    <div class="gallery-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring"></div>
+                        <svg class="spinner-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                    </div>
+                    <p class="loading-text">Loading buildings<span class="loading-dots"></span></p>
+                </div>
+                <!-- Buildings Grid -->
+                <div id="all-buildings-grid" class="all-buildings-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Full-Screen Image Viewer Modal with Zoom Controls -->
+    <div id="image-viewer-modal" class="image-viewer-modal">
+        <div class="image-viewer-overlay"></div>
+
+        <!-- Image Viewer Controls Bar -->
+        <div class="image-viewer-controls">
+            <div class="viewer-info">
+                <span id="viewer-image-counter" class="viewer-counter">1 / 5</span>
+                <span id="viewer-image-title" class="viewer-title">Image</span>
+            </div>
+            <div class="viewer-zoom-controls">
+                <div class="viewer-zoom-group">
+                    <button id="viewer-zoom-in" class="viewer-btn" title="Zoom In (+)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            <line x1="11" y1="8" x2="11" y2="14"></line>
+                            <line x1="8" y1="11" x2="14" y2="11"></line>
+                        </svg>
+                    </button>
+                    <span id="viewer-zoom-level" class="viewer-zoom-level">100%</span>
+                    <button id="viewer-zoom-out" class="viewer-btn" title="Zoom Out (-)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            <line x1="8" y1="11" x2="14" y2="11"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="viewer-action-group">
+                    <button id="viewer-fit" class="viewer-btn" title="Actual Size (A)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path>
+                        </svg>
+                    </button>
+                    <button id="viewer-close" class="viewer-btn viewer-close-btn" title="Close (Esc)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button id="viewer-prev" class="viewer-nav-btn viewer-prev" title="Previous Image (←)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button id="viewer-next" class="viewer-nav-btn viewer-next" title="Next Image (→)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+
+        <!-- Image Container with Pan/Zoom -->
+        <div id="image-viewer-container" class="image-viewer-container">
+            <img id="viewer-image" class="viewer-image" src="" alt="Building Image" draggable="false">
+        </div>
+
+        <!-- Thumbnail Strip -->
+        <div id="viewer-thumbnails" class="viewer-thumbnails">
+            <!-- Thumbnails will be dynamically added -->
+        </div>
+    </div>
+
+    <!-- Help Modal -->
+    <div id="help-modal" class="help-modal">
+        <div class="help-overlay"></div>
+        <div class="help-container">
+            <div class="help-header">
+                <h2>Campus Navigator Guide</h2>
+                <button id="help-close" class="help-close">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="help-body">
+                <div class="help-grid">
+                    <div class="help-section">
+                        <div class="help-section-header">
+                            <h3>Navigation</h3>
+                        </div>
+                        <p>Select your <strong>Start</strong> and <strong>Destination</strong> from the top bar. The
+                            optimal path will highlight instantly.</p>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="help-section-header">
+                            <h3>Explore</h3>
+                        </div>
+                        <p>Click any <strong>building</strong> or its <strong>label</strong> to view stunning galleries.
+                            Browsing made simple.</p>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="help-section-header">
+                            <h3>Desktop</h3>
+                        </div>
+                        <p><strong>Zooming:</strong> Use your mouse scroll wheel or the +/- buttons.
+                            <strong>Exploration:</strong> Click and drag to pan across the campus map.
+                            <strong>Interaction:</strong> Click any building to view its photo gallery.
+                        </p>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="help-section-header">
+                            <h3>Mobile</h3>
+                        </div>
+                        <p><strong>Navigation:</strong> Swipe with one finger to pan the map view.
+                            <strong>Pinching:</strong> Use two fingers to zoom in and out smoothly.
+                            <strong>Quick Zoom:</strong> Double-tap anywhere to zoom in instantly.
+                        </p>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="help-section-header">
+                            <h3>Gallery</h3>
+                        </div>
+                        <p>Browse thumbnails and click to view full-screen. Navigate with <strong>Arrows</strong>. Zoom
+                            with mouse wheel.</p>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="help-section-header">
+                            <h3>Shortcuts</h3>
+                        </div>
+                        <p><strong>Esc:</strong> Close. <strong>← →:</strong> Browse. <strong>+/-:</strong> Zoom.
+                            <strong>A:</strong> Auto-Fit view.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Help modal functionality
+        const helpBtn = document.getElementById('help-btn');
+        const helpModal = document.getElementById('help-modal');
+        const helpClose = document.getElementById('help-close');
+        const helpOverlay = document.querySelector('.help-overlay');
+
+        helpBtn.addEventListener('click', () => {
+            helpModal.classList.add('active');
+        });
+
+        helpClose.addEventListener('click', () => {
+            helpModal.classList.remove('active');
+        });
+
+        helpOverlay.addEventListener('click', () => {
+            helpModal.classList.remove('active');
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && helpModal.classList.contains('active')) {
+                helpModal.classList.remove('active');
+            }
+        });
+
+        // Dark mode functionality - synced with FUTIAN theme
+        const darkModeBtn = document.getElementById('dark-mode-btn');
+        const sunIcon = darkModeBtn.querySelector('.sun-icon');
+        const moonIcon = darkModeBtn.querySelector('.moon-icon');
+
+        // Helper function to determine if we should use light mode
+        function shouldUseLightMode() {
+            const savedTheme = localStorage.getItem('futianTheme') || 'dark';
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (savedTheme === 'light') {
+                return true;
+            } else if (savedTheme === 'dark') {
+                return false;
+            } else if (savedTheme === 'system') {
+                return !prefersDark;
+            }
+            return false; // Default to dark mode
+        }
+
+        // Apply initial theme from FUTIAN's preference
+        function applyThemeFromFutian() {
+            const useLightMode = shouldUseLightMode();
+
+            if (useLightMode) {
+                // Light mode (no dark-mode class)
+                document.body.classList.remove('dark-mode');
+                sunIcon.style.display = 'none';
+                moonIcon.style.display = 'block';
+            } else {
+                // Dark mode
+                document.body.classList.add('dark-mode');
+                sunIcon.style.display = 'block';
+                moonIcon.style.display = 'none';
+            }
+        }
+
+        // Apply theme on page load
+        applyThemeFromFutian();
+
+        // Listen for system theme changes (for 'system' mode)
+        if (window.matchMedia) {
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                const savedTheme = localStorage.getItem('futianTheme') || 'dark';
+                if (savedTheme === 'system') {
+                    applyThemeFromFutian();
+                }
+            });
+        }
+
+        darkModeBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+
+            // Save to FUTIAN's theme key so both apps stay in sync
+            localStorage.setItem('futianTheme', isDark ? 'dark' : 'light');
+
+            if (isDark) {
+                sunIcon.style.display = 'block';
+                moonIcon.style.display = 'none';
+            } else {
+                sunIcon.style.display = 'none';
+                moonIcon.style.display = 'block';
+            }
+        });
+
+        // ===== ZOOM CONTROLS HIDE/SHOW TOGGLE =====
+        const zoomControls = document.getElementById('zoom-controls');
+        const zoomHideBtn = document.getElementById('zoom-hide-btn');
+        const zoomShowTab = document.getElementById('zoom-show-tab');
+        const sidebarShowTab = document.getElementById('sidebar-show-tab');
+
+        // Responsive default state: hidden on small screens (799px and below)
+        function setZoomControlsDefaultState() {
+            if (window.innerWidth <= 799) {
+                // Small screens: hide zoom by default
+                zoomControls.classList.add('hidden');
+                zoomShowTab.classList.add('visible');
+                updateSidebarTabVisibility();
+            } else {
+                // Large screens (800px+): show by default
+                zoomControls.classList.remove('hidden');
+                zoomShowTab.classList.remove('visible');
+                sidebarShowTab.classList.remove('visible');
+            }
+        }
+
+        function updateSidebarTabVisibility() {
+            if (window.innerWidth <= 799) {
+                const isSidebarActive = document.body.classList.contains('sidebar-active');
+                if (!isSidebarActive) {
+                    sidebarShowTab.classList.add('visible');
+                } else {
+                    sidebarShowTab.classList.remove('visible');
+                }
+            } else {
+                sidebarShowTab.classList.remove('visible');
+            }
+        }
+
+        // Set initial state on page load
+        setZoomControlsDefaultState();
+
+        // Welcome animations for mobile (799px and below)
+        if (window.innerWidth <= 799) {
+            // 1. Zoom Controls: Auto-minimize in 5 seconds
+            zoomControls.classList.remove('hidden');
+            zoomShowTab.classList.remove('visible');
+
+            setTimeout(() => {
+                zoomControls.classList.add('hidden');
+                zoomShowTab.classList.add('visible');
+            }, 5000);
+
+            // 2. Sidebar: Auto-close in 3 seconds (if open at start)
+            setTimeout(() => {
+                if (document.body.classList.contains('sidebar-active')) {
+                    // Pull the sidebar closing logic - assuming toggleSidebar is defined in script.js or index.html
+                    if (typeof toggleSidebar === 'function') {
+                        toggleSidebar();
+                        updateSidebarTabVisibility(); // Show the tab after closing
+                    } else {
+                        document.body.classList.remove('sidebar-active');
+                        const sidebar = document.querySelector('.sidebar');
+                        if (sidebar) sidebar.classList.remove('active');
+                        updateSidebarTabVisibility();
+                    }
+                } else {
+                    updateSidebarTabVisibility();
+                }
+            }, 3000);
+        }
+
+        // Update state when window is resized for responsive behavior
+        window.addEventListener('resize', () => {
+            setZoomControlsDefaultState();
+            updateSidebarTabVisibility();
+        });
+
+        // Hide zoom controls (manual toggle)
+        zoomHideBtn.addEventListener('click', () => {
+            zoomControls.classList.add('hidden');
+            zoomShowTab.classList.add('visible');
+        });
+
+        // Show zoom controls (manual toggle)
+        zoomShowTab.addEventListener('click', () => {
+            zoomControls.classList.remove('hidden');
+            zoomShowTab.classList.remove('visible');
+        });
+
+        // Show sidebar (manual toggle via tab)
+        sidebarShowTab.addEventListener('click', () => {
+            if (typeof toggleSidebar === 'function') {
+                toggleSidebar();
+                updateSidebarTabVisibility();
+            }
+        });
+
+        // Listen for sidebar toggle to update tab visibility (e.g. from menu button)
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('#menu-btn') || e.target.closest('#sidebar-overlay') || e.target.closest('.modal-close-btn-alt')) {
+                // Delay slightly to allow sidebar-active class to be toggled
+                setTimeout(updateSidebarTabVisibility, 50);
+            }
+        });
+
+        // Location Modal functionality
+        const locationModal = document.getElementById('location-modal');
+        const locationModalTitle = document.getElementById('location-modal-title');
+        const locationModalClose = document.getElementById('location-modal-close');
+        const locationModalOverlay = document.querySelector('.location-modal-overlay');
+        const locationList = document.getElementById('location-list');
+
+        const startSelectorBtn = document.getElementById('start-selector-btn');
+        const endSelectorBtn = document.getElementById('end-selector-btn');
+        const startLocationText = document.getElementById('start-location-text');
+        const endLocationText = document.getElementById('end-location-text');
+
+        let currentSelectingFor = null; // 'start' or 'end'
+
+        function openLocationModal(type) {
+            currentSelectingFor = type;
+            locationModalTitle.textContent = type === 'start' ? 'Select Starting Point' : 'Select Destination';
+
+            // Get the corresponding select element
+            const selectEl = type === 'start' ? document.getElementById('start-location') : document.getElementById('end-location');
+            const otherSelectEl = type === 'start' ? document.getElementById('end-location') : document.getElementById('start-location');
+            const otherValue = otherSelectEl.value;
+
+            // Populate the list
+            locationList.innerHTML = '';
+
+            Array.from(selectEl.options).forEach(option => {
+                if (option.value === '' || option.value === otherValue) return; // Skip placeholder and already selected
+
+                const item = document.createElement('button');
+                item.className = 'location-item';
+                item.textContent = option.textContent;
+                item.dataset.value = option.value;
+
+                if (option.value === selectEl.value) {
+                    item.classList.add('selected');
+                }
+
+                item.addEventListener('click', () => {
+                    selectLocation(option.value, option.textContent, type);
+                });
+
+                locationList.appendChild(item);
+            });
+
+            locationModal.classList.add('active');
+        }
+
+        function selectLocation(value, text, type) {
+            const selectEl = type === 'start' ? document.getElementById('start-location') : document.getElementById('end-location');
+            const textEl = type === 'start' ? startLocationText : endLocationText;
+
+            selectEl.value = value;
+            textEl.textContent = text;
+
+            // Trigger change event
+            selectEl.dispatchEvent(new Event('change'));
+
+            // Check if we need to reopen route modal
+            if (typeof window.checkRouteModalReopen === 'function') {
+                window.checkRouteModalReopen();
+            }
+
+            closeLocationModal();
+
+            // Check if title bar is overflowing after selection
+            setTimeout(() => {
+                if (typeof checkTitleBarOverflow === 'function') {
+                    checkTitleBarOverflow();
+                }
+            }, 50);
+        }
+
+        function closeLocationModal() {
+            locationModal.classList.remove('active');
+            currentSelectingFor = null;
+        }
+
+        startSelectorBtn.addEventListener('click', () => openLocationModal('start'));
+        endSelectorBtn.addEventListener('click', () => openLocationModal('end'));
+        locationModalClose.addEventListener('click', closeLocationModal);
+        locationModalOverlay.addEventListener('click', closeLocationModal);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && locationModal.classList.contains('active')) {
+                closeLocationModal();
+            }
+        });
+
+        // Update display text when select changes programmatically
+        document.getElementById('start-location').addEventListener('change', function () {
+            const selectedOption = this.options[this.selectedIndex];
+            startLocationText.textContent = selectedOption.textContent || 'Starting Point';
+            // Check overflow after text change
+            setTimeout(() => {
+                if (typeof checkTitleBarOverflow === 'function') {
+                    checkTitleBarOverflow();
+                }
+                // Auto-show route if both locations are selected
+                autoShowRoute();
+            }, 50);
+        });
+
+        document.getElementById('end-location').addEventListener('change', function () {
+            const selectedOption = this.options[this.selectedIndex];
+            endLocationText.textContent = selectedOption.textContent || 'Destination';
+            // Check overflow after text change
+            setTimeout(() => {
+                if (typeof checkTitleBarOverflow === 'function') {
+                    checkTitleBarOverflow();
+                }
+                // Auto-show route if both locations are selected
+                autoShowRoute();
+            }, 50);
+        });
+
+        // Auto-show route when both start and destination are selected
+        // This enables the Show Route button to be hidden on small screens
+        function autoShowRoute() {
+            const startSelect = document.getElementById('start-location');
+            const endSelect = document.getElementById('end-location');
+            const isSmallScreen = window.innerWidth <= 616;
+
+            // On small screens (616px and below), if only destination is selected, prompt for starting point
+            if (isSmallScreen && !startSelect.value && endSelect.value) {
+                if (typeof showToast === 'function') {
+                    showToast("Please select a Starting Point first!", "warning");
+                }
+                return;
+            }
+
+            if (startSelect.value && endSelect.value) {
+                // Both locations are selected - auto calculate route
+                if (startSelect.value === endSelect.value) {
+                    if (typeof showToast === 'function') {
+                        showToast("Start and End locations are the same!", "warning");
+                    }
+                    return;
+                }
+
+                // Call the route calculation function from script.js
+                if (typeof calculateAndHighlightPath === 'function') {
+                    if (typeof clearHighlights === 'function') {
+                        clearHighlights();
+                    }
+                    calculateAndHighlightPath(startSelect.value, endSelect.value);
+                }
+            }
+        }
+
+        // ===== ROUTE MODAL FUNCTIONALITY (for 409px and below) =====
+        const routeModal = document.getElementById('route-modal');
+        const routeModalClose = document.getElementById('route-modal-close');
+        const routeModalOverlay = document.querySelector('.route-modal-overlay');
+        const navigateBtn = document.getElementById('navigate-btn');
+        const routeStartBtn = document.getElementById('route-start-btn');
+        const routeEndBtn = document.getElementById('route-end-btn');
+        const routeStartText = document.getElementById('route-start-text');
+        const routeEndText = document.getElementById('route-end-text');
+        const routeSwapBtn = document.getElementById('route-swap-btn');
+        const routeGoBtn = document.getElementById('route-modal-go');
+        const routeClearBtn = document.getElementById('route-modal-clear');
+
+        let routeModalSelectingFor = null;
+
+        // Global hook to check reopen
+        window.checkRouteModalReopen = function () {
+            if (routeModalSelectingFor) {
+                syncRouteModal();
+                // Reopen route modal after selection with a slight delay
+                setTimeout(() => routeModal.classList.add('active'), 150);
+            }
+        };
+
+        // Open Route Modal
+        navigateBtn.addEventListener('click', () => {
+            syncRouteModal();
+            routeModal.classList.add('active');
+        });
+
+        function syncRouteModal() {
+            // Sync current selections to modal
+            const startVal = document.getElementById('start-location').value;
+            const endVal = document.getElementById('end-location').value;
+
+            if (startVal) {
+                const startOpt = document.querySelector(`#start-location option[value="${startVal}"]`);
+                routeStartText.textContent = startOpt ? startOpt.textContent : 'Tap to select';
+                routeStartBtn.classList.add('selected');
+            } else {
+                routeStartText.textContent = 'Tap to select';
+                routeStartBtn.classList.remove('selected');
+            }
+
+            if (endVal) {
+                const endOpt = document.querySelector(`#end-location option[value="${endVal}"]`);
+                routeEndText.textContent = endOpt ? endOpt.textContent : 'Tap to select';
+                routeEndBtn.classList.add('selected');
+            } else {
+                routeEndText.textContent = 'Tap to select';
+                routeEndBtn.classList.remove('selected');
+            }
+
+            updateRouteGoButton();
+        }
+
+        // Close Route Modal
+        // keepState = true means we are just hiding it temporarily to show another modal
+        function closeRouteModal(keepState = false) {
+            routeModal.classList.remove('active');
+            if (!keepState) {
+                routeModalSelectingFor = null;
+            }
+        }
+
+        routeModalClose.addEventListener('click', () => closeRouteModal(false));
+        routeModalOverlay.addEventListener('click', () => closeRouteModal(false));
+
+        // Route Start/End selection - opens the existing location modal
+        routeStartBtn.addEventListener('click', () => {
+            routeModalSelectingFor = 'start';
+            closeRouteModal(true); // Keep state so we catch the change later
+            openLocationModal('start');
+        });
+
+        routeEndBtn.addEventListener('click', () => {
+            routeModalSelectingFor = 'end';
+            closeRouteModal(true); // Keep state so we catch the change later
+            openLocationModal('end');
+        });
+
+        // Update Go button state - we don't fully disable it so user can click and get warning
+        function updateRouteGoButton() {
+            const startVal = document.getElementById('start-location').value;
+            const endVal = document.getElementById('end-location').value;
+            // Visual feedback - lower opacity when not both selected
+            routeGoBtn.classList.toggle('incomplete', !(startVal && endVal));
+        }
+
+        // Swap in Route Modal
+        routeSwapBtn.addEventListener('click', () => {
+            const startSelect = document.getElementById('start-location');
+            const endSelect = document.getElementById('end-location');
+            const tempVal = startSelect.value;
+
+            // Swap values
+            startSelect.value = endSelect.value;
+            endSelect.value = tempVal;
+
+            // Dispatch change events so other listeners update text
+            startSelect.dispatchEvent(new Event('change'));
+            endSelect.dispatchEvent(new Event('change'));
+
+            // Sync modal UI
+            syncRouteModal();
+        });
+
+        // Clear in Route Modal
+        routeClearBtn.addEventListener('click', () => {
+            const startSelect = document.getElementById('start-location');
+            const endSelect = document.getElementById('end-location');
+
+            startSelect.value = '';
+            endSelect.value = '';
+
+            // Update main UI texts manually just in case
+            document.getElementById('start-location-text').textContent = 'Starting Point';
+            document.getElementById('end-location-text').textContent = 'Destination';
+
+            // Clear highlights
+            if (typeof clearHighlights === 'function') {
+                clearHighlights();
+            }
+
+            // Sync modal UI
+            syncRouteModal();
+        });
+
+        // Show Route from Modal
+        routeGoBtn.addEventListener('click', () => {
+            const startVal = document.getElementById('start-location').value;
+            const endVal = document.getElementById('end-location').value;
+
+            // Warning if only one location is selected
+            if (!startVal && !endVal) {
+                if (typeof showToast === 'function') {
+                    showToast("Please select both starting point and destination!", "warning");
+                }
+                return;
+            }
+
+            if (!startVal) {
+                if (typeof showToast === 'function') {
+                    showToast("Please select a Starting Point!", "warning");
+                }
+                return;
+            }
+
+            if (!endVal) {
+                if (typeof showToast === 'function') {
+                    showToast("Please select a Destination!", "warning");
+                }
+                return;
+            }
+
+            if (startVal === endVal) {
+                if (typeof showToast === 'function') {
+                    showToast("Start and End locations are the same!", "warning");
+                }
+                return;
+            }
+
+            closeRouteModal(false);
+
+            if (typeof calculateAndHighlightPath === 'function') {
+                if (typeof clearHighlights === 'function') {
+                    clearHighlights();
+                }
+                calculateAndHighlightPath(startVal, endVal);
+            }
+        });
+
+        // Listen for location changes via global hook or event
+        document.getElementById('start-location').addEventListener('change', function () {
+            if (routeModalSelectingFor === 'start') {
+                syncRouteModal();
+            }
+        });
+
+        document.getElementById('end-location').addEventListener('change', function () {
+            if (routeModalSelectingFor === 'end') {
+                syncRouteModal();
+            }
+        });
+
+        // Escape key to close route modal
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && routeModal.classList.contains('active')) {
+                closeRouteModal();
+            }
+        });
+    </script>
+</body>
+
+</html>

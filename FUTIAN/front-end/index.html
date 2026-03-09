@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTIAN</title>
+    <link rel="icon" type="image/png" href="Futia_LogoX.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light-mode.css" id="light-mode-stylesheet" disabled>
+    <!-- Prevent FOUC: Apply sidebar state and theme before body renders -->
+    <script>
+        (function () {
+            var width = window.innerWidth;
+            // Desktop: collapsed preference
+            if (width > 1024 && localStorage.getItem('futianSidebarCollapsed') === 'true') {
+                document.documentElement.classList.add('sidebar-collapsed-preference');
+            }
+            // Tablet: expanded preference
+            else if (width > 800 && width <= 1024 && localStorage.getItem('futianSidebarExpandedTablet') === 'true') {
+                document.documentElement.classList.add('sidebar-expanded-tablet-preference');
+            }
+
+            // Theme preference (prevent flash of wrong theme)
+            var savedTheme = localStorage.getItem('futianTheme') || 'dark';
+            var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            var shouldUseLightMode = savedTheme === 'light' || (savedTheme === 'system' && !prefersDark);
+
+            if (shouldUseLightMode) {
+                // Enable light mode stylesheet immediately
+                var lightStylesheet = document.getElementById('light-mode-stylesheet');
+                if (lightStylesheet) lightStylesheet.disabled = false;
+                document.documentElement.classList.add('light-mode');
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-content">
+            <button class="sidebar-button" id="global-search-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="sidebar-button-icon">
+                    <path d="m21 21-4.34-4.34" />
+                    <circle cx="11" cy="11" r="8" />
+                </svg>
+                <span>Search</span>
+            </button>
+            <a href="https://portal.futia.edu.ng" target="_blank" style="text-decoration: none; display: contents;">
+                <button class="sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="sidebar-button-icon">
+                        <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" />
+                        <path d="m21 3-9 9" />
+                        <path d="M15 3h6v6" />
+                    </svg>
+                    <span>Portal</span>
+                </button>
+            </a>
+            <a href="https://futia.edu.ng" target="_blank" style="text-decoration: none; display: contents;">
+                <button class="sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="sidebar-button-icon">
+                        <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" />
+                        <path d="m21 3-9 9" />
+                        <path d="M15 3h6v6" />
+                    </svg>
+                    <span>Site</span>
+                </button>
+            </a>
+            <button class="sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="sidebar-button-icon">
+                    <path d="M21 5H3" />
+                    <path d="M10 12H3" />
+                    <path d="M10 19H3" />
+                    <circle cx="17" cy="15" r="3" />
+                    <path d="m21 19-1.9-1.9" />
+                </svg>
+                <span>Search Library</span>
+            </button>
+            <button class="sidebar-button" onclick="window.location.href='../../CAMPUS MAP/index.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="sidebar-button-icon">
+                    <path
+                        d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0" />
+                    <circle cx="12" cy="8" r="2" />
+                    <path
+                        d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712" />
+                </svg>
+                <span>Campus Map</span>
+            </button>
+            <div class="history-button-container" id="history-header">
+                <button class="sidebar-button history-main-btn" id="history-main-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="sidebar-button-icon">
+                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                        <path d="M3 3v5h5" />
+                        <path d="M12 7v5l4 2" />
+                    </svg>
+                    <span>History</span>
+                </button>
+                <div class="history-divider"></div>
+                <button class="history-toggle-btn" id="history-toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="history-chevron" id="history-chevron">
+                        <path d="m6 9 6 6 6-6" />
+                    </svg>
+                    <span class="history-toggle-text" id="history-toggle-text">Hide</span>
+                </button>
+            </div>
+            <div id="history-list"></div>
+        </div>
+        <div class="sidebar-footer">
+            <button class="sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="sidebar-button-icon">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path
+                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                    </path>
+                </svg>
+                <span>Settings and more</span>
+            </button>
+            <button class="sidebar-button" id="login-signup-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="sidebar-button-icon lucide lucide-user-round-icon lucide-user-round">
+                    <circle cx="12" cy="8" r="5" />
+                    <path d="M20 21a8 8 0 0 0-16 0" />
+                </svg>
+                <span>Login or signup</span>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="gear-background"></div>
+        <div class="logo-background"></div>
+        <div class="title-container">
+            <div class="title-left">
+                <button class="menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                        class="menu-icon-title">
+                        <line x1="3" y1="2" x2="21" y2="2"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="22" x2="21" y2="22"></line>
+                    </svg>
+                </button>
+                <img src="Futia_LogoX.png" alt="Futia Logo" class="futia-logo-title">
+                <h1>FUTIAN</h1>
+            </div>
+            <button class="new-chat-button">New Chat</button>
+        </div>
+
+        <div class="main-content">
+            <div id="chat-container">
+                <div class="chat-messages">
+                </div>
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="search-bar">
+                <textarea id="searchInput" placeholder="Ask FUTIAN" rows="1"></textarea>
+                <button class="mic-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mic-icon">
+                        <path d="M12 19v3" />
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                        <rect x="9" y="2" width="6" height="13" rx="3" />
+                    </svg>
+                </button>
+            </div>
+            <button id="send-button" class="send-text">Send</button>
+        </div>
+        <div id="version-text"></div>
+    </div>
+    <div id="rename-modal-overlay" class="modal-overlay">
+        <div class="modal-box">
+            <h3 class="modal-title">Rename Chat</h3>
+            <input type="text" id="rename-input" class="modal-input" placeholder="Enter new name" autocomplete="off">
+            <div class="modal-actions">
+                <button class="modal-btn btn-cancel" id="rename-cancel-btn">Cancel</button>
+                <button class="modal-btn btn-confirm" id="confirm-rename-btn">Save</button>
+            </div>
+        </div>
+    </div>
+    <div id="delete-modal-overlay" class="modal-overlay">
+        <div class="modal-box">
+            <h3 class="modal-title">Delete Chat?</h3>
+            <p class="modal-description">This action cannot be undone.</p>
+            <div class="modal-actions">
+                <button class="modal-btn btn-cancel" id="delete-cancel-btn">Cancel</button>
+                <button class="modal-btn btn-danger" id="confirm-delete-btn">Delete</button>
+            </div>
+        </div>
+    </div>
+    <div id="delete-all-modal-overlay" class="modal-overlay">
+        <div class="modal-box">
+            <h3 class="modal-title">Delete All History?</h3>
+            <p class="modal-description">Are you sure you want to delete ALL chat history? This cannot
+                be undone.</p>
+            <div class="modal-actions">
+                <button class="modal-btn btn-cancel" id="delete-all-cancel-btn">Cancel</button>
+                <button class="modal-btn btn-danger" id="confirm-delete-all-btn">Delete All</button>
+            </div>
+        </div>
+    </div>
+    <div id="global-search-modal-overlay" class="modal-overlay">
+        <div class="modal-box search-modal-box">
+            <button class="modal-btn btn-cancel" id="global-search-close-btn">
+                Close
+            </button>
+            <h3 class="modal-title" style="margin-top: 5px;">Search History</h3>
+            <input type="text" id="global-search-input" class="modal-input" placeholder="Search across all chats..."
+                autocomplete="off">
+
+            <div id="global-search-results"
+                style="max-height: 250px; overflow-y: auto; padding-right: 5px; overflow-x: hidden;">
+                <p style="color: #666; font-size: 14px;">Start typing to see results.</p>
+            </div>
+        </div>
+    </div>
+    <div id="search-library-modal-overlay" class="modal-overlay">
+        <div class="modal-box search-modal-box">
+            <button class="modal-btn btn-cancel" id="search-library-close-btn">
+                Close
+            </button>
+            <h3 class="modal-title" style="margin-top: 5px;">Suggested Questions</h3>
+            <p style="color: #999; font-size: 14px; margin-bottom: 20px;">Click any question to start a new chat</p>
+
+            <div id="search-library-questions" style="display: flex; flex-direction: column; gap: 10px;">
+                <p style="color: #666; font-size: 14px; text-align: center; padding: 20px;">Loading suggestions...</p>
+            </div>
+        </div>
+    </div>
+    <div id="settings-modal-overlay" class="modal-overlay">
+        <div class="settings-modal-container">
+            <button class="modal-btn btn-cancel" id="settings-close-btn">
+                Close
+            </button>
+            <h3 class="settings-modal-title">Settings and More</h3>
+
+            <div class="settings-panels-wrapper">
+                <!-- Panel 1: Navigation Menu -->
+                <div id="settings-nav-panel" class="settings-panel settings-nav-panel">
+                    <button class="settings-nav-btn" id="settings-appearance-btn" data-section="appearance">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="settings-icon">
+                            <path d="M12 2v2" />
+                            <path
+                                d="M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715" />
+                            <path d="M16 12a4 4 0 0 0-4-4" />
+                            <path d="m19 5-1.256 1.256" />
+                            <path d="M20 12h2" />
+                        </svg>
+                        <span class="settings-nav-label">Appearance</span>
+                    </button>
+                    <button class="settings-nav-btn" data-section="data-control">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="settings-icon">
+                            <path
+                                d="M10.3 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.98a2 2 0 0 1 1.69.9l.66 1.2A2 2 0 0 0 12 6h8a2 2 0 0 1 2 2v3.3" />
+                            <path d="m14.305 19.53.923-.382" />
+                            <path d="m15.228 16.852-.923-.383" />
+                            <path d="m16.852 15.228-.383-.923" />
+                            <path d="m16.852 20.772-.383.924" />
+                            <path d="m19.148 15.228.383-.923" />
+                            <path d="m19.53 21.696-.382-.924" />
+                            <path d="m20.772 16.852.924-.383" />
+                            <path d="m20.772 19.148.924.383" />
+                            <circle cx="18" cy="18" r="3" />
+                        </svg>
+                        <span class="settings-nav-label">Data control</span>
+                    </button>
+                    <button class="settings-nav-btn" data-section="help">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="settings-icon">
+                            <path
+                                d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                            <path d="M12 17h.01" />
+                        </svg>
+                        <span class="settings-nav-label">Help and support</span>
+                    </button>
+                    <button class="settings-nav-btn" data-section="security">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="settings-icon">
+                            <path
+                                d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" />
+                            <circle cx="16.5" cy="7.5" r=".5" fill="currentColor" />
+                        </svg>
+                        <span class="settings-nav-label">Security</span>
+                    </button>
+                    <button class="settings-nav-btn" data-section="notification">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="settings-icon">
+                            <path d="M10.268 21a2 2 0 0 0 3.464 0" />
+                            <path
+                                d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" />
+                        </svg>
+                        <span class="settings-nav-label">Notification</span>
+                    </button>
+                    <button class="settings-nav-btn" data-section="account">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="settings-icon">
+                            <circle cx="12" cy="8" r="5" />
+                            <path d="M20 21a8 8 0 0 0-16 0" />
+                        </svg>
+                        <span class="settings-nav-label">Account</span>
+                    </button>
+                </div>
+
+                <!-- Panel 2: Content Area -->
+                <div id="settings-content-panel" class="settings-panel settings-content-panel">
+                    <!-- Appearance Content -->
+                    <div id="settings-appearance-content" class="settings-content-section" data-section="appearance">
+                        <div class="settings-header">
+                            <button class="settings-back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                                    <path d="m15 18-6-6 6-6" />
+                                </svg>
+                                <span>Back</span>
+                            </button>
+                            <div class="settings-title-wrapper">
+                                <h2 class="settings-content-title">Appearance</h2>
+                                <p class="settings-content-desc">Choose how FUTIAN looks to you</p>
+                            </div>
+                        </div>
+
+                        <div class="theme-selector">
+                            <button class="theme-option-btn" data-theme="light">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="4" />
+                                    <path d="M12 2v2" />
+                                    <path d="M12 20v2" />
+                                    <path d="m4.93 4.93 1.41 1.41" />
+                                    <path d="m17.66 17.66 1.41 1.41" />
+                                    <path d="M2 12h2" />
+                                    <path d="M20 12h2" />
+                                    <path d="m6.34 17.66-1.41 1.41" />
+                                    <path d="m19.07 4.93-1.41 1.41" />
+                                </svg>
+                                <span>Light</span>
+                            </button>
+                            <button class="theme-option-btn" data-theme="dark">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 5h4" />
+                                    <path d="M20 3v4" />
+                                    <path
+                                        d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+                                </svg>
+                                <span>Dark</span>
+                            </button>
+                            <button class="theme-option-btn" data-theme="system">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8" />
+                                    <path d="M10 19v-3.96 3.15" />
+                                    <path d="M7 19h5" />
+                                    <rect width="6" height="10" x="16" y="12" rx="2" />
+                                </svg>
+                                <span>System</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Data Control Content -->
+                    <div id="settings-data-control-content" class="settings-content-section"
+                        data-section="data-control">
+                        <div class="settings-header">
+                            <button class="settings-back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                                    <path d="m15 18-6-6 6-6" />
+                                </svg>
+                                <span>Back</span>
+                            </button>
+                            <div class="settings-title-wrapper">
+                                <h2 class="settings-content-title">Data control</h2>
+                                <p class="settings-content-desc">Manage your data and privacy</p>
+                            </div>
+                        </div>
+
+                        <button class="settings-action-btn danger" id="delete-all-chats-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
+                                <path d="M3 6h18" />
+                                <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                            </svg>
+                            <span>Delete all chat history</span>
+                        </button>
+                    </div>
+
+                    <!-- Help & Support Content -->
+                    <div id="settings-help-content" class="settings-content-section" data-section="help">
+                        <div class="settings-header">
+                            <button class="settings-back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                                    <path d="m15 18-6-6 6-6" />
+                                </svg>
+                                <span>Back</span>
+                            </button>
+                            <div class="settings-title-wrapper">
+                                <h2 class="settings-content-title">Help & Support</h2>
+                                <p class="settings-content-desc">Get assistance and learn more</p>
+                            </div>
+                        </div>
+
+                        <div class="help-video-container">
+                            <video controls>
+                                <source src="../video-for-support/1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <h3 class="help-contact-title">Need help?</h3>
+                        <div class="help-contact-links">
+                            <a href="mailto:danielinyeneanietie101@gmail.com" class="help-contact-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                                </svg>
+                                <span>danielinyeneanietie101@gmail.com</span>
+                            </a>
+                            <a href="mailto:ukpabioimoh8@gmail.com" class="help-contact-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                                </svg>
+                                <span>ukpabioimoh8@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Security Content (Placeholder) -->
+                    <div id="settings-security-content" class="settings-content-section" data-section="security">
+                        <div class="settings-header">
+                            <button class="settings-back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                                    <path d="m15 18-6-6 6-6" />
+                                </svg>
+                                <span>Back</span>
+                            </button>
+                            <div class="settings-title-wrapper">
+                                <h2 class="settings-content-title">Security</h2>
+                                <p class="settings-content-desc">Manage your security settings</p>
+                            </div>
+                        </div>
+                        <p style="color: #999; margin-top: 20px;">Security settings coming soon...</p>
+                    </div>
+
+                    <!-- Notification Content (Placeholder) -->
+                    <div id="settings-notification-content" class="settings-content-section"
+                        data-section="notification">
+                        <div class="settings-header">
+                            <button class="settings-back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                                    <path d="m15 18-6-6 6-6" />
+                                </svg>
+                                <span>Back</span>
+                            </button>
+                            <div class="settings-title-wrapper">
+                                <h2 class="settings-content-title">Notification</h2>
+                                <p class="settings-content-desc">Control your notifications</p>
+                            </div>
+                        </div>
+                        <p style="color: #999; margin-top: 20px;">Notification settings coming soon...</p>
+                    </div>
+
+                    <!-- Account Content (Placeholder) -->
+                    <div id="settings-account-content" class="settings-content-section" data-section="account">
+                        <div class="settings-header">
+                            <button class="settings-back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                                    <path d="m15 18-6-6 6-6" />
+                                </svg>
+                                <span>Back</span>
+                            </button>
+                            <div class="settings-title-wrapper">
+                                <h2 class="settings-content-title">Account</h2>
+                                <p class="settings-content-desc">Manage your account settings</p>
+                            </div>
+                        </div>
+                        <p style="color: #999; margin-top: 20px;">Account settings coming soon...</p>
+                    </div>
+                </div>
+            </div>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+            <link rel="stylesheet" href="login-modal.css">
+            <script src="login-modal.js"></script>
+            <script src="main.js"></script>
+</body>
+
+</html>

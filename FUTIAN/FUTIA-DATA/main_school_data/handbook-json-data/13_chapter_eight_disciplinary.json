@@ -1,0 +1,412 @@
+{
+    "chapter": "EIGHT",
+    "title": "STUDENTS DISCIPLINARY MATTERS",
+    "intro": "This chapter of the Handbook addresses various disciplinary matters of students and recommends sanctions for violation. Students are advised to be acquainted with these regulations and to conduct themselves accordingly.",
+    "sections": [
+      {
+        "section_number": "8.1",
+        "title": "Summary of Disciplinary Matters",
+        "content": "Offences relating to Students' disciplinary matters are summarized into three (3) categories. These are:",
+        "list": [
+          "i. Examination Misconduct",
+          "ii. Offences in the Hall of Residence",
+          "iii. Specific Offences"
+        ]
+      },
+      {
+        "section_number": "8.2",
+        "title": "Examination Misconduct",
+        "content": "Examination Misconduct shall be defined as all forms of cheating which directly or indirectly misrepresent the ability of the student. The following forms of offences shall constitute examination misconduct:",
+        "offences_list": [
+          {
+            "offence_letter": "a",
+            "description": "Copying from one another or exchanging question/answer sheets.",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for one (1) semester."
+          },
+          {
+            "offence_letter": "b",
+            "description": "Collaboration with invigilator/lecturer (where it involves the lecturer providing written/oral answer to a student) in the examination hall.",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for one (1) semester."
+          },
+          {
+            "offence_letter": "c",
+            "description": "Oral/written communication between and amongst students.",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for one (1) semester."
+          },
+          {
+            "offence_letter": "d",
+            "description": "Illegal removal of answer scripts from the examination hall. Non–submission of answer scripts at the end of the examination.",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for one (1) semester."
+          },
+          {
+            "offence_letter": "e",
+            "description": "Use of phones or any unauthorized electronic devices.",
+            "sanction": "Rustication between two (2) and four (4) semesters"
+          },
+          {
+            "offence_letter": "f",
+            "description": "Bringing in prepared answers, copying from textbooks, notebooks, laboratory specimen and any other instructional aids smuggled into the examination hall.",
+            "sanction": "Rustication between two (2) and four (4) semesters"
+          },
+          {
+            "offence_letter": "g",
+            "description": "Receiving information whether written or oral from any person(s) outside an examination hall.",
+            "sanction": "Rustication for between two (2) and four (4) semesters"
+          },
+          {
+            "offence_letter": "h",
+            "description": "Impersonation",
+            "sanction": "The student shall be expelled from the University."
+          },
+          {
+            "offence_letter": "i",
+            "description": "Physically assaulting or intimidating the Invigilator/Examiner inside the Examination Hall.",
+            "sanction": "The student shall be expelled from the University."
+          },
+          {
+            "offence_letter": "j",
+            "description": "Plagiarism",
+            "sanction": "The candidate shall be rusticated for one (1) semester"
+          },
+          {
+            "offence_letter": "k",
+            "description": "Writing of projects, laboratory and other field reports for a student by a staff or another student.",
+            "sanction": "The candidate shall be disqualified and rusticated for two (2) semesters."
+          },
+          {
+            "offence_letter": "l",
+            "description": "Verbally assaulting and intimidating the Invigilator/Examiner inside or outside the Examination Hall.",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for two (2) semesters."
+          },
+          {
+            "offence_letter": "m",
+            "description": "Destroying or attempting to destroy evidence on Examination Misconduct.",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for two (2) semesters."
+          },
+          {
+            "offence_letter": "n",
+            "description": "Colluding with a member of staff to modify scores, answer scripts and or other mark sheets.",
+            "sanction": "The student shall be expelled from the University."
+          },
+          {
+            "offence_letter": "o",
+            "description": "Colluding with staff and others in order to submit a new prepared answer sheet as a substitute for original script after Examination.",
+            "sanction": "The student shall be expelled from the University."
+          },
+          {
+            "offence_letter": "p",
+            "description": "Secretly breaking into a staff or departmental office in order to obtain question papers or marking schemes, answer scripts or marked sheets or substituting a fresh answer sheet for the original script.",
+            "sanction": "The student shall be expelled from the University."
+          },
+          {
+            "offence_letter": "q",
+            "description": "Refusal to cooperate with Investigating Panel in the investigation of alleged Examination Misconduct.",
+            "sanction": "The student shall be expelled from the University."
+          },
+          {
+            "offence_letter": "r",
+            "description": "Written of relevant or related information/material on any part of the body, handkerchief, clothes, etc.",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for two (2) semesters."
+          },
+          {
+            "offence_letter": "s",
+            "description": "Colluding with a member of staff to obtain examination questions or answer before the official conduct of a scheduled examination or the student on his or her own initiative doing this.",
+            "sanction": "The student shall be expelled from the University."
+          }
+        ]
+      },
+      {
+        "section_number": "8.2.1",
+        "title": "Related Offences",
+        "content": "The following related offences shall also constitute examination misconduct.",
+        "offences_list": [
+          {
+            "offence_letter": "a",
+            "description": "An attempt by anybody other than the student to sit in for an examination, for which the student is not qualified.",
+            "sanction": "The student shall be disqualified from the entire semester examination and rusticated for one (1) semester."
+          },
+          {
+            "offence_letter": "b",
+            "description": "Presentation of a fake medical certificate as an excuse for absence from an Examination",
+            "sanction": "The candidate shall be disqualified from the entire examination and rusticated for one (1) semester."
+          },
+          {
+            "offence_letter": "c",
+            "description": "Intimidating or offering money in exchange for grades",
+            "sanction": "The student shall be rusticated for two (2) semesters.\nA lecturer or staff who is guilty of colluding with students to cheat in any examination or who extorts money or seeks sexual or any other kind of favour from a student in exchange for marks will be referred to the University Staff Disciplinary Committee for appropriate sanction."
+          }
+        ]
+      },
+      {
+        "section_number": "8.2.2",
+        "title": "Violation of Regulations in Halls of Residence"
+      },
+      {
+        "section_number": "8.3.1",
+        "title": "Definition of Sanctions for Violation of Regulations in Hall of Residence",
+        "subsections": [
+          {
+            "subtitle": "i. Admonition:",
+            "content": "This is a verbal or written warning addressed to an offender drawing attention to the fact that he/she has violated some rules and regulations governing Halls of Residence. This is normally given for minor infractions."
+          },
+          {
+            "subtitle": "ii. Suspension:",
+            "content": "This is a written notice informing an offender of his/her exclusion from Hall of Residence, privileges and activities for a specific period. The affected student shall remain off campus for the duration of the suspension. Such an offender is not entitled to any fee refund. A copy of the notice is sent to the Academic Affairs Office for filing. Upon his/her return from the suspension from the Hall, the affected student may, at the discretion of the University administration, be required to sign an undertaking to be of good behaviour."
+          },
+          {
+            "subtitle": "iii. Expulsion:",
+            "content": "This is a termination of Hall of Residency status, which is invoked for major breaches of Hall rules and regulations. It implies the denial of eligibility for University Hall accommodation, privileges and facilities either for a specific duration or for the rest of the period of the affected student's stay in the University."
+          }
+        ],
+        "offences_list": [
+          {
+            "offence_letter": "a",
+            "description": "Using electronic or musical instrument/equipment in such a manner as to constitute nuisance.",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "b",
+            "description": "Smoking in Halls of Residence",
+            "sanction": "Rustication from hall of residence for One(1) semester"
+          },
+          {
+            "offence_letter": "c",
+            "description": "Littering of Halls.",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "d",
+            "description": "Drunkenness",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "e",
+            "description": "Loud and distracting noise at unauthorized times and locations.",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "f",
+            "description": "Unlawful assembly",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "g",
+            "description": "Obscene and libelous publications",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "h",
+            "description": "Loitering around the staff residential quarters",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "i",
+            "description": "Reckless driving on campus",
+            "sanction": "Admonition for first offenders"
+          },
+          {
+            "offence_letter": "j",
+            "description": "Posting notices or bulletins on the walls outside the notice boards.",
+            "sanction": "Fine for the repainting of affected wall(s)"
+          },
+          {
+            "offence_letter": "k",
+            "description": "Allowing unauthorized visitors to stay overnight.",
+            "sanction": "Admonition if first offender. If opposite sex, rustication for one (1) semester"
+          },
+          {
+            "offence_letter": "l",
+            "description": "Fighting or inciting others to fight",
+            "sanction": "Rustication for two (2) semesters"
+          },
+          {
+            "offence_letter": "m",
+            "description": "Molestation of staff and fellow students",
+            "sanction": "Rustication for one (1) to four (4) semester"
+          },
+          {
+            "offence_letter": "n",
+            "description": "Disruption of services approved by the University",
+            "sanction": "Rustication for one (1) semester"
+          },
+          {
+            "offence_letter": "o",
+            "description": "Willful destruction or damage of University property",
+            "sanction": "Replacement of damaged property in addition to suspension for one (1) to four (4) semesters."
+          },
+          {
+            "offence_letter": "p",
+            "description": "Promoting or causing fire hazards",
+            "sanction": "Expulsion from the Hall"
+          },
+          {
+            "offence_letter": "q",
+            "description": "Selling of bed space(s) after allocation",
+            "sanction": "Expulsion from the Hall"
+          },
+          {
+            "offence_letter": "r",
+            "description": "Violation of regulations guiding religious observance in Halls of Residence",
+            "sanction": "Expulsion from the Hall"
+          },
+          {
+            "offence_letter": "s",
+            "description": "Harbouring criminal suspects",
+            "sanction": "Expulsion from the Hall"
+          },
+          {
+            "offence_letter": "t",
+            "description": "Stealing, pilfering, or being in possession of items belonging to other person(s).",
+            "sanction": "Expulsion from the University"
+          },
+          {
+            "offence_letter": "u",
+            "description": "Forgery, alteration, misuse or mutilation of documents, records, identity cards etc.",
+            "sanction": "Expulsion from the University"
+          },
+          {
+            "offence_letter": "v",
+            "description": "Rioting or any behaviour capable of causing breach of the peace",
+            "sanction": "Expulsion from the University"
+          },
+          {
+            "offence_letter": "w",
+            "description": "Membership of secret cults and such other anti-social organizations, as well as coercing others to join secret cults.",
+            "sanction": "Expulsion from the University"
+          },
+          {
+            "offence_letter": "x",
+            "description": "Drug Abuse and possession of hard drugs and all such substances banned by the Federal Government of Nigeria.",
+            "sanction": "Expulsion from the University"
+          },
+          {
+            "offence_letter": "y",
+            "description": "All other acts which the University may adjudge as misconduct such as sexual harassment, lesbianism and homosexuality",
+            "sanction": "Expulsion from the University"
+          }
+        ]
+      },
+      {
+        "section_number": "8.4",
+        "content": "The Hall Warden is empowered under these regulations to make supplementary rules which he/she may consider necessary for the smooth running of the Hall."
+      },
+      {
+        "section_number": "8.5",
+        "title": "Discipline of Students",
+        "subsections": [
+          {
+            "section_number": "8.5.1",
+            "content": "Where it appears to the Vice Chancellor that any student of the University has been guilty of misconduct, the Vice Chancellor may, without prejudice to any other disciplinary powers conferred on him/her by statute or regulations, direct;",
+            "list": [
+              "a. That the student shall not during such period as may be specified in the directives, make use of such facilities of the University, as may be so specified; or,",
+              "b. That the activities of the student shall, during such period as may be specified in the directives, be restricted in a manner as may be so specified; or,",
+              "c. That the student be rusticated for such period as may be specified in the directives; or,",
+              "d. That the student be expelled from the University."
+            ],
+            "note": "The Vice-Chancellor may delegate his/her power to the Senate Student Disciplinary Committee consisting of such members of the University as he/she may nominate."
+          }
+        ]
+      },
+      {
+        "section_number": "8.6",
+        "title": "Categorization of Offences",
+        "content": "Offences are categorized as follows:",
+        "list": [
+          "i. Gross Misconduct",
+          "ii. Misconduct",
+          "iii. Misdemeanour"
+        ]
+      },
+      {
+        "section_number": "8.6.1",
+        "title": "Gross Misconduct",
+        "content": "The following offences shall be categorized as gross misconduct.",
+        "list": [
+          "a. Riotous or disorderly behaviour leading to a breach of the peace;",
+          "b. Possession/use of fire arms or any dangerous weapons, chemicals, Explosives, incendiary devices etc.;",
+          "c. Rape, arson and use of dangerous drugs e.g. hemp and cocaine, etc;",
+          "d. Cultism",
+          "e. Assault leading to bodily harm",
+          "f. Stealing",
+          "g. Fighting among students or between a student and a staff",
+          "h. Wilful damage or destruction of property belonging to the University"
+        ]
+      },
+      {
+        "section_number": "8.6.2",
+        "title": "Sanction for Gross Misconduct",
+        "content": "Sanction for all offences classified under gross misconduct shall be expulsion from the University."
+      },
+      {
+        "section_number": "8.6.3",
+        "title": "Misconduct",
+        "list": [
+          "a. Forgery, alteration, misuse or mutilation of documents/records, identity card and impersonation.",
+          "b. Peddling false information in the University.",
+          "c. Aiding, abetting and inviting others to commit any of the above acts."
+        ]
+      },
+      {
+        "section_number": "8.6.4",
+        "title": "Sanction for Misconduct",
+        "content": "Sanction for all offences classified under misconduct shall be rustication from the University for various periods or payment of fine as may be deemed appropriate."
+      },
+      {
+        "section_number": "8.6.4",
+        "title": "Misdemeanour",
+        "note": "Numbering in source text repeats 8.6.4, likely a source error.",
+        "list": [
+          "a. Failure to comply with verbal or written official directives of any University official.",
+          "b. Violation of any rules and regulations governing Halls of Residence.",
+          "c. Insubordination to constituted authority."
+        ]
+      },
+      {
+        "section_number": "8.6.6",
+        "title": "Sanction for offences under Misdemeanour",
+        "content": "Sanction for all offences classified under misdemeanour shall be rustication for various periods or payment of fine as may be deemed appropriate."
+      },
+      {
+        "section_number": "8.7",
+        "title": "Attacks and Assault",
+        "intro": "Any student who attacks, obstructs or threatens any staff, contractor or other personnel engaged by the University while they are performing their legitimate duties, or found to be supporting any of these vices, shall be liable to the following punishment:",
+        "list": [
+          "a. Expulsion: For attack and assault",
+          "b. Suspension or Rustication: In addition to payment for damage or losses for attacks, assault, insult, embarrassment, and obstructing staff from carrying out their duties, for disruption of services causing damage or loss of property."
+        ]
+      },
+      {
+        "section_number": "8.8",
+        "title": "Personal Vehicles",
+        "content": "Students who own personal vehicles and plan to operate them on campus must obtain clearance from the Dean, Student Affairs and a permit from the University Security Department. Such vehicles may only be parked in designated places and their operators must undertake to abide by the University Campus regulations. Failure to abide by such regulations may lead to the withdrawal of the permit and other disciplinary measures will follow. The student is solely responsible for the safety of the vehicle."
+      },
+      {
+        "section_number": "8.9",
+        "title": "Safety in the University",
+        "list": [
+          "i. The University places a high premium on maintenance of equipment, premises, etc., as well as the need to ensure adequate instructional training and supervision to secure safe and healthy work and learning environment.",
+          "ii. All students have a duty to take reasonable care to avoid injury to themselves or to others by their activities.",
+          "iii. For safety of life and property, a high level vigilance and supply of information is expected of every member of the University community.",
+          "iv. As a precaution against accident and for the safety of every one, motorists and cyclists must obey all traffic signs and other traffic regulations on campus, including the speed limit of 30km per hour.",
+          "v. Commercial cyclists and other commercial vehicles shall not be allowed on campus except those duly registered with appropriate authority.",
+          "vi. Motor vehicles, motorbikes or bicycles must be parked in the proper parking area only. The University does not bear responsibility for these vehicles, motorbikes or bicycles."
+        ]
+      },
+      {
+        "section_number": "8.10",
+        "title": "Cults/Secret Societies",
+        "note": "Section numbering 8.10 is used twice in the source document.",
+        "content": "All unregistered clubs/societies/confraternities/sororities are illegal.\nMembership of secret/nocturnal clubs is strictly prohibited.\nAny student involved in cultism or any related society will be expelled from the University and may be handed over to the law enforcement agencies."
+      },
+      {
+        "section_number": "8.10",
+        "title": "General Social Conduct",
+        "note": "Section numbering 8.10 repeats here.",
+        "list": [
+          "i. Students should be decently and appropriately dressed at all times. Indecent dressing will not be tolerated.",
+          "ii. No student should be forced into any relationship, be it ethnic, tribal, religious, academic, social or personal.",
+          "iii. Any act or behaviour considered a crime in the larger society is also a crime in the University. Any student involved in such acts will be handed over to the police through the Chief Security Officer of the University."
+        ]
+      }
+    ]
+  }

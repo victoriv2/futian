@@ -1,0 +1,80 @@
+{
+    "chapter": "FOUR",
+    "title": "GENERAL REGULATIONS",
+    "sections": [
+      {
+        "section_number": "4.1",
+        "title": "Discipline",
+        "content": "The University shall, upon evidence of a student's failure to abide by its rules, regulations and code of conduct, take appropriate disciplinary measures against such an offender. Where a serious act of misconduct and/or indiscipline is involved, the matter shall be referred to the appropriate Disciplinary Committee for investigation and proper disciplinary action where necessary."
+      },
+      {
+        "section_number": "4.2",
+        "title": "Dress Code",
+        "subsections": [
+          {
+            "section_number": "4.2.1",
+            "title": "Decent Dressing",
+            "intro": "The following are considered to constitute decent forms of dressing:",
+            "list_roman": [
+              "i. Smart traditional attires which do not contravene the general dress code;",
+              "ii. Formal dressing for professional courses;",
+              "iii. Costumes worn during periods of performance;",
+              "iv. Religious or denominational dress worn during religious ceremonies only;",
+              "v. Aprons, overall, etc, prescribed by some Faculties /Departments and worn only when required;",
+              "vi. Sports and games clothing used when appropriate i.e., during sports/games meetings on the field."
+            ],
+            "list_alpha": [
+              "a. Students should be well dressed at all times.",
+              "b. Dressing should be formal (suits, trousers and shirts, skirts and blouses, gowns or simple native attires).",
+              "c. Foot wears to lectures should be sandals, sneakers, canvas or covered shoes.",
+              "d. Face caps are not allowed in the classrooms.",
+              "e. Tattoos should not be exposed.",
+              "f. Dreadlocks should be neatly kept.",
+              "g. Beards should be kept short and neat.",
+              "h. Outrageous colours of hair attachments and dreads are prohibited (red, yellow, green, etc).",
+              "i. Sprayed or tinted hair for men is prohibited.",
+              "j. Sagging and ass-level trousers and skirts are prohibited."
+            ]
+          },
+          {
+            "section_number": "4.2.2",
+            "title": "Indecent Dressing",
+            "intro": "The following types of dressing shall be considered indecent anywhere within the University and therefore prohibited:",
+            "list": [
+              "i. DRESSES-Short and skimpy, e.g., body hugs, “show me your chest”, topless, spaghetti, sleeveless, one sleeve, see through, etc.",
+              "ii. SKIRTS-Tight –fitting, short (above the knees), long but tight with front, back or side slits that expose under-wear or sensitive parts of the body.",
+              "iii. TROUSERS-Hipsters, tight-fitting trousers exposing under –wear and the contours of the body. Tattered jeans or jeans with holes, short untidy trousers/jeans, as well as sagging etc.",
+              "iv. TOPS-Underclothing e.g., singlet worn to public functions, shirts/blouses with flying collars, without buttons or improperly buttoned; low-neckline blouses exposing sensitive parts of the body; short tops exposing the navel/belly.",
+              "v. APPEARANCE OF HEAD - Unkempt hair, head bands, wearing of ear-rings by male students, painting of the face to look like masquerades etc. perming, plaiting and weaving of hair by male students outside the hostels is highly prohibited.",
+              "vi. FOOT WEARS-Wearing of bathroom slippers outside the hostel e.g., to lectures and other public functions on campus (except on medical grounds).",
+              "vii. Wearing of shorts by both male and female students is prohibited outside the hostel."
+            ]
+          },
+          {
+            "section_number": "4.2.2",
+            "title": "Sanctions on Students' Indecent Dressing",
+            "note": "Section numbering repeats 4.2.2 in source text.",
+            "list": [
+              "I. Students shall not be allowed entrance into the University, lecture rooms, examination halls, health centre, library, offices and other University buildings.",
+              "ii. Any Student found guilty of indecent dressing shall be arraigned before the University Student Disciplinary Committee.",
+              "iii. Any student found guilty shall be suspended."
+            ]
+          }
+        ]
+      },
+      {
+        "section_number": "4.3",
+        "title": "CyberCrime",
+        "subsections": [
+          {
+            "section_number": "4.3.1",
+            "title": "Sanction on Students guilty of Cybercrime",
+            "list": [
+              "I. Any Student found guilty of cybercrime shall be arraigned before the University Student Disciplinary Committee.",
+              "ii. Any Student found guilty shall be expelled from the University."
+            ]
+          }
+        ]
+      }
+    ]
+  }

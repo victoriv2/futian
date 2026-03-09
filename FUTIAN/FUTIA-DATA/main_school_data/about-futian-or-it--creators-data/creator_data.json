@@ -1,0 +1,47 @@
+{
+  "futian_creators": [
+    {
+      "id": 1,
+      "name": "Daniel Inyene Anietie",
+      "primary_role": "Founder and Chief Developer of FUTIAN",
+      "specializations": [
+        "Prompt Engineer",
+        "Full Stack Developer",
+        "Researcher"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Imoh Stephen Ukpabio",
+      "primary_role": "Assistant Researcher One",
+      "specializations": [
+        "UI/UX Designer"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Israel Odudu Anietie",
+      "primary_role": "Assistant Researcher Two",
+      "specializations": [
+        "Data Scientist"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chima Ajibo Wisdom",
+      "primary_role": "Beta Tester 7",
+      "specializations": [
+        "Graphics Designer",
+        "Video Editor"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Prosper Michael Ogbonna",
+      "primary_role": "Beta Tester 6",
+      "specializations": [
+        "Data Analysis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+    "school_map_locations": [
+      {
+        "location_name": "Academic Block",
+        "units_and_offices": [
+          "Student Affairs Office",
+          "General Studies Office",
+          "Bursary Unit"
+        ],
+        "facilities": [
+          "Health Unit",
+          "ICT",
+          "E-Library"
+        ]
+      },
+      {
+        "location_name": "VC's Office",
+        "units_and_offices": [
+          "Vice-Chancellor's Office",
+          "Registrar's Office",
+          "Bursar's Office",
+          "Senate Chamber",
+          "Academic Affairs Office"
+        ]
+      },
+      {
+        "location_name": "SPAS",
+        "full_name": "School of Pure and Applied Sciences",
+        "classrooms_and_halls": [
+          "SPAS 1"
+        ],
+        "departments": [
+          "Biochemistry",
+          "Mathematics/Statistics",
+          "Microbiology",
+          "Physics"
+        ]
+      },
+      {
+        "location_name": "ETEC",
+        "classrooms_and_halls": [
+          "ETEC 1",
+          "ETEC 2",
+          "ETEC 3"
+        ],
+        "schools_housed": [
+          {
+            "school_name": "School of Engineering and Engineering Technology (SEET)",
+            "departments": [
+              "Aerospace Engineering",
+              "Chemical Engineering",
+              "Civil Engineering",
+              "Electrical/Electronics Engineering",
+              "Mechanical Engineering",
+              "Petroleum and Gas Engineering"
+            ]
+          },
+          {
+            "school_name": "School of Environmental Science and Technology (SEST)",
+            "departments": [
+              "Architecture",
+              "Building Technology",
+              "Naval Architecture",
+              "Quantity Surveying"
+            ]
+          }
+        ]
+      },
+      {
+        "location_name": "Library",
+        "facilities": [
+          "Main Library"
+        ],
+        "offices": [
+          "Librarian Office"
+        ]
+      },
+      {
+        "location_name": "Auditorium",
+        "classrooms_and_halls": [
+          "Lecture Theater/Hall"
+        ],
+        "units": [
+          "Sport Unit"
+        ]
+      },
+      {
+        "location_name": "SCIT",
+        "full_name": "School of Computing and Information Technology",
+        "classrooms_and_halls": [
+          "SCIT 1"
+        ],
+        "schools_housed": [
+          {
+            "school_name": "School of Computing and Information Technology (SCIT)",
+            "departments": [
+              "Computer Science",
+              "Cyber Security",
+              "Software Engineering"
+            ]
+          },
+          {
+            "school_name": "School of Agriculture (SCAG)",
+            "departments": [
+              "Agriculture",
+              "Food Science and Technology"
+            ]
+          },
+          {
+            "school_name": "School of Management Technology (SMAT)",
+            "departments": [
+              "Accounting",
+              "Business Management",
+              "Library and Information Technology",
+              "Tourism and Hospitality Management",
+              "Transportation Management Technology"
+            ]
+          }
+        ]
+      },
+      {
+        "location_name": "Workshop",
+        "description": "Engineering Workshop",
+        "details": []
+      },
+      {
+        "location_name": "Store",
+        "description": "Storage for engineering equipments",
+        "details": []
+      },
+      {
+        "location_name": "New Uncompleted Administrative Block",
+        "details": []
+      },
+      {
+        "location_name": "Pavillon",
+        "description": "Lecture Venue",
+        "details": []
+      },
+      {
+        "location_name": "School Field",
+        "description": "Used for football activities",
+        "details": []
+      },
+      {
+        "location_name": "Girl's Hostel Block A",
+        "details": []
+      },
+      {
+        "location_name": "Girl's Hostel Block B",
+        "details": []
+      },
+      {
+        "location_name": "Toilet",
+        "details": []
+      },
+      {
+        "location_name": "Security Office",
+        "description": "Office for security staff",
+        "details": []
+      },
+      {
+        "location_name": "School Gate",
+        "description": "Main entrance of the school compound",
+        "details": []
+      }
+    ]
+  }

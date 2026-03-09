@@ -1,0 +1,32 @@
+{
+    "organization_info": {
+      "name": "Chapel of Grace FUTIA",
+      "description": "The Church on Campus",
+      "institution": "Federal University of Technology, Ikot Abasi (FUTIA)"
+    },
+    "event_info": {
+      "title": "Weekly Activities",
+      "venue": "Auditorium"
+    },
+    "weekly_schedule": [
+      {
+        "day": "Sunday",
+        "activity": "Sunday Glorious Service",
+        "time": "3 PM"
+      },
+      {
+        "day": "Wednesday",
+        "activity": "Bible Studies",
+        "time": "5 PM"
+      },
+      {
+        "day": "Friday",
+        "activity": "Prayer Hour",
+        "time": "5 PM"
+      }
+    ],
+    "leadership": {
+      "name": "Apostle Ukpono Eshiet",
+      "title": "Chaplain"
+    }
+  }

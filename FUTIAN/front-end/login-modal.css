@@ -1,0 +1,73 @@
+/* Login Modal Specific Styles */
+.login-modal-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 30px;
+    background: rgba(26, 26, 26, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.login-modal-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.login-modal-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: -0.02em;
+}
+
+.login-modal-subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 280px;
+}
+
+.login-modal-close-btn {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-modal-close-btn:hover {
+    background: #f0f0f0;
+}
+
+
+/* Light mode adjustments */
+.light-mode .login-modal-box {
+    background: rgba(255, 255, 255, 0.7);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .login-modal-title {
+    color: #124D46;
+}
+
+.light-mode .login-modal-subtitle {
+    color: #124D46;
+    opacity: 0.7;
+}
+
+.light-mode .login-modal-close-btn {
+    background: #124D46;
+    color: #fff;
+}

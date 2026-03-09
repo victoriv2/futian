@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTIAN</title>
+    <link rel="icon" type="image/png" href="FUTIAN/front-end/Futia_LogoX.png">
+    <style>
+        :root {
+            /* Dark mode defaults */
+            --bg-color: #000;
+            --text-color: #fff;
+            --divider-color: #fff;
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #F0F9FF;
+                /* Brighter, cleaner blue-white */
+                --text-color: #124D46;
+                /* Slightly brighter/luminous version of the teal */
+                --divider-color: #124D46;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+
+        .animation-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Combined group for perfect spacing control */
+        .main-group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: shiftContainer 3s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+        }
+
+        .logo-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: logoZoom 3s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+        }
+
+        .logo {
+            width: 160px;
+            height: auto;
+        }
+
+        .content-reveal {
+            display: flex;
+            align-items: center;
+            opacity: 0;
+            width: 0;
+            /* Keep it from pushing logo initially */
+            overflow: hidden;
+            animation: revealContentGroup 0.8s cubic-bezier(0.65, 0, 0.35, 1) 1.8s forwards;
+        }
+
+        .divider {
+            width: 3px;
+            height: 90px;
+            background-color: var(--divider-color);
+            margin: 0 30px;
+            /* TIGHT GAP */
+            transform: scaleY(0);
+            animation: revealDivider 0.5s cubic-bezier(0.65, 0, 0.35, 1) 1.6s forwards;
+        }
+
+        .text {
+            font-size: 5.5rem;
+            font-weight: 900;
+            letter-spacing: 0.2rem;
+            white-space: nowrap;
+            text-transform: uppercase;
+        }
+
+        @keyframes logoZoom {
+            0% {
+                transform: scale(30);
+                opacity: 0;
+            }
+
+            15% {
+                opacity: 1;
+            }
+
+            60% {
+                /* Reaches scale(1) faster */
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes shiftContainer {
+
+            0%,
+            65% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+
+            /* Handled by flex expansion now */
+        }
+
+        @keyframes revealContentGroup {
+            from {
+                opacity: 0;
+                width: 0;
+            }
+
+            to {
+                opacity: 1;
+                width: 450px;
+                /* Expands to show text exactly next to logo */
+            }
+        }
+
+        @keyframes revealDivider {
+            to {
+                transform: scaleY(1);
+            }
+        }
+
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .logo {
+                width: 120px;
+            }
+
+            .text {
+                font-size: 3.5rem;
+            }
+
+            .divider {
+                height: 70px;
+                margin: 0 20px;
+            }
+
+            @keyframes revealContentGroup {
+                from {
+                    opacity: 0;
+                    width: 0;
+                }
+
+                to {
+                    opacity: 1;
+                    width: 300px;
+                }
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                width: 80px;
+            }
+
+            .text {
+                font-size: 2.2rem;
+            }
+
+            .divider {
+                height: 45px;
+                margin: 0 12px;
+                width: 2px;
+            }
+
+            @keyframes revealContentGroup {
+                from {
+                    opacity: 0;
+                    width: 0;
+                }
+
+                to {
+                    opacity: 1;
+                    width: 180px;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="animation-container">
+        <div class="main-group">
+            <div class="logo-wrapper">
+                <img src="FUTIAN/front-end/Futia_LogoX.png" alt="FUTIA Logo" class="logo">
+            </div>
+            <div class="content-reveal">
+                <div class="divider"></div>
+                <div class="text">FUTIAN</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Apply theme based on stored preference or system default
+        (function () {
+            const savedTheme = localStorage.getItem('futianTheme') || 'system';
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            const root = document.documentElement;
+            const darkStyles = {
+                '--bg-color': '#000',
+                '--text-color': '#fff',
+                '--divider-color': '#fff'
+            };
+            const lightStyles = {
+                '--bg-color': '#F0F9FF',
+                '--text-color': '#124D46',
+                '--divider-color': '#124D46'
+            };
+
+            const applyTheme = (styles) => {
+                for (const [prop, value] of Object.entries(styles)) {
+                    root.style.setProperty(prop, value);
+                }
+            };
+
+            if (savedTheme === 'light' || (savedTheme === 'system' && !prefersDark)) {
+                applyTheme(lightStyles);
+            } else {
+                applyTheme(darkStyles);
+            }
+        })();
+
+        // Redirect to the main application after the animation finishes
+        window.addEventListener('load', () => {
+            // Animation takes 3s to reach the end state
+            // We wait for 3s plus an extra 1.5s to let the user see the final result
+            setTimeout(() => {
+                window.location.href = 'FUTIAN/front-end/index.html';
+            }, 4500);
+        });
+    </script>
+</body>
+
+</html>

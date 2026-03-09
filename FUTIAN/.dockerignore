@@ -1,0 +1,9 @@
+.venv
+__pycache__
+.git
+.env
+Dockerfile
+.dockerignore
+front-end/.git
+video-for-support
+start_server.bat
