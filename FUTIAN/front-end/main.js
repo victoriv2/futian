@@ -1,4 +1,5 @@
 // FUTIAN Front-end - Updated for Railway backend
+// Note: Ensure BASE_URL is set on Railway for image paths
 // DOM Elements
 const searchInput = document.getElementById('searchInput');
 const searchContainer = document.querySelector('.search-container');
