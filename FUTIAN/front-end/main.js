@@ -1,3 +1,4 @@
+// FUTIAN Front-end - Updated for Railway backend
 // DOM Elements
 const searchInput = document.getElementById('searchInput');
 const searchContainer = document.querySelector('.search-container');
