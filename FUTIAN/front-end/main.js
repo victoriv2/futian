@@ -749,7 +749,7 @@ const createBotMessageElement = (text) => {
 
             try {
                 // Fetch response from backend
-                const response = await fetch('http://localhost:8000/chat', {
+                const response = await fetch('https://futian-production.up.railway.app/chat', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -1366,7 +1366,7 @@ const fetchBotResponse = async (userText) => {
         // Exclude the last message which is the current user message we just added
         const previousMessages = currentChat ? currentChat.messages.slice(0, -1) : [];
 
-        const response = await fetch('http://localhost:8000/chat', {
+        const response = await fetch('https://futian-production.up.railway.app/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -1694,7 +1694,7 @@ micButton.addEventListener('keydown', (e) => {
 // Fetch suggested questions from backend
 const fetchSuggestedQuestions = async () => {
     try {
-        const response = await fetch('http://localhost:8000/generate-questions');
+        const response = await fetch('https://futian-production.up.railway.app/generate-questions');
         if (!response.ok) {
             throw new Error('Failed to fetch questions');
         }
