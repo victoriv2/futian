@@ -1,0 +1,522 @@
+[
+  {
+    "Last Name": "Abasiubong",
+    "First Name": "Allen",
+    "Reg No.": "2023/SEET/EEE/021",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "abasiubong.allen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Agbuku",
+    "First Name": "Igbe",
+    "Reg No.": "2023/SEET/EEE/027",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "agbuku.igbe@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Aniefiok",
+    "First Name": "Usoro",
+    "Reg No.": "2023/SEET/EEE/036",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "aniefiok.usoro@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Chikadibia",
+    "First Name": "Chukwudi",
+    "Reg No.": "2023/SEET/EEE/026",
+    "Gender": "Female",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "chikadibia.chukwudi@futia.edu.ng",
+    "State": "Abia",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Covenant",
+    "First Name": "Udobia",
+    "Reg No.": "2023/SEET/EEE/003",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "covenant.udobia@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Osai",
+    "Reg No.": "2023/SEET/EEE/006",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.osai@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Umouko",
+    "Reg No.": "2023/SEET/EEE/039",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.umouko@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Anietie",
+    "Reg No.": "2023/SEET/EEE/042",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.anietie@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Johnny",
+    "Reg No.": "2023/SEET/EEE/050",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.johnny@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Ijomasam",
+    "Reg No.": "2023/SEET/EEE/009",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.ijomasam@futia.edu.ng",
+    "State": "Abia",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Nnamuka",
+    "Reg No.": "2023/SEET/EEE/023",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.nnamuka@futia.edu.ng",
+    "State": "Imo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Johnson",
+    "Reg No.": "2023/SEET/EEE/025",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.johnson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Monday",
+    "Reg No.": "2023/SEET/EEE/034",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.monday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Iyire",
+    "Reg No.": "2023/SEET/EEE/041",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.iyire@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Delight",
+    "First Name": "Macauley",
+    "Reg No.": "2023/SEET/EEE/012",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "delight.macauley@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/EEE/030",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "destiny.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Ewang",
+    "Reg No.": "2023/SEET/EEE/052",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "destiny.ewang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Dominic",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/EEE/028",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "dominic.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Dickson",
+    "Reg No.": "2023/SEET/EEE/002",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "edidiong.dickson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ejilemele",
+    "First Name": "Ejims",
+    "Reg No.": "2023/SEET/EEE/031",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ejilemele.ejims@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SEET/EEE/038",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "emmanuel.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Godswill",
+    "Reg No.": "2023/SEET/EEE/051",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "emmanuel.godswill@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmaunel",
+    "First Name": "Akpanudo",
+    "Reg No.": "2023/SEET/EEE/015",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "emmaunel.akpanudo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Eniebiet-Obong",
+    "First Name": "Timmy",
+    "Reg No.": "2023/SEET/EEE/010",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "eniebiet-obong.timmy@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Eno-Obong",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SEET/EEE/016",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "eno-obong.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ezekiel",
+    "First Name": "Cyril",
+    "Reg No.": "2023/SEET/EEE/024",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ezekiel.cyril@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Gideon",
+    "First Name": "Usoro",
+    "Reg No.": "2023/SEET/EEE/037",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "gideon.usoro@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godwin",
+    "First Name": "Samuel",
+    "Reg No.": "2023/SEET/EEE/005",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "godwin.samuel@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Israel",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/EEE/040",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "israel.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "James",
+    "First Name": "Michael",
+    "Reg No.": "2023/SEET/EEE/013",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "james.michael@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Ekpe",
+    "Reg No.": "2023/SEET/EEE/045",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "joseph.ekpe@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joshua",
+    "First Name": "Okon",
+    "Reg No.": "2023/SEET/EEE/043",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "joshua.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Justice",
+    "First Name": "Asinam",
+    "Reg No.": "2023/SEET/EEE/048",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "justice.asinam@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Mfoniso",
+    "First Name": "Ifreke",
+    "Reg No.": "2023/SEET/EEE/022",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "mfoniso.ifreke@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Micah-Edara",
+    "First Name": "Solomon",
+    "Reg No.": "2023/SEET/EEE/001",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "micah-edara.solomon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Mkpongo-Abasi",
+    "First Name": "Udousen",
+    "Reg No.": "2023/SEET/EEE/033",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "mkpongo-abasi.udousen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Mmenyeneabasi",
+    "First Name": "Ime",
+    "Reg No.": "2023/SEET/EEE/032",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "mmenyeneabasi.ime@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ndifreke",
+    "First Name": "Elijah",
+    "Reg No.": "2023/SEET/EEE/008",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ndifreke.elijah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ndifreke",
+    "First Name": "Smith",
+    "Reg No.": "2023/SEET/EEE/018",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ndifreke.smith@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Nsikak",
+    "First Name": "Sampson",
+    "Reg No.": "2023/SEET/EEE/049",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "nsikak.sampson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Nsikan",
+    "First Name": "Jackson",
+    "Reg No.": "2023/SEET/EEE/035",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "nsikan.jackson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Paul",
+    "First Name": "Ndep",
+    "Reg No.": "2023/SEET/EEE/007",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "paul.ndep@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Prosper",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SEET/EEE/011",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "prosper.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Alexendar",
+    "Reg No.": "2023/SEET/EEE/004",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "samuel.alexendar@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "David",
+    "Reg No.": "2023/SEET/EEE/014",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "samuel.david@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Success",
+    "First Name": "Peter",
+    "Reg No.": "2023/SEET/EEE/044",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "success.peter@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sunday",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/EEE/019",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "sunday.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Timothy",
+    "First Name": "Jerome",
+    "Reg No.": "2023/SEET/EEE/029",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "timothy.jerome@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Utibe",
+    "First Name": "James",
+    "Reg No.": "2023/SEET/EEE/046",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "utibe.james@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Utibeima",
+    "First Name": "Jacobinyang",
+    "Reg No.": "2023/SEET/EEE/047",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "utibeima.jacobinyang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Sifonobot",
+    "Reg No.": "2023/SEET/EEE/017",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "wisdom.sifonobot@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Ikotinyie",
+    "Reg No.": "2023/SEET/EEE/020",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "wisdom.ikotinyie@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

@@ -12,6 +12,7 @@ import re
 from datetime import datetime
 from dotenv import load_dotenv
 import math
+import time
 from collections import Counter
 
 # Load environment variables
@@ -53,6 +54,18 @@ DATA_CHUNKS: List[Dict] = []
 DATA_LAST_LOADED = None
 IDF = {}
 AVG_DOC_LEN = 1.0
+
+# --- CACHING ---
+RESPONSE_CACHE = {}  # { "query_hash": { "response": "text", "timestamp": float } }
+CACHE_TTL = 3600  # 1 hour cache validity
+
+def get_cache_key(user_message: str, history: List[Dict]) -> str:
+    """Generate a simple cache key for the query + recent history"""
+    import hashlib
+    # Only use the last 2 history items to allow slightly different early histories to match
+    history_str = json.dumps(history[-2:], sort_keys=True)
+    combined = user_message.lower().strip() + "|" + history_str
+    return hashlib.md5(combined.encode()).hexdigest()
 
 def normalize_text_list(text: str) -> List[str]:
     """Convert text to a list of lowercase words for scoring, preserving frequency."""
@@ -876,38 +889,59 @@ def query_ai_model(messages: List[Dict], temperature: float, max_tokens: int, to
         print("[ERROR] XAI_API_KEY not found. Please check your .env file.")
         return None
 
-    try:
-        print(f"[MODEL] Trying model: {model_id}...")
-        payload = {
-            "model": model_id,
-            "messages": messages,
-            "temperature": temperature,
-            "max_tokens": max_tokens
-        }
-        
-        if tools:
-            payload["tools"] = tools
-            payload["tool_choice"] = "auto"
+    max_retries = 3
+    base_delay = 1.0
 
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "HTTP-Referer": "http://localhost:8000",
-            "X-Title": "FUTIAN AI",
-            "Content-Type": "application/json"
-        }
-        
-        response = requests.post(api_url, json=payload, headers=headers, timeout=45)
-        
-        if response.status_code == 200:
-            result = response.json()
-            if 'choices' in result and len(result['choices']) > 0:
-                # Return the full message object to preserve tool_calls
-                return result['choices'][0]['message']
-        else:
-            print(f"[ERROR] Model {model_id} failed: {response.text}")
-    except Exception as e:
-        print(f"[ERROR] Exception with {model_id}: {e}")
+    for attempt in range(max_retries):
+        try:
+            print(f"[MODEL] Trying model: {model_id} (Attempt {attempt+1}/{max_retries})...")
+            payload = {
+                "model": model_id,
+                "messages": messages,
+                "temperature": temperature,
+                "max_tokens": max_tokens
+            }
             
+            if tools:
+                payload["tools"] = tools
+                payload["tool_choice"] = "auto"
+
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "HTTP-Referer": "http://localhost:8000",
+                "X-Title": "FUTIAN AI",
+                "Content-Type": "application/json"
+            }
+            
+            # Using a slightly longer timeout for robust interactions
+            response = requests.post(api_url, json=payload, headers=headers, timeout=60)
+            
+            if response.status_code == 200:
+                result = response.json()
+                if 'choices' in result and len(result['choices']) > 0:
+                    # Return the full message object to preserve tool_calls
+                    return result['choices'][0]['message']
+            elif response.status_code == 429: # Rate Limit
+                print(f"[ERROR] Rate limit hit ({response.status_code}) from {model_id}.")
+            elif response.status_code >= 500: # Server Error
+                print(f"[ERROR] Server error ({response.status_code}) from {model_id}.")
+            else:
+                # Client Error, unlikely to be fixed with a retry
+                print(f"[ERROR] Client error {response.status_code} from {model_id}: {response.text}")
+                return None
+                
+        except requests.exceptions.Timeout:
+             print(f"[ERROR] Timeout connecting to {model_id}.")
+        except Exception as e:
+            print(f"[ERROR] Exception with {model_id}: {e}")
+            
+        # If we reach here, it failed and we need to retry
+        if attempt < max_retries - 1:
+            delay = base_delay * (2 ** attempt) # Exponential backoff: 1s, 2s, 4s
+            print(f"[RETRY] Waiting {delay}s before retrying...")
+            time.sleep(delay)
+            
+    print(f"[ERROR] All {max_retries} attempts to contact {model_id} failed.")
     return None
 
 @app.post("/chat")
@@ -917,6 +951,13 @@ async def chat_endpoint(request: ChatRequest):
     user_message = request.message
     history = request.history
     
+    # 0. Check Cache First
+    cache_key = get_cache_key(user_message, history)
+    cached_data = RESPONSE_CACHE.get(cache_key)
+    if cached_data and (time.time() - cached_data["timestamp"]) < CACHE_TTL:
+        print("[CACHE] Returning instant cached response!")
+        return {"response": cached_data["response"]}
+        
     expanded_message = expand_query(user_message)
     # query_type is no longer used for logic gating
     
@@ -1123,10 +1164,14 @@ async def chat_endpoint(request: ChatRequest):
         print("[FLOW] Sending web results back to AI generation...")
         final_message = query_ai_model(messages, temperature=0.3, max_tokens=1500)
         if final_message and final_message.get("content"):
-            return {"response": clean_response(final_message["content"])}
+            final_resp = clean_response(final_message["content"])
+            RESPONSE_CACHE[cache_key] = {"response": final_resp, "timestamp": time.time()}
+            return {"response": final_resp}
 
     if ai_message.get("content"):
-        return {"response": clean_response(ai_message["content"])}
+        final_resp = clean_response(ai_message["content"])
+        RESPONSE_CACHE[cache_key] = {"response": final_resp, "timestamp": time.time()}
+        return {"response": final_resp}
 
     return {"response": "I generated a response but it was empty."}
 

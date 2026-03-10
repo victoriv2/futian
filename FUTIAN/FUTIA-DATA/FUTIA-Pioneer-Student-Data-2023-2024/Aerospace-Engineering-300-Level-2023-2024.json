@@ -1,0 +1,492 @@
+[
+  {
+    "Last Name": "Abasifreke",
+    "First Name": "Hanson",
+    "Reg No.": "2023/SEET/ASE/020",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "abasifreke.hanson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Abasionueme",
+    "First Name": "Amana",
+    "Reg No.": "2023/SEET/ASE/026",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "abasionueme.amana@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Abigail",
+    "First Name": "Essien",
+    "Reg No.": "2023/SEET/ASE/021",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "abigail.essien@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Andikara",
+    "First Name": "Nkereuwem",
+    "Reg No.": "2023/SEET/ASE/004",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "andikara.nkereuwem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Aniebietabasi",
+    "First Name": "Samps0N",
+    "Reg No.": "2023/SEET/ASE/040",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "aniebietabasi.samps0n@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Archibong",
+    "First Name": "Akeabasi",
+    "Reg No.": "2023/SEET/ASE/048",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "archibong.akeabasi@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Bassey",
+    "First Name": "Peter",
+    "Reg No.": "2023/SEET/ASE/049",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "bassey.peter@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Benita",
+    "First Name": "Mamman",
+    "Reg No.": "2023/SEET/ASE/033",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "benita.mamman@futia.edu.ng",
+    "State": "Edo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Cornelius",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SEET/ASE/012",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "cornelius.udoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Divine",
+    "First Name": "Ibiok",
+    "Reg No.": "2023/SEET/ASE/007",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "divine.ibiok@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Dominion",
+    "First Name": "Daniel",
+    "Reg No.": "2023/SEET/ASE/008",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "dominion.daniel@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Etuk",
+    "Reg No.": "2023/SEET/ASE/041",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "edidiong.etuk@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Effiong",
+    "First Name": "Willie",
+    "Reg No.": "2023/SEET/ASE/011",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "effiong.willie@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ekanem",
+    "First Name": "Umo",
+    "Reg No.": "2023/SEET/ASE/042",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ekanem.umo@futia.edu.ng",
+    "State": "Cross River",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Philip",
+    "Reg No.": "2023/SEET/ASE/014",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "elijah.philip@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Michael",
+    "Reg No.": "2023/SEET/ASE/002",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "emmanuel.michael@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Unyime",
+    "Reg No.": "2023/SEET/ASE/028",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "emmanuel.unyime@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Enobong",
+    "First Name": "Efiong",
+    "Reg No.": "2023/SEET/ASE/025",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "enobong.efiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Julius",
+    "Reg No.": "2023/SEET/ASE/027",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "favour.julius@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Inyang",
+    "Reg No.": "2023/SEET/ASE/034",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "favour.inyang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Gentle",
+    "First Name": "Nimuno",
+    "Reg No.": "2023/SEET/ASE/046",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "gentle.nimuno@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Giftsamuel",
+    "First Name": "Chukwuka",
+    "Reg No.": "2023/SEET/ASE/039",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "giftsamuel.chukwuka@futia.edu.ng",
+    "State": "Imo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "God'Sgift",
+    "First Name": "Okon",
+    "Reg No.": "2023/SEET/ASE/006",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "god'sgift.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "God'Spower",
+    "First Name": "Umoinam",
+    "Reg No.": "2023/SEET/ASE/005",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "god'spower.umoinam@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godspower",
+    "First Name": "Ikechi",
+    "Reg No.": "2023/SEET/ASE/017",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "godspower.ikechi@futia.edu.ng",
+    "State": "Ebonyi",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godwin",
+    "First Name": "Anyebe",
+    "Reg No.": "2023/SEET/ASE/013",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "godwin.anyebe@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Goodluck",
+    "First Name": "Udoeka",
+    "Reg No.": "2023/SEET/ASE/003",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "goodluck.udoeka@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Goodluck",
+    "First Name": "Imoh",
+    "Reg No.": "2023/SEET/ASE/018",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "goodluck.imoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Goodness",
+    "First Name": "Agene",
+    "Reg No.": "2023/SEET/ASE/022",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "goodness.agene@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Hossana",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/ASE/029",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "hossana.effiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Iniubong",
+    "First Name": "Udofia",
+    "Reg No.": "2023/SEET/ASE/001",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "iniubong.udofia@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Jesse",
+    "First Name": "Isangadighi",
+    "Reg No.": "2023/SEET/ASE/024",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "jesse.isangadighi@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "John",
+    "First Name": "Abua",
+    "Reg No.": "2023/SEET/ASE/035",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "john.abua@futia.edu.ng",
+    "State": "Cross River",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Ekong",
+    "Reg No.": "2023/SEET/ASE/010",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joseph.ekong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joshua",
+    "First Name": "Charles",
+    "Reg No.": "2023/SEET/ASE/023",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joshua.charles@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Monday",
+    "Reg No.": "2023/SEET/ASE/009",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joy.monday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Aman",
+    "Reg No.": "2023/SEET/ASE/016",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joy.aman@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Justice",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/ASE/036",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "justice.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Justice",
+    "First Name": "Paul",
+    "Reg No.": "2023/SEET/ASE/047",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "justice.paul@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SEET/ASE/015",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "miracle.thompson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Moses",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/ASE/043",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "moses.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Chinyeaka",
+    "Reg No.": "2023/SEET/ASE/030",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "samuel.chinyeaka@futia.edu.ng",
+    "State": "Imo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Ebute",
+    "Reg No.": "2023/SEET/ASE/032",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "samuel.ebute@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Shalom",
+    "First Name": "Udoudo",
+    "Reg No.": "2023/SEET/ASE/044",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "shalom.udoudo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Testimony",
+    "First Name": "Sampson",
+    "Reg No.": "2023/SEET/ASE/045",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "testimony.sampson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ug0Nna",
+    "First Name": "Ndubueze",
+    "Reg No.": "2023/SEET/ASE/038",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ug0nna.ndubueze@futia.edu.ng",
+    "State": "Imo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ukeme",
+    "First Name": "Willamson",
+    "Reg No.": "2023/SEET/ASE/037",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ukeme.willamson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ungwanen",
+    "First Name": "Tanya",
+    "Reg No.": "2023/SEET/ASE/019",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ungwanen.tanya@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Effik",
+    "Reg No.": "2023/SEET/ASE/031",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "victor.effik@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

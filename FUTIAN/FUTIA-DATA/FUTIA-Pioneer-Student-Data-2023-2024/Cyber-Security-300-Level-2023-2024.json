@@ -1,0 +1,472 @@
+[
+  {
+    "Last Name": "Abasifreke",
+    "First Name": "Enangama",
+    "Reg No.": "2023/SCIT/CYB/025",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "abasifreke.enangama@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Akan",
+    "First Name": "Ukpong",
+    "Reg No.": "2023/SCIT/CYB/041",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "akan.ukpong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ake-Abasi",
+    "First Name": "Noah",
+    "Reg No.": "2023/SCIT/CYB/010",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ake-abasi.noah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Aniebietabasi",
+    "First Name": "Aquaisua",
+    "Reg No.": "2023/SCIT/CYB/006",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "aniebietabasi.aquaisua@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ata-Abasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/CYB/014",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ata-abasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Charles",
+    "First Name": "Obute",
+    "Reg No.": "2023/SCIT/CYB/034",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "charles.obute@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Covenant",
+    "First Name": "Nkanang",
+    "Reg No.": "2023/SCIT/CYB/022",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "covenant.nkanang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Josiah",
+    "Reg No.": "2023/SCIT/CYB/033",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "daniel.josiah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Darlington",
+    "First Name": "Abbey",
+    "Reg No.": "2023/SCIT/CYB/013",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "darlington.abbey@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Enemekung",
+    "Reg No.": "2023/SCIT/CYB/035",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "david.enemekung@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/CYB/018",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "destiny.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Jonah",
+    "Reg No.": "2023/SCIT/CYB/016",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "elijah.jonah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SCIT/CYB/003",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "emmanuel.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SCIT/CYB/030",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "emmanuel.thompson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ekerette",
+    "Reg No.": "2023/SCIT/CYB/038",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "emmanuel.ekerette@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Enoch",
+    "First Name": "Peter",
+    "Reg No.": "2023/SCIT/CYB/040",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "enoch.peter@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Enwongabasi",
+    "First Name": "Ibia",
+    "Reg No.": "2023/SCIT/CYB/031",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "enwongabasi.ibia@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Eti-Abasi",
+    "First Name": "Enang",
+    "Reg No.": "2023/SCIT/CYB/012",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "eti-abasi.enang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Faith",
+    "First Name": "Nmegwa",
+    "Reg No.": "2023/SCIT/CYB/023",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "faith.nmegwa@futia.edu.ng",
+    "State": "Imo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Faith",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SCIT/CYB/032",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "faith.thompson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SCIT/CYB/002",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "favour.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/CYB/017",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "favour.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Victor",
+    "Reg No.": "2023/SCIT/CYB/004",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "godswill.victor@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Attara",
+    "Reg No.": "2023/SCIT/CYB/047",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "godswill.attara@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Idara",
+    "First Name": "Inyang",
+    "Reg No.": "2023/SCIT/CYB/046",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "idara.inyang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Idorenyin",
+    "First Name": "John",
+    "Reg No.": "2023/SCIT/CYB/024",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "idorenyin.john@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ikono",
+    "First Name": "Ikono",
+    "Reg No.": "2023/SCIT/CYB/037",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ikono.ikono@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Inyene",
+    "First Name": "Pius",
+    "Reg No.": "2023/SCIT/CYB/008",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "inyene.pius@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Jonathan",
+    "First Name": "Cookey",
+    "Reg No.": "2023/SCIT/CYB/001",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "jonathan.cookey@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Liberty",
+    "First Name": "Umoren",
+    "Reg No.": "2023/SCIT/CYB/027",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "liberty.umoren@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Marshall",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SCIT/CYB/045",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "marshall.effiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Matilda",
+    "First Name": "Ekping",
+    "Reg No.": "2023/SCIT/CYB/026",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "matilda.ekping@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Silas",
+    "Reg No.": "2023/SCIT/CYB/036",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "miracle.silas@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Mmemekobong",
+    "First Name": "Assam",
+    "Reg No.": "2023/SCIT/CYB/009",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "mmemekobong.assam@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Moses",
+    "First Name": "Dan-Abia",
+    "Reg No.": "2023/SCIT/CYB/011",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "moses.dan-abia@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Oluwafemi",
+    "First Name": "Okechukwu",
+    "Reg No.": "2023/SCIT/CYB/038",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "oluwafemi.okechukwu@futia.edu.ng",
+    "State": "Abia",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Praise",
+    "First Name": "Obo",
+    "Reg No.": "2023/SCIT/CYB/005",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "praise.obo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ruth",
+    "First Name": "Oscar",
+    "Reg No.": "2023/SCIT/CYB/019",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "ruth.oscar@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Thomas",
+    "First Name": "Ede",
+    "Reg No.": "2023/SCIT/CYB/043",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "thomas.ede@futia.edu.ng",
+    "State": "Cross River",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Toroabasi",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SCIT/CYB/021",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "toroabasi.umoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ukpono",
+    "First Name": "Usen",
+    "Reg No.": "2023/SCIT/CYB/044",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ukpono.usen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Uwem",
+    "First Name": "Joseph",
+    "Reg No.": "2023/SCIT/CYB/015",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "uwem.joseph@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SCIT/CYB/007",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "victory.udoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Kingsley",
+    "Reg No.": "2023/SCIT/CYB/028",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "wisdom.kingsley@futia.edu.ng",
+    "State": "Imo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Onukwube",
+    "Reg No.": "2023/SCIT/CYB/029",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "wisdom.onukwube@futia.edu.ng",
+    "State": "Ebonyi",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Christopher",
+    "Reg No.": "2023/SCIT/CYB/042",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "wisdom.christopher@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Zelia",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/CYB/020",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "zelia.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

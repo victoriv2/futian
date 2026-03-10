@@ -1,0 +1,542 @@
+[
+  {
+    "Last Name": "Abasiama",
+    "First Name": "Johnny",
+    "Reg No.": "2023/SPAS/MCB/007",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "abasiama.johnny@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ama-Abasi",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/MCB/015",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "ama-abasi.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Amaeti",
+    "First Name": "Ekpenyong",
+    "Reg No.": "2023/SPAS/MCB/047",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "amaeti.ekpenyong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Anamofon",
+    "First Name": "Ekwere",
+    "Reg No.": "2023/SPAS/MCB/031",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "anamofon.ekwere@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Beauty",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SPAS/MCB/040",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "beauty.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessed",
+    "First Name": "Macaulay",
+    "Reg No.": "2023/SPAS/MCB/010",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "blessed.macaulay@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Edet",
+    "Reg No.": "2023/SPAS/MCB/011",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.edet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Asukwo",
+    "Reg No.": "2023/SPAS/MCB/022",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.asukwo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Jennison",
+    "Reg No.": "2023/SPAS/MCB/023",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.jennison@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "William",
+    "Reg No.": "2023/SPAS/MCB/026",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.william@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Monday",
+    "Reg No.": "2023/SPAS/MCB/032",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.monday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Oboho",
+    "Reg No.": "2023/SPAS/MCB/034",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.oboho@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/MCB/043",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Christiana",
+    "First Name": "Ekerenam",
+    "Reg No.": "2023/SPAS/MCB/012",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "christiana.ekerenam@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Christopher",
+    "First Name": "Asuqwo",
+    "Reg No.": "2023/SPAS/MCB/037",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "christopher.asuqwo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Okpo",
+    "Reg No.": "2023/SPAS/MCB/004",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "david.okpo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Deborah",
+    "First Name": "Archibong",
+    "Reg No.": "2023/SPAS/MCB/016",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "deborah.archibong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Peter",
+    "Reg No.": "2023/SPAS/MCB/028",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "edidiong.peter@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/MCB/041",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "edidiong.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ekemini",
+    "First Name": "Dan",
+    "Reg No.": "2023/SPAS/MCB/019",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "ekemini.dan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emaekop",
+    "First Name": "Ufot",
+    "Reg No.": "2023/SPAS/MCB/017",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "emaekop.ufot@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Jacob",
+    "Reg No.": "2023/SPAS/MCB/042",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "emediong.jacob@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Matthew",
+    "Reg No.": "2023/SPAS/MCB/038",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "emmanuel.matthew@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Andem",
+    "Reg No.": "2023/SPAS/MCB/025",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "esther.andem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/MCB/044",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "esther.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Akpabio",
+    "Reg No.": "2023/SPAS/MCB/003",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "favour.akpabio@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Finedaughter",
+    "First Name": "Anyanwu",
+    "Reg No.": "2023/SPAS/MCB/020",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "finedaughter.anyanwu@futia.edu.ng",
+    "State": "Abia",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Gerald",
+    "First Name": "Ikeagummuo",
+    "Reg No.": "2023/SPAS/MCB/052",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "gerald.ikeagummuo@futia.edu.ng",
+    "State": "Anambra",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Gideon",
+    "First Name": "Johnson",
+    "Reg No.": "2023/SPAS/MCB/006",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "gideon.johnson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SPAS/MCB/014",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "joseph.effiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Monday",
+    "Reg No.": "2023/SPAS/MCB/050",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "joy.monday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Mercy",
+    "First Name": "Obeten",
+    "Reg No.": "2023/SPAS/MCB/009",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "mercy.obeten@futia.edu.ng",
+    "State": "Cross River",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Michael",
+    "First Name": "Ekerete",
+    "Reg No.": "2023/SPAS/MCB/039",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "michael.ekerete@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Nseabasi",
+    "First Name": "Essien",
+    "Reg No.": "2023/SPAS/MCB/046",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "nseabasi.essien@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Patience",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/MCB/045",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "patience.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Peace",
+    "First Name": "George",
+    "Reg No.": "2023/SPAS/MCB/035",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "peace.george@futia.edu.ng",
+    "State": "Imo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Peter",
+    "First Name": "Alfred",
+    "Reg No.": "2023/SPAS/MCB/029",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "peter.alfred@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Philomen",
+    "First Name": "Joseph",
+    "Reg No.": "2023/SPAS/MCB/027",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "philomen.joseph@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Daniel",
+    "Reg No.": "2023/SPAS/MCB/054",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "precious.daniel@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Queen",
+    "First Name": "Nteyen",
+    "Reg No.": "2023/SPAS/MCB/008",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "queen.nteyen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Rebecca",
+    "First Name": "Edem",
+    "Reg No.": "2023/SPAS/MCB/030",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "rebecca.edem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Richman",
+    "First Name": "Iwok",
+    "Reg No.": "2023/SPAS/MCB/002",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "richman.iwok@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sabrina",
+    "First Name": "Nimuno",
+    "Reg No.": "2023/SPAS/MCB/053",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "sabrina.nimuno@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Saviour",
+    "First Name": "Monday",
+    "Reg No.": "2023/SPAS/MCB/048",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "saviour.monday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sifon",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/MCB/021",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "sifon.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sitoabasi",
+    "First Name": "Udofot",
+    "Reg No.": "2023/SPAS/MCB/001",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "sitoabasi.udofot@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Stella",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/MCB/024",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "stella.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Tangmfon",
+    "First Name": "Nkine",
+    "Reg No.": "2023/SPAS/MCB/049",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "tangmfon.nkine@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ubong",
+    "First Name": "Nkang",
+    "Reg No.": "2023/SPAS/MCB/051",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "ubong.nkang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Uduakobong",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/MCB/018",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "uduakobong.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Unwanaabasi",
+    "First Name": "Ifreke",
+    "Reg No.": "2023/SPAS/MCB/013",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "unwanaabasi.ifreke@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Edem",
+    "Reg No.": "2023/SPAS/MCB/036",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "victor.edem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Edet",
+    "Reg No.": "2023/SPAS/MCB/005",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "victory.edet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Asimatang",
+    "Reg No.": "2023/SPAS/MCB/033",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "victory.asimatang@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

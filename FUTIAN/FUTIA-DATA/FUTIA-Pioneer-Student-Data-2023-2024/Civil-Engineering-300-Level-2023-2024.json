@@ -1,0 +1,422 @@
+[
+  {
+    "Last Name": "Abraham",
+    "First Name": "Ikpe",
+    "Reg No.": "2023/SEET/CEE/007",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "abraham.ikpe@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Adams",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SEET/CEE/041",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "adams.umoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Adi",
+    "First Name": "Ubong",
+    "Reg No.": "2023/SEET/CEE/035",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "adi.ubong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Alexandria",
+    "First Name": "Esin",
+    "Reg No.": "2023/SEET/CEE/037",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "alexandria.esin@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Andifon",
+    "First Name": "Okon",
+    "Reg No.": "2023/SEET/CEE/0016",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "andifon.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Awaji-Isom",
+    "First Name": "Simon",
+    "Reg No.": "2023/SEET/CEE/031",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "awaji-isom.simon@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Bassey",
+    "First Name": "Etukudo",
+    "Reg No.": "2023/SEET/CEE/038",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "bassey.etukudo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Comfort",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SEET/CEE/0015",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "comfort.thompson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/CEE/0018",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "elijah.effiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SEET/CEE/0019",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "emediong.udoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Jacob",
+    "Reg No.": "2023/SEET/CEE/024",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "emmanuel.jacob@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmaunel",
+    "First Name": "Eshiet",
+    "Reg No.": "2023/SEET/CEE/006",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "emmaunel.eshiet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmaunel",
+    "First Name": "Peter",
+    "Reg No.": "2023/SEET/CEE/0013",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "emmaunel.peter@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Enwongo",
+    "First Name": "Etekpo",
+    "Reg No.": "2023/SEET/CEE/039",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "enwongo.etekpo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ephriam",
+    "First Name": "Akpanabba",
+    "Reg No.": "2023/SEET/CEE/009",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "ephriam.akpanabba@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Etette",
+    "First Name": "William",
+    "Reg No.": "2023/SEET/CEE/030",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "etette.william@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Etini",
+    "First Name": "Lawrence",
+    "Reg No.": "2023/SEET/CEE/008",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "etini.lawrence@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Goodnews",
+    "First Name": "James",
+    "Reg No.": "2023/SEET/CEE/040",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "goodnews.james@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ikouwem",
+    "First Name": "Udomfu",
+    "Reg No.": "2023/SEET/CEE/0012",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "ikouwem.udomfu@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Jeremiah",
+    "First Name": "Ufia",
+    "Reg No.": "2023/SEET/CEE/036",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "jeremiah.ufia@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "John",
+    "First Name": "Etim",
+    "Reg No.": "2023/SEET/CEE/032",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "john.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Ignatius",
+    "Reg No.": "2023/SEET/CEE/042",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "joseph.ignatius@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Kemfon",
+    "First Name": "Aqua",
+    "Reg No.": "2023/SEET/CEE/004",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kemfon.aqua@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Kingsley",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/CEE/001",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kingsley.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Kingsley",
+    "First Name": "Jimmy",
+    "Reg No.": "2023/SEET/CEE/034",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kingsley.jimmy@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Kubiat",
+    "First Name": "Rankin",
+    "Reg No.": "2023/SEET/CEE/003",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kubiat.rankin@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Maryagnes",
+    "First Name": "Oscar",
+    "Reg No.": "2023/SEET/CEE/010",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "maryagnes.oscar@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Marcus",
+    "Reg No.": "2023/SEET/CEE/026",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "miracle.marcus@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Obi",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/CEE/020",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "obi.effiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ofiok",
+    "First Name": "Ekausen",
+    "Reg No.": "2023/SEET/CEE/0014",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "ofiok.ekausen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Paul",
+    "First Name": "Etim",
+    "Reg No.": "2023/SEET/CEE/027",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "paul.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Princely",
+    "First Name": "Kingsley",
+    "Reg No.": "2023/SEET/CEE/022",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "princely.kingsley@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Richard",
+    "First Name": "Robson",
+    "Reg No.": "2023/SEET/CEE/025",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "richard.robson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Eshiet",
+    "Reg No.": "2023/SEET/CEE/005",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "samuel.eshiet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Seth",
+    "First Name": "Ekarika",
+    "Reg No.": "2023/SEET/CEE/029",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "seth.ekarika@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Solomon",
+    "First Name": "Iyanam",
+    "Reg No.": "2023/SEET/CEE/028",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "solomon.iyanam@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sunny",
+    "First Name": "Harrison",
+    "Reg No.": "2023/SEET/CEE/023",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "sunny.harrison@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ukpono",
+    "First Name": "Udoukor",
+    "Reg No.": "2023/SEET/CEE/033",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "ukpono.udoukor@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Uyama",
+    "First Name": "Eyo",
+    "Reg No.": "2023/SEET/CEE/0011",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "uyama.eyo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/CEE/0017",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "victory.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SEET/CEE/021",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "victory.umoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Walter",
+    "First Name": "Martin",
+    "Reg No.": "2023/SEET/CEE/002",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "walter.martin@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

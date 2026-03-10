@@ -1,0 +1,482 @@
+[
+  {
+    "Last Name": "Amblessed",
+    "First Name": "Oton",
+    "Reg No.": "2023/SPAS/BCH/047",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "amblessed.oton@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Umo-Idem",
+    "Reg No.": "2023/SPAS/BCH/039",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "andikan.umo-idem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Aniebietabasi",
+    "First Name": "Udo",
+    "Reg No.": "2023/SPAS/BCH/024",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "aniebietabasi.udo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Aniekpon",
+    "First Name": "Ukoekong",
+    "Reg No.": "2023/SPAS/BCH/010",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "aniekpon.ukoekong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Awaji-Onyi",
+    "First Name": "Nelson",
+    "Reg No.": "2023/SPAS/BCH/018",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "awaji-onyi.nelson@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Ntuk",
+    "Reg No.": "2023/SPAS/BCH/008",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "blessing.ntuk@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Francis",
+    "Reg No.": "2023/SPAS/BCH/019",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "blessing.francis@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Bright",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/BCH/029",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "bright.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Chinecherem",
+    "First Name": "Nwafor",
+    "Reg No.": "2023/SPAS/BCH/003",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "chinecherem.nwafor@futia.edu.ng",
+    "State": "Anambra",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Chisom",
+    "First Name": "Amos",
+    "Reg No.": "2023/SPAS/BCH/002",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "chisom.amos@futia.edu.ng",
+    "State": "Ebonyi",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Christian",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/035",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "christian.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Christopher",
+    "First Name": "Etuk",
+    "Reg No.": "2023/SPAS/BCH/020",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "christopher.etuk@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Dominic",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SPAS/BCH/036",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "dominic.udoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Dorathy",
+    "First Name": "Clement",
+    "Reg No.": "2023/SPAS/BCH/016",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "dorathy.clement@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Philip",
+    "Reg No.": "2023/SPAS/BCH/006",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "edidiong.philip@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ekom",
+    "First Name": "Umoette",
+    "Reg No.": "2023/SPAS/BCH/028",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "ekom.umoette@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Obot",
+    "Reg No.": "2023/SPAS/BCH/048",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "emediong.obot@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ibok",
+    "Reg No.": "2023/SPAS/BCH/023",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "emmanuel.ibok@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Macaulay",
+    "Reg No.": "2023/SPAS/BCH/027",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "emmanuel.macaulay@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuella",
+    "First Name": "Edet",
+    "Reg No.": "2023/SPAS/BCH/015",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "emmanuella.edet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Udo",
+    "Reg No.": "2023/SPAS/BCH/042",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "esther.udo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Oboh",
+    "Reg No.": "2023/SPAS/BCH/031",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "favour.oboh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "George",
+    "First Name": "Umoren",
+    "Reg No.": "2023/SPAS/BCH/004",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "george.umoren@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Gideon",
+    "First Name": "Uko",
+    "Reg No.": "2023/SPAS/BCH/030",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "gideon.uko@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "God'Swealth",
+    "First Name": "Allen",
+    "Reg No.": "2023/SPAS/BCH/022",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "god'swealth.allen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godsend",
+    "First Name": "Ebong",
+    "Reg No.": "2023/SPAS/BCH/021",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "godsend.ebong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godspromise",
+    "First Name": "Eyo",
+    "Reg No.": "2023/SPAS/BCH/017",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "godspromise.eyo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Halleluyah",
+    "First Name": "Obot",
+    "Reg No.": "2023/SPAS/BCH/033",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "halleluyah.obot@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Inyeneobong",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/043",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "inyeneobong.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Israel",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SPAS/BCH/005",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "israel.umoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Jessica",
+    "First Name": "Willie",
+    "Reg No.": "2023/SPAS/BCH/025",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "jessica.willie@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Out",
+    "Reg No.": "2023/SPAS/BCH/046",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "joy.out@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Leonora",
+    "First Name": "Nestor",
+    "Reg No.": "2023/SPAS/BCH/009",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "leonora.nestor@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Elijah",
+    "Reg No.": "2023/SPAS/BCH/038",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "miracle.elijah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Miriam",
+    "First Name": "Edem",
+    "Reg No.": "2023/SPAS/BCH/001",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "miriam.edem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ofofon",
+    "First Name": "Peter",
+    "Reg No.": "2023/SPAS/BCH/037",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "ofofon.peter@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Patience",
+    "First Name": "Ndom",
+    "Reg No.": "2023/SPAS/BCH/011",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "patience.ndom@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Archibong",
+    "Reg No.": "2023/SPAS/BCH/013",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "precious.archibong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/044",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "precious.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Promise",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/BCH/045",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "promise.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Rebecca",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/BCH/007",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "rebecca.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Richmond",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/014",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "richmond.etim@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Shulammite",
+    "First Name": "John",
+    "Reg No.": "2023/SPAS/BCH/026",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "shulammite.john@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sifon",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SPAS/BCH/040",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "sifon.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Unwana",
+    "First Name": "George",
+    "Reg No.": "2023/SPAS/BCH/041",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "unwana.george@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Uwakmfon",
+    "First Name": "Noah",
+    "Reg No.": "2023/SPAS/BCH/034",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "uwakmfon.noah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Sampson",
+    "Reg No.": "2023/SPAS/BCH/012",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "victory.sampson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Ukoh",
+    "Reg No.": "2023/SPAS/BCH/032",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "wisdom.ukoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "Last Name": "Abah",
+    "First Name": "Obochi",
+    "Reg No.": "2023/SCIT/CSC/036",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "abah.obochi@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Abasi-Ikpongke",
+    "First Name": "Utianga",
+    "Reg No.": "2023/SCIT/CSC/038",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "abasi-ikpongke.utianga@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Atom",
+    "First Name": "Anyam",
+    "Reg No.": "2023/SCIT/CSC/020",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "atom.anyam@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SCIT/CSC/037",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "blessing.effiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Covenant",
+    "First Name": "Ukpong",
+    "Reg No.": "2023/SCIT/CSC/040",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "covenant.ukpong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Abuo",
+    "Reg No.": "2023/SCIT/CSC/025",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "david.abuo@futia.edu.ng",
+    "State": "Niger",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Delight",
+    "First Name": "Boniface",
+    "Reg No.": "2023/SCIT/CSC/030",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "delight.boniface@futia.edu.ng",
+    "State": "Abia",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Ben",
+    "Reg No.": "2023/SCIT/CSC/013",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "edidiong.ben@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Usoro",
+    "Reg No.": "2023/SCIT/CSC/042",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "edidiong.usoro@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Etekpo",
+    "Reg No.": "2023/SCIT/CSC/051",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "edidiong.etekpo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Friday",
+    "Reg No.": "2023/SCIT/CSC/003",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "elijah.friday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Elisha",
+    "First Name": "Nkereuwem",
+    "Reg No.": "2023/SCIT/CSC/047",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "elisha.nkereuwem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emenyi",
+    "First Name": "Emenyi",
+    "Reg No.": "2023/SCIT/CSC/002",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "emenyi.emenyi@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/CSC/019",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "emmanuel.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Simon",
+    "Reg No.": "2023/SCIT/CSC/053",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "emmanuel.simon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Ekwah",
+    "Reg No.": "2023/SCIT/CSC/009",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "favour.ekwah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Gabriel",
+    "Reg No.": "2023/ SCIT/CSC/015",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "favour.gabriel@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SCIT/CSC/031",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "favour.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Francis",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SCIT/CSC/016",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "francis.umoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Grace",
+    "First Name": "Nathaniel",
+    "Reg No.": "2023/SCIT/CSC/039",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "grace.nathaniel@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Gracious",
+    "First Name": "Simon",
+    "Reg No.": "2023/SCIT/CSC/029",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "gracious.simon@futia.edu.ng",
+    "State": "Kaduna",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Idaraobong",
+    "First Name": "Udom",
+    "Reg No.": "2023/SCIT/CSC/010",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "idaraobong.udom@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Isaac",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SCIT/CSC/001",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "isaac.umoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Isaac",
+    "First Name": "Eniefiok",
+    "Reg No.": "2023/SCIT/CSC/026",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "isaac.eniefiok@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ita",
+    "First Name": "Peter",
+    "Reg No.": "2023/SCIT/CSC/049",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ita.peter@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "James",
+    "First Name": "Joseph",
+    "Reg No.": "2023/SCIT/CSC/004",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "james.joseph@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/CSC/021",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "joseph.edet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "William",
+    "Reg No.": "2023/SCIT/CSC/023",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "joseph.william@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joshua",
+    "First Name": "Ekpe",
+    "Reg No.": "2023/SCIT/CSC/018",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "joshua.ekpe@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Kemfon",
+    "First Name": "Jimmy",
+    "Reg No.": "2023/SCIT/CSC/027",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "kemfon.jimmy@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "King",
+    "First Name": "Allen",
+    "Reg No.": "2023/SCIT/CSC/014",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "king.allen@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Linus",
+    "First Name": "Massody",
+    "Reg No.": "2023/SCIT/CSC/045",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "linus.massody@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Marvelous",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/CSC/008",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "marvelous.essien@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Matthias",
+    "First Name": "Afaha",
+    "Reg No.": "2023/SCIT/CSC/007",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "matthias.afaha@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Michael",
+    "First Name": "Henry",
+    "Reg No.": "2023/SCIT/CSC/046",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "michael.henry@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Mkpoikana-Abasi",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/CSC/012",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "mkpoikana-abasi.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Mmedeuwak",
+    "First Name": "Jimmy",
+    "Reg No.": "2023/SCIT/CSC/024",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "mmedeuwak.jimmy@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ndedu",
+    "First Name": "Etuk",
+    "Reg No.": "2023/SCIT/CSC/017",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ndedu.etuk@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ndianabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/CSC/052",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ndianabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ndipmong",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/CSC/050",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ndipmong.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Newdawn",
+    "First Name": "Ezekiel",
+    "Reg No.": "2023/SCIT/CSC/043",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "newdawn.ezekiel@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Nsinana",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/CSC/034",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "nsinana.essien@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Oluwafemi",
+    "First Name": "Ogunlade",
+    "Reg No.": "2023/SCIT/CSC/032",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "oluwafemi.ogunlade@futia.edu.ng",
+    "State": "Ogun",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Richmond",
+    "First Name": "Ibatt",
+    "Reg No.": "2023/SCIT/CSC/006",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "richmond.ibatt@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Rita",
+    "First Name": "Ekpo-Otu",
+    "Reg No.": "2023/SCIT/CSC/033",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "rita.ekpo-otu@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SCIT/CSC/022",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "samuel.thompson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Stella",
+    "First Name": "Sylvanus",
+    "Reg No.": "2023/SCIT/CSC/ 041",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "stella.sylvanus@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sylvester",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/CSC/028",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "sylvester.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ubon-Abasi",
+    "First Name": "Godwin",
+    "Reg No.": "2023/SCIT/CSC/011",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ubon-abasi.godwin@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Utibeabasi",
+    "First Name": "James",
+    "Reg No.": "2023/SCIT/CSC/005",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "utibeabasi.james@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Uyoh",
+    "First Name": "Uyoh",
+    "Reg No.": "2023/SCIT/CSC/035",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "uyoh.uyoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Diamond",
+    "Reg No.": "2023/SCIT/CSC/048",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "victor.diamond@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Offiong",
+    "Reg No.": "2023/SCIT/CSC/054",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "victor.offiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Winner",
+    "First Name": "Asuquo",
+    "Reg No.": "2023/SCIT/CSC/044",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "winner.asuquo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "Last Name": "Abasiekeme",
+    "First Name": "Dickson",
+    "Reg No.": "2023/SCIT/SEN/049",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "abasiekeme.dickson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Abraham",
+    "First Name": "James",
+    "Reg No.": "2023/SCIT/SEN/023",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "abraham.james@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Afodu",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/026",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "afodu.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/003",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "andikan.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Paul",
+    "Reg No.": "2023/SCIT/SEN/005",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "andikan.paul@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/033",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "andikan.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Aniekeme",
+    "First Name": "Wilcox",
+    "Reg No.": "2023/SCIT/SEN/058",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "aniekeme.wilcox@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Aniekpeno",
+    "First Name": "Noah",
+    "Reg No.": "2023/SCIT/SEN/055",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "aniekpeno.noah@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Bill",
+    "First Name": "Ikot",
+    "Reg No.": "2023/SCITSEN/006",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "bill.ikot@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Cyril",
+    "First Name": "Ekwe",
+    "Reg No.": "2023/SCIT/SEN/039",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "cyril.ekwe@futia.edu.ng",
+    "State": "Cross River",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/017",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "daniel.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Asuquo",
+    "Reg No.": "2023/SCIT/SEN/028",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "daniel.asuquo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Isong",
+    "Reg No.": "2023/SCIT/SEN/031",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "daniel.isong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Dattiabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/015",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "dattiabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Udoyo",
+    "Reg No.": "2023/SCIT/SEN/037",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "david.udoyo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Okodi",
+    "Reg No.": "2023/SCIT/SEN/038",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "david.okodi@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Ekong",
+    "Reg No.": "2023/SCIT/SEN/057",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "david.ekong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Adaramola",
+    "Reg No.": "2023/SCIT/SEN/029",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "destiny.adaramola@futia.edu.ng",
+    "State": "Ondo",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Attia",
+    "Reg No.": "2023/SCIT/SEN/047",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "destiny.attia@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Divine-Dembari",
+    "First Name": "Leneh",
+    "Reg No.": "2023/SCIT/SEN/044",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "divine-dembari.leneh@futia.edu.ng",
+    "State": "Rivers",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/SEN/011",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "edidiong.essien@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ekemini",
+    "First Name": "Joshua",
+    "Reg No.": "2023/SCIT/SEN/051",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "ekemini.joshua@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/010",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "elijah.sunday@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/SEN/013",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "emediong.edet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ese-Camillus",
+    "First Name": "Ukponginuen",
+    "Reg No.": "2023/SCIT/SEN/030",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "ese-camillus.ukponginuen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/SEN/032",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "esther.edet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Etiene-Abasi",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/SEN/024",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "etiene-abasi.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Etieno",
+    "First Name": "Arthur",
+    "Reg No.": "2023/SCIT/SEN/009",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "etieno.arthur@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Eyo",
+    "Reg No.": "2023/SCIT/SEN/042",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "favour.eyo@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Flourish",
+    "First Name": "Sandy",
+    "Reg No.": "2023/SCIT/SEN/019",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "flourish.sandy@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "George",
+    "First Name": "Uchua",
+    "Reg No.": "2023/SCIT/SEN/014",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "george.uchua@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/SEN/007",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "godswill.bassey@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Hope",
+    "First Name": "Eshiet",
+    "Reg No.": "2023/SCIT/SEN/027",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "hope.eshiet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Idara",
+    "First Name": "Effiom",
+    "Reg No.": "2023/SCIT/SEN/021",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "idara.effiom@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Idare",
+    "First Name": "Alexander",
+    "Reg No.": "2023/SCIT/SEN/012",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "idare.alexander@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Joel",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/002",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "joel.sunday@futia.edu.ng",
+    "State": "Kogi",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "John",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/SEN/056",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "john.edet@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Jude",
+    "First Name": "Essoh",
+    "Reg No.": "2023/SCIT/SEN/035",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "jude.essoh@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Kesit",
+    "First Name": "Udofia",
+    "Reg No.": "2023/SCIT/SEN/016",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "kesit.udofia@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Maclord",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SCIT/SEN/053",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "maclord.effiong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Michael",
+    "First Name": "Duff",
+    "Reg No.": "2023/SCIT/SEN/008",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "michael.duff@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/SEN/045",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "miracle.essien@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Nick",
+    "First Name": "Paul",
+    "Reg No.": "2023/SCIT/SEN/018",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "nick.paul@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Nsikak",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/SEN/059",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "nsikak.okon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Peter",
+    "First Name": "Ameh",
+    "Reg No.": "2023/SCIT/SEN/001",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "peter.ameh@futia.edu.ng",
+    "State": "Benue",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/SEN/050",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "precious.essien@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Nelson",
+    "Reg No.": "2023/SCIT/SEN/004",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "samuel.nelson@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Shedrach",
+    "First Name": "Usen",
+    "Reg No.": "2023/SCIT/SEN/034",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "shedrach.usen@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Simon",
+    "First Name": "Ibok",
+    "Reg No.": "2023/SCIT/SEN/054",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "simon.ibok@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Sylvester",
+    "First Name": "Iwong",
+    "Reg No.": "2023/SCIT/SEN/036",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "sylvester.iwong@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Thankgod",
+    "First Name": "Akaka",
+    "Reg No.": "2023/SCIT/SEN/040",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "thankgod.akaka@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Treasure",
+    "First Name": "Edike",
+    "Reg No.": "2023/SCIT/SEN/048",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "treasure.edike@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ubokabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/046",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "ubokabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Ukemeabasi",
+    "First Name": "Gideon",
+    "Reg No.": "2023/SCIT/SEN/025",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "ukemeabasi.gideon@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Usoro",
+    "First Name": "Paul",
+    "Reg No.": "2023/SCIT/SEN/052",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "usoro.paul@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Utibeabasi",
+    "First Name": "John",
+    "Reg No.": "2023/SCIT/SEN/020",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "utibeabasi.john@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Utibeabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/044",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "utibeabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Winner",
+    "First Name": "William",
+    "Reg No.": "2023/SCIT/SEN/022",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "winner.william@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  },
+  {
+    "Last Name": "Zebulun",
+    "First Name": "Marcus",
+    "Reg No.": "2023/SCIT/SEN/041",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "zebulun.marcus@futia.edu.ng",
+    "State": "Akwa Ibom",
+    "Level": "300 Level-2023-2024"
+  }
+]

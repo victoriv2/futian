@@ -3965,7 +3965,10 @@ body.dark-mode .picker-thumb {
         top: 0 !important;
         left: 0 !important;
         width: 300px !important;
-        height: 100vh !important;
+        height: 100% !important;
+        height: 100dvh !important;
+        padding-bottom: env(safe-area-inset-bottom) !important;
+        box-sizing: border-box !important;
         background: var(--bg-secondary) !important;
         backdrop-filter: blur(15px) !important;
         -webkit-backdrop-filter: blur(15px);
