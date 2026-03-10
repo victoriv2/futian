@@ -656,7 +656,7 @@ def bm25_score(query_words: List[str], chunk: Dict) -> float:
             score += idf * (tf * (k1 + 1)) / (tf + k1 * (1 - b + b * doc_len / max(1, AVG_DOC_LEN)))
     return score
 
-def get_smart_context(query: str, max_chars=200000) -> str:
+def get_smart_context(query: str, max_chars=400000) -> str:
     """
     Intelligently selects data chunks based on relevance score using BM25.
     Increased context size to ensure ALL relevant data is included.
@@ -722,15 +722,24 @@ def get_smart_context(query: str, max_chars=200000) -> str:
                     context += f"--- Source: {chunk['source']} (PRIORITY: Creator Info) ---\n{chunk['text']}\n\n"
                     used_sources.add(chunk["source"])
 
-    # Smart Priority: Student Data
-    is_student_query = any(word in expanded_query for word in ["student", "department", "civil", "mechanical", "electrical", "computer", "engineering", "science", "software", "cyber", "aerospace", "microbiology", "biochemistry"]) or any(name in expanded_query.lower() for name in KNOWN_NAMES)
+    # Smart Priority: Student Data - Force include ALL student data for any student query
+    student_keywords = ["student", "students", "list", "name", "who", "reg", "registration",
+                        "civil", "mechanical", "electrical", "aerospace", "software", "computer",
+                        "cyber", "biochemistry", "microbiology", "library", "petroleum",
+                        "department", "level", "male", "female", "gender", "enrolled"]
+    is_student_query = any(word in expanded_query for word in student_keywords)
     
-    if is_student_query:
+    # Also check if query mentions any known student name
+    query_lower = expanded_query.lower()
+    mentions_known_name = any(name in query_lower for name in KNOWN_NAMES if len(name) >= 3)
+    
+    if is_student_query or mentions_known_name:
         for chunk in DATA_CHUNKS:
-             if "student" in chunk["source"].lower() and chunk["text"].strip().startswith("["):
-                 if chunk["source"] not in used_sources and len(context) + chunk["size"] < max_chars:
-                    context += f"--- Source: {chunk['source']} (PRIORITY: Student Data) ---\n{chunk['text']}\n\n"
+            if "student" in chunk["source"].lower():
+                if chunk["source"] not in used_sources:
+                    context += f"--- Source: {chunk['source']} (PRIORITY: Student Data - COMPLETE LIST) ---\n{chunk['text']}\n\n"
                     used_sources.add(chunk["source"])
+                    print(f"[OK] Force-included COMPLETE student data: {chunk['source']}")
     
     if not query_words_list:
         sorted_chunks = sorted(DATA_CHUNKS, key=lambda x: x["source"])
@@ -1032,15 +1041,36 @@ async def chat_endpoint(request: ChatRequest):
         }
     ]
 
+    # Detect student-related queries for special handling
+    student_list_keywords = ["list", "all", "students", "student", "how many", "who", "name"]
+    is_student_list_query = sum(1 for kw in student_list_keywords if kw in expanded_message) >= 2
+    mentions_known_student = any(name in expanded_message.lower() for name in KNOWN_NAMES if len(name) >= 3)
+    
+    student_instruction = ""
+    if is_student_list_query:
+        student_instruction = (
+            "\n**CRITICAL STUDENT DATA RULE**: When listing students (e.g., 'list all civil engineering students'), "
+            "you MUST list EVERY SINGLE student from the data without exception. Do NOT skip, truncate, "
+            "or summarize the list. List ALL of them with their full names and registration numbers. "
+            "The user expects the COMPLETE list. If there are 42 students, list all 42.\n"
+        )
+    elif mentions_known_student:
+        student_instruction = (
+            "\n**STUDENT LOOKUP RULE**: The student data provided contains the COMPLETE list of FUTIA pioneer students (2023-2024 set). "
+            "When asked if someone is a student, carefully search through ALL the student records in the data. "
+            "Match by first name, last name, or both. If you find a match, confirm they ARE a student and provide their details "
+            "(full name, registration number, department, gender, state). NEVER say you can't confirm if a student exists "
+            "when their name is in the data.\n"
+        )
+
     agent_system_prompt = (
         f"{base_system}\n"
-        f"{typo_text}\n{ambiguity_text}\n{direction_instruction}\n"
+        f"{typo_text}\n{ambiguity_text}\n{direction_instruction}\n{student_instruction}\n"
         "**YOUR INSTRUCTIONS**:\n"
         "1. Answer the user's query using the LOCAL SCHOOL DATA below if possible.\n"
         "2. If the answer is NOT in the local data, you MUST use the `perform_web_search` tool to search the internet (specifically the school's website).\n"
         "3. If you STILL cannot find the answer after searching the web, clearly state that the information isn't available right now. Then, you may proactively ask the user a relevant question to keep the conversation engaging, BUT this question MUST be strictly based on the provided LOCAL SCHOOL DATA. Do NOT invent, assume, or make up facts (e.g., about new buildings or lectures) that are not explicitly in your local data.\n"
         "4. NEVER mention source file names, JSON files, data origins, or internal modes. Answer naturally as FUTIAN.\n"
-        "5. When asked to list items (like all students in a department or all courses), you MUST list ALL of them completely. Do not truncate the list to a small number (like 16) or omit any items safely provided in the context.\n"
     )
 
     if local_context and "No specific data found" not in local_context:
@@ -1053,7 +1083,9 @@ async def chat_endpoint(request: ChatRequest):
     messages.append({"role": "user", "content": user_content_payload})
 
     # Initial Agent Call
-    ai_message = query_ai_model(messages, temperature=0.2, max_tokens=4000, tools=tools)
+    # Use higher token limit for student listing queries to ensure complete lists
+    response_max_tokens = 4096 if (is_student_list_query or mentions_known_student) else 1500
+    ai_message = query_ai_model(messages, temperature=0.2, max_tokens=response_max_tokens, tools=tools)
 
     if not ai_message:
         return {"response": "I'm having trouble connecting to my brain right now."}
@@ -1089,7 +1121,7 @@ async def chat_endpoint(request: ChatRequest):
                 })
         
         print("[FLOW] Sending web results back to AI generation...")
-        final_message = query_ai_model(messages, temperature=0.3, max_tokens=4000)
+        final_message = query_ai_model(messages, temperature=0.3, max_tokens=1500)
         if final_message and final_message.get("content"):
             return {"response": clean_response(final_message["content"])}
 

@@ -457,7 +457,27 @@ svg tspan {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+}
+
+.sidebar-grid .building-card-name .card-name-inner {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.sidebar-grid .building-card-name .card-name-inner.sliding {
+    animation: slideCardName 4s ease-in-out infinite;
+}
+
+@keyframes slideCardName {
+    0%, 15% {
+        transform: translateX(0);
+    }
+    40%, 60% {
+        transform: translateX(var(--slide-distance, -30px));
+    }
+    85%, 100% {
+        transform: translateX(0);
+    }
 }
 
 .sidebar-grid .building-card:hover {
@@ -3435,9 +3455,12 @@ body.dark-mode .trigger-icon {
     font-size: 16px;
     font-weight: 700;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     display: block;
+    width: max-content;
+}
+
+.trigger-value.sliding {
+    animation: slideCardName 4s ease-in-out infinite;
 }
 
 .trigger-chevron {
@@ -3783,10 +3806,15 @@ body.dark-mode .picker-thumb {
 
 .picker-item-name {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
+    color: var(--text-primary);
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    display: block;
+    width: max-content;
+}
+
+.picker-item-name.sliding {
+    animation: slideCardName 4s ease-in-out infinite;
 }
 
 .picker-item-action {

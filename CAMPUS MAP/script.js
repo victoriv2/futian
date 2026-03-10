@@ -1447,6 +1447,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Toggle Go Button
         directionModalGo.classList.toggle('incomplete', !(startVal && endVal));
+
+        // Check for overflowing trigger-value text and add sliding animation
+        setTimeout(() => {
+            [directionStartDisplay, directionEndDisplay].forEach(el => {
+                el.classList.remove('sliding');
+                el.style.removeProperty('--slide-distance');
+                const parentWidth = el.parentElement ? el.parentElement.clientWidth : el.clientWidth;
+                if (el.scrollWidth > parentWidth && parentWidth > 0) {
+                    const overflow = el.scrollWidth - parentWidth;
+                    el.style.setProperty('--slide-distance', `-${overflow + 12}px`);
+                    el.classList.add('sliding');
+                }
+            });
+        }, 100);
     }
 
     // Initialize triggers
@@ -1548,6 +1562,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 listContainer.appendChild(item);
+
+                // Detect overflow and add sliding for picker item names
+                const nameEl = item.querySelector('.picker-item-name');
+                const infoEl = item.querySelector('.picker-item-info');
+                if (nameEl && infoEl) {
+                    // Small delay to ensure render is complete
+                    setTimeout(() => {
+                        if (nameEl.scrollWidth > infoEl.clientWidth && infoEl.clientWidth > 0) {
+                            const overflow = nameEl.scrollWidth - infoEl.clientWidth;
+                            nameEl.style.setProperty('--slide-distance', `-${overflow + 12}px`);
+                            nameEl.classList.add('sliding');
+                        }
+                    }, 200 + (index * 20)); // Stagger slightly based on index
+                }
             });
         }
     }
@@ -2542,7 +2570,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (building.thumbnail) {
                 card.innerHTML = `
                     <img src="${building.thumbnail}" alt="${building.name}" loading="lazy">
-                    <div class="building-card-name">${building.name}</div>
+                    <div class="building-card-name"><span class="card-name-inner">${building.name}</span></div>
                     <div class="building-card-badge">View</div>
                 `;
             } else {
@@ -2554,7 +2582,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <polyline points="21 15 16 10 5 21"></polyline>
                         </svg>
                     </div>
-                    <div class="building-card-name">${building.name}</div>
+                    <div class="building-card-name"><span class="card-name-inner">${building.name}</span></div>
                 `;
             }
 
@@ -2572,7 +2600,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Initialize sidebar grid
-    populateSidebarGrid();
+    populateSidebarGrid().then(() => {
+        // After grid is populated, detect overflowing names and enable sliding
+        setTimeout(() => {
+            const nameEls = document.querySelectorAll('.sidebar-grid .building-card-name');
+            nameEls.forEach(nameEl => {
+                const inner = nameEl.querySelector('.card-name-inner');
+                if (inner && inner.scrollWidth > nameEl.clientWidth) {
+                    const overflow = inner.scrollWidth - nameEl.clientWidth;
+                    inner.style.setProperty('--slide-distance', `-${overflow + 8}px`);
+                    inner.classList.add('sliding');
+                }
+            });
+        }, 200);
+    });
 
     loadSVG();
 
