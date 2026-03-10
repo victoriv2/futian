@@ -907,7 +907,7 @@ const updateChatHistory = (role, text, chatId = currentChatId, oldTextToReplace 
     }
     saveHistory(history);
     if (currentChatId) {
-        localStorage.setItem('futianCurrentChatId', currentChatId);
+        sessionStorage.setItem('futianCurrentChatId', currentChatId);
     }
     renderHistorySidebar();
 }
@@ -946,7 +946,7 @@ const loadChat = (id) => {
     if (window.innerWidth <= 800) {
         sidebar.classList.remove('active');
     }
-    localStorage.setItem('futianCurrentChatId', currentChatId);
+    sessionStorage.setItem('futianCurrentChatId', currentChatId);
     showVersionText();
 }
 
@@ -1600,7 +1600,11 @@ let silenceTimer = null;
 if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     recognition = new SpeechRecognition();
-    recognition.continuous = true;
+    
+    // Disable continuous mode on mobile to fix the Android Chrome duplicate word bug
+    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    recognition.continuous = !isMobileDevice;
+    
     recognition.interimResults = true;
     recognition.lang = 'en-US';
 
@@ -2154,8 +2158,8 @@ searchInput.addEventListener('input', () => {
     }
 });
 
-// Load the active chat from localStorage on page load
-const savedCurrentActivityId = localStorage.getItem('futianCurrentChatId');
+// Load the active chat from sessionStorage on page load (persists on refresh, but not new tab)
+const savedCurrentActivityId = sessionStorage.getItem('futianCurrentChatId');
 if (savedCurrentActivityId) {
     loadChat(savedCurrentActivityId);
 }
