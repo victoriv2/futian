@@ -721,6 +721,16 @@ def get_smart_context(query: str, max_chars=200000) -> str:
                  if chunk["source"] not in used_sources and len(context) + chunk["size"] < max_chars:
                     context += f"--- Source: {chunk['source']} (PRIORITY: Creator Info) ---\n{chunk['text']}\n\n"
                     used_sources.add(chunk["source"])
+
+    # Smart Priority: Student Data
+    is_student_query = any(word in expanded_query for word in ["student", "department", "civil", "mechanical", "electrical", "computer", "engineering", "science", "software", "cyber", "aerospace", "microbiology", "biochemistry"]) or any(name in expanded_query.lower() for name in KNOWN_NAMES)
+    
+    if is_student_query:
+        for chunk in DATA_CHUNKS:
+             if "student" in chunk["source"].lower() and chunk["text"].strip().startswith("["):
+                 if chunk["source"] not in used_sources and len(context) + chunk["size"] < max_chars:
+                    context += f"--- Source: {chunk['source']} (PRIORITY: Student Data) ---\n{chunk['text']}\n\n"
+                    used_sources.add(chunk["source"])
     
     if not query_words_list:
         sorted_chunks = sorted(DATA_CHUNKS, key=lambda x: x["source"])
@@ -1030,6 +1040,7 @@ async def chat_endpoint(request: ChatRequest):
         "2. If the answer is NOT in the local data, you MUST use the `perform_web_search` tool to search the internet (specifically the school's website).\n"
         "3. If you STILL cannot find the answer after searching the web, clearly state that the information isn't available right now. Then, you may proactively ask the user a relevant question to keep the conversation engaging, BUT this question MUST be strictly based on the provided LOCAL SCHOOL DATA. Do NOT invent, assume, or make up facts (e.g., about new buildings or lectures) that are not explicitly in your local data.\n"
         "4. NEVER mention source file names, JSON files, data origins, or internal modes. Answer naturally as FUTIAN.\n"
+        "5. When asked to list items (like all students in a department or all courses), you MUST list ALL of them completely. Do not truncate the list to a small number (like 16) or omit any items safely provided in the context.\n"
     )
 
     if local_context and "No specific data found" not in local_context:
@@ -1042,7 +1053,7 @@ async def chat_endpoint(request: ChatRequest):
     messages.append({"role": "user", "content": user_content_payload})
 
     # Initial Agent Call
-    ai_message = query_ai_model(messages, temperature=0.2, max_tokens=1500, tools=tools)
+    ai_message = query_ai_model(messages, temperature=0.2, max_tokens=4000, tools=tools)
 
     if not ai_message:
         return {"response": "I'm having trouble connecting to my brain right now."}
@@ -1078,7 +1089,7 @@ async def chat_endpoint(request: ChatRequest):
                 })
         
         print("[FLOW] Sending web results back to AI generation...")
-        final_message = query_ai_model(messages, temperature=0.3, max_tokens=1500)
+        final_message = query_ai_model(messages, temperature=0.3, max_tokens=4000)
         if final_message and final_message.get("content"):
             return {"response": clean_response(final_message["content"])}
 

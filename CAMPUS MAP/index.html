@@ -712,6 +712,13 @@
             });
         }
 
+        // Listen for theme changes from the main FUTIAN app via localStorage
+        window.addEventListener('storage', (e) => {
+            if (e.key === 'futianTheme') {
+                applyThemeFromFutian();
+            }
+        });
+
         darkModeBtn.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
             const isDark = document.body.classList.contains('dark-mode');

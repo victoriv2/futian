@@ -28,7 +28,7 @@ const globalSearchResults = document.getElementById('global-search-results');
 const globalSearchCloseBtn = document.getElementById('global-search-close-btn');
 
 // Search Library Modal Elements
-const searchLibraryBtn = document.querySelectorAll('.sidebar-button')[3]; // "Search Library" button (4th button)
+const searchLibraryBtn = document.getElementById('search-library-btn');
 const searchLibraryOverlay = document.getElementById('search-library-modal-overlay');
 const searchLibraryQuestions = document.getElementById('search-library-questions');
 const searchLibraryCloseBtn = document.getElementById('search-library-close-btn');
@@ -811,12 +811,7 @@ const createBotMessageElement = (text) => {
             } catch (error) {
                 console.error('Retry error:', error);
 
-                let errorMessage = "⚠️ I apologize, but I encountered an error while retrying. ";
-                if (error.message.includes('Failed to fetch')) {
-                    errorMessage += "The backend server might not be running.";
-                } else {
-                    errorMessage += `Error: ${error.message}`;
-                }
+                let errorMessage = "Connecting failed, try again.";
 
                 // Update history with error, REPLACING the old message
                 updateChatHistory('bot', errorMessage, activeChatId, oldText);
@@ -911,6 +906,9 @@ const updateChatHistory = (role, text, chatId = currentChatId, oldTextToReplace 
         history.unshift(updatedChat);
     }
     saveHistory(history);
+    if (currentChatId) {
+        localStorage.setItem('futianCurrentChatId', currentChatId);
+    }
     renderHistorySidebar();
 }
 
@@ -948,6 +946,7 @@ const loadChat = (id) => {
     if (window.innerWidth <= 800) {
         sidebar.classList.remove('active');
     }
+    localStorage.setItem('futianCurrentChatId', currentChatId);
     showVersionText();
 }
 
@@ -1430,16 +1429,7 @@ const fetchBotResponse = async (userText) => {
         const loadingElement = document.getElementById(loadingId);
         if (loadingElement) loadingElement.remove();
 
-        let errorMessage = "I'm sorry, I'm having trouble connecting to the server. ";
-
-        // Provide more specific error messages
-        if (error.message.includes('Failed to fetch')) {
-            errorMessage += "The backend server might not be running. Please start the backend using 'python backend/main.py'.";
-        } else if (error.message.includes('Network response was not ok')) {
-            errorMessage += "The server returned an error. Please check the backend logs.";
-        } else {
-            errorMessage += `Error: ${error.message}`;
-        }
+        let errorMessage = "Connecting failed, try again.";
 
         console.error('📝 Displaying error message to user:', errorMessage);
 
@@ -1493,6 +1483,7 @@ const sendMessage = () => {
 };
 const resetChat = () => {
     currentChatId = null;
+    localStorage.removeItem('futianCurrentChatId');
     chatMessages.innerHTML = '';
     searchInput.value = '';
     searchInput.style.height = 'auto';
@@ -1708,8 +1699,7 @@ const fetchSuggestedQuestions = async () => {
         // Show error message instead of fallback questions
         searchLibraryQuestions.innerHTML = `
             <p style="color: #ff6b6b; font-size: 14px; text-align: center; padding: 20px;">
-                ❌ Failed to load suggested questions.<br>
-                Please check that the backend is running.
+                connecting failed, try again
             </p>
         `;
     }
@@ -2163,3 +2153,9 @@ searchInput.addEventListener('input', () => {
         showVersionText();
     }
 });
+
+// Load the active chat from localStorage on page load
+const savedCurrentActivityId = localStorage.getItem('futianCurrentChatId');
+if (savedCurrentActivityId) {
+    loadChat(savedCurrentActivityId);
+}
