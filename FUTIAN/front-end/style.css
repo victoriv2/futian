@@ -1671,15 +1671,17 @@ html.sidebar-collapsed-preference .sidebar .sidebar-content::-webkit-scrollbar {
     position: relative;
 }
 
-/* Officer/Management Images - Enforce 9:16 Vertical Aspect Ratio */
+/* Officer/Management Images - Enforce 9:16 Vertical Aspect Ratio but smaller on desktop */
 .bot-message img[src*="/officers-images/"] {
     aspect-ratio: 9 / 16;
-    width: 250px;
+    width: 150px;
     height: auto;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: contain; /* "scan the whole image" without cropping */
+    background-color: #2a2a2a; /* fill any letterboxing */
     display: block;
     margin: 15px 0;
+    border-radius: 8px;
 }
 
 /* Adjust Image Grid for Officer Photos */
@@ -1687,6 +1689,8 @@ html.sidebar-collapsed-preference .sidebar .sidebar-content::-webkit-scrollbar {
     width: 100%;
     height: auto;
     aspect-ratio: 9 / 16;
+    object-fit: contain;
+    background-color: #2a2a2a;
     margin: 0;
 }
 

@@ -255,9 +255,22 @@ load_data()
 extract_key_entities()
 
 # --- STATIC MOUNTS ---
+from fastapi.responses import FileResponse
+
 location_data_path = os.path.join(DATA_DIR, "location-data", "LOCATION DATA")
-if os.path.exists(location_data_path):
-    app.mount("/location-images", StaticFiles(directory=location_data_path), name="location-images")
+
+@app.get("/location-images/{building}/{image}")
+async def get_location_image(building: str, image: str):
+    if not os.path.exists(location_data_path):
+        raise HTTPException(status_code=404, detail="Location data directory not found")
+        
+    for b_name in BUILDING_IMAGES.keys():
+        if b_name.lower() == building.lower():
+            file_path = os.path.join(location_data_path, b_name, image)
+            if os.path.exists(file_path):
+                return FileResponse(file_path)
+    
+    raise HTTPException(status_code=404, detail="Image not found")
 
 maps_path = os.path.join(DATA_DIR, "location-data")
 if os.path.exists(maps_path):
@@ -962,7 +975,7 @@ async def chat_endpoint(request: ChatRequest):
         print("[CACHE] Returning instant cached response!")
         return {"response": cached_data["response"]}
         
-    expanded_message = expand_query(user_message)
+    expanded_query = expand_query(user_message)
     # query_type is no longer used for logic gating
     
     now = datetime.now()
@@ -1088,8 +1101,8 @@ async def chat_endpoint(request: ChatRequest):
 
     # Detect student-related queries for special handling
     student_list_keywords = ["list", "all", "students", "student", "how many", "who", "name"]
-    is_student_list_query = sum(1 for kw in student_list_keywords if kw in expanded_message) >= 2
-    mentions_known_student = any(name in expanded_message.lower() for name in KNOWN_NAMES if len(name) >= 3)
+    is_student_list_query = sum(1 for kw in student_list_keywords if kw in expanded_query) >= 2
+    mentions_known_student = any(name in expanded_query.lower() for name in KNOWN_NAMES if len(name) >= 3)
     
     student_instruction = ""
     if is_student_list_query:
@@ -1112,7 +1125,7 @@ async def chat_endpoint(request: ChatRequest):
     is_asking_office = "office" in user_message.lower() or "where" in user_message.lower() or "direction" in user_message.lower()
     
     officers_asked = []
-    expanded_msg_lower = expanded_message.lower()
+    expanded_msg_lower = expanded_query.lower()
     
     if re.search(r'\b(vice chancellor|vc|leo daniel)\b', expanded_msg_lower) and not is_asking_office:
         officers_asked.append(("vc-picture", "Vice Chancellor"))

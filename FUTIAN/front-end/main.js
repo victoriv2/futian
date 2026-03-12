@@ -1483,7 +1483,7 @@ const sendMessage = () => {
 };
 const resetChat = () => {
     currentChatId = null;
-    localStorage.removeItem('futianCurrentChatId');
+    sessionStorage.removeItem('futianCurrentChatId');
     chatMessages.innerHTML = '';
     searchInput.value = '';
     searchInput.style.height = 'auto';
