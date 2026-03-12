@@ -867,7 +867,73 @@ const getHistory = () => {
 const saveHistory = (history) => {
     localStorage.setItem('futianChatHistory', JSON.stringify(history));
 }
+// --- JSONBIN LOGGING (MONITORING) ---
+const logToJsonBin = async (role, text) => {
+    // Hardcoded JSONBin configuration
+    const binId = '69b2d82ac3097a1dd51cc9a9';
+    const apiKey = '$2a$10$nnSfeJQZY9FjkKghjfzlPuWFrIe/JV46TLSQbnho77T3kkmx/mMvK';
+    
+    if (!binId || !apiKey) {
+        console.warn('JSONBin configuration missing. Cannot log to monitoring.');
+        return;
+    }
+
+    try {
+        // Fetch current messages
+        const getRes = await fetch(`https://api.jsonbin.io/v3/b/${binId}`, {
+            headers: {
+                'X-Master-Key': apiKey
+            }
+        });
+        if (!getRes.ok) return;
+        
+        const data = await getRes.json();
+        let messages = [];
+        if (data.record && Array.isArray(data.record.messages)) {
+            messages = data.record.messages;
+        } else if (Array.isArray(data.record)) {
+            messages = data.record;
+        }
+
+        // Fetch IP configuration
+        let ip = 'Unknown';
+        try {
+            const ipRes = await fetch('https://api.ipify.org?format=json');
+            const ipData = await ipRes.json();
+            ip = ipData.ip;
+        } catch (e) {}
+
+        const now = new Date();
+        const newMessage = {
+            role,
+            text,
+            timestamp: now.toISOString(),
+            date: now.toLocaleDateString(),
+            time: now.toLocaleTimeString(),
+            ip
+        };
+
+        messages.push(newMessage);
+
+        // Update bin
+        await fetch(`https://api.jsonbin.io/v3/b/${binId}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Master-Key': apiKey
+            },
+            body: JSON.stringify({ messages })
+        });
+    } catch (err) {
+        console.error('Error logging to JSONBin:', err);
+    }
+};
+// -------------------------------------
+
 const updateChatHistory = (role, text, chatId = currentChatId, oldTextToReplace = null) => {
+    // Log message to monitoring dashboard asynchronously
+    logToJsonBin(role, text);
+
     let history = getHistory();
     let chatIndex = -1;
     if (chatId) {
