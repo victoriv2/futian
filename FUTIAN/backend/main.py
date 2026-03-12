@@ -1134,13 +1134,21 @@ async def chat_endpoint(request: ChatRequest):
             f"{' '.join(img_mds)}\n"
         )
 
-    vc_formatting_instruction = (
-        "\n**FORMATTING RULE**: When giving the name of the Vice Chancellor, format it EXACTLY like this: **Professor Leo Daniel** FIM, AFAIAA, FRAeS. Do NOT bold the titles 'FIM, AFAIAA, FRAeS'.\n"
+    formatting_instruction = (
+        "\n**FORMATTING RULE**: When giving the names of university officers, DO NOT bold their academic or professional titles. For example, use the following exact formats:\n"
+        "- **His Excellency, Bola Ahmed Tinubu** GCFR\n"
+        "- **Professor Leo Daniel** FIM, AFAIAA, FRAeS\n"
+        "- **Offiongita Esessien Nkang (Mrs.)** MNIM, MANUPA, FANPA\n"
+        "- **Dr. Mbobo Erasmus Mbobo** FCA\n"
+        "- **Professor Philip Usman Akor** CLN, MNLA, MNALISE\n"
+        "- **Prof. Felicia Edu-uwem Etim** CLN, FLNA, FCAI, FCIL\n"
+        "- **Dr. Imeh Jonah Umoren** MNCS, MCPN, MIEEE, MISOC\n"
+        "Never include these suffixes/titles inside the markdown bold tags `**...**`.\n"
     )
 
     agent_system_prompt = (
         f"{base_system}\n"
-        f"{typo_text}\n{ambiguity_text}\n{direction_instruction}\n{student_instruction}\n{officer_instruction}\n{vc_formatting_instruction}\n"
+        f"{typo_text}\n{ambiguity_text}\n{direction_instruction}\n{student_instruction}\n{officer_instruction}\n{formatting_instruction}\n"
         "**YOUR INSTRUCTIONS**:\n"
         "1. Answer the user's query using the LOCAL SCHOOL DATA below if possible.\n"
         "2. If the answer is NOT in the local data, you MUST use the `perform_web_search` tool to search the internet (specifically the school's website).\n"

@@ -2138,3 +2138,33 @@ const savedCurrentActivityId = sessionStorage.getItem('futianCurrentChatId');
 if (savedCurrentActivityId) {
     loadChat(savedCurrentActivityId);
 }
+
+// Mobile keyboard handling (to prevent keyboard from pushing/covering the main chat)
+function handleMobileKeyboardResize() {
+    let viewportHeight = window.innerHeight;
+    if (window.visualViewport) {
+        viewportHeight = window.visualViewport.height;
+    }
+    document.body.style.height = viewportHeight + 'px';
+    const container = document.querySelector('.container');
+    if (container) {
+        container.style.height = viewportHeight + 'px';
+    }
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar) {
+        sidebar.style.height = viewportHeight + 'px';
+    }
+    const chatContainer = document.getElementById('chat-container');
+    if (chatContainer) {
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+}
+
+if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', handleMobileKeyboardResize);
+    window.visualViewport.addEventListener('scroll', handleMobileKeyboardResize);
+} else {
+    window.addEventListener('resize', handleMobileKeyboardResize);
+}
+// Set initial height
+handleMobileKeyboardResize();
