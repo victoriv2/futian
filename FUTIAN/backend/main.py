@@ -1037,7 +1037,10 @@ async def chat_endpoint(request: ChatRequest):
             img_md = ""
             for img in imgs:
                 from urllib.parse import quote
-                img_md += f"![{building_query_match}]({BASE_URL}/location-images/{quote(building_query_match)}/{quote(img)}) "
+                # Ensure all special characters including apostrophes are properly encoded for Markdown links
+                safe_folder = quote(building_query_match, safe='')
+                safe_img = quote(img, safe='')
+                img_md += f"![{building_query_match}]({BASE_URL}/location-images/{safe_folder}/{safe_img}) "
             if img_md: img_md = "\n\n" + img_md
 
             direction_instruction = (
