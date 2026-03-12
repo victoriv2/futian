@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Imoh Stephen Ukpabio",
-      "primary_role": "Assistant Researcher One",
+      "primary_role": "Co-Founder and Assistant Researcher",
       "specializations": [
         "UI/UX Designer"
       ]
@@ -21,9 +21,10 @@
     {
       "id": 3,
       "name": "Israel Odudu Anietie",
-      "primary_role": "Assistant Researcher Two",
+      "primary_role": "Assistant Researcher",
       "specializations": [
         "Data Scientist"
+        "Social media manager"
       ]
     },
     {

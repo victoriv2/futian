@@ -1130,7 +1130,8 @@ async def chat_endpoint(request: ChatRequest):
             img_mds.append(f"![{title}]({BASE_URL}/officers-images/{quote(folder)}/1.jpg)")
         
         officer_instruction = (
-            f"\n**OFFICER PICTURE TASK**: The user is asking about an official. You MUST include their picture in your response exactly as formatted below:\n"
+            f"\n**CRITICAL OFFICER PICTURE TASK**: The user is asking about an official. You MUST start your response with their picture(s) at the VERY TOP. DO NOT write any introductory text (like 'Here is the picture of...') before the image markdown. Output the images first, then provide the text description.\n"
+            f"IMAGES TO DISPLAY AT TOP:\n"
             f"{' '.join(img_mds)}\n"
         )
 

@@ -1671,6 +1671,25 @@ html.sidebar-collapsed-preference .sidebar .sidebar-content::-webkit-scrollbar {
     position: relative;
 }
 
+/* Officer/Management Images - Enforce 9:16 Vertical Aspect Ratio */
+.bot-message img[src*="/officers-images/"] {
+    aspect-ratio: 9 / 16;
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 15px 0;
+}
+
+/* Adjust Image Grid for Officer Photos */
+.image-grid img[src*="/officers-images/"] {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9 / 16;
+    margin: 0;
+}
+
 /* Ensure paragraphs in bot messages have proper spacing */
 .bot-message p {
     margin: 10px 0;
