@@ -1995,20 +1995,8 @@ document.addEventListener('touchend', (e) => {
     touchEndX = e.changedTouches[0].screenX;
     const swipeDistance = touchEndX - touchStartX;
 
-    // Mobile: Swipe left-to-right (open sidebar) - only if starting from left edge
-    if (window.innerWidth <= 800) {
-        if (swipeDistance > swipeThreshold && touchStartX < 50 && !sidebar.classList.contains('active')) {
-            sidebar.classList.add('active');
-        }
-    }
-    // Desktop: Swipe left-to-right (expand sidebar if collapsed) - from left edge
-    else {
-        if (swipeDistance > swipeThreshold && touchStartX < 50 && sidebar.classList.contains('collapsed')) {
-            sidebar.classList.remove('collapsed');
-            container.classList.remove('expanded');
-            localStorage.setItem('futianSidebarCollapsed', 'false');
-        }
-    }
+    // Mobile: Swipe left-to-right (open sidebar) functionality removed
+    // Desktop: Swipe left-to-right (expand sidebar if collapsed) functionality removed
 }, { passive: true });
 
 // Swipe on sidebar to open/close it
@@ -2036,14 +2024,9 @@ sidebar.addEventListener('touchend', (e) => {
     }
     // Desktop mode
     else {
-        // Swipe left-to-right on collapsed sidebar (expand it)
-        if (swipeDistanceRight > swipeThreshold && sidebar.classList.contains('collapsed')) {
-            sidebar.classList.remove('collapsed');
-            container.classList.remove('expanded');
-            localStorage.setItem('futianSidebarCollapsed', 'false');
-        }
+        // Swipe left-to-right on collapsed sidebar (expand it) functionality removed
         // Swipe right-to-left on expanded sidebar (collapse it)
-        else if (swipeDistanceLeft > swipeThreshold && !sidebar.classList.contains('collapsed')) {
+        if (swipeDistanceLeft > swipeThreshold && !sidebar.classList.contains('collapsed')) {
             sidebar.classList.add('collapsed');
             container.classList.add('expanded');
             localStorage.setItem('futianSidebarCollapsed', 'true');
@@ -2072,12 +2055,9 @@ mainContainer.addEventListener('touchend', (e) => {
 
     // Mobile mode (<=800px)
     if (width <= 800) {
-        // Swipe left-to-right on main container (open menu bar)
-        if (swipeDistance > swipeThreshold && !sidebar.classList.contains('active')) {
-            sidebar.classList.add('active');
-        }
+        // Swipe left-to-right on main container (open menu bar) functionality removed
         // Swipe right-to-left on main container (close menu bar if open)
-        else if (swipeDistance < -swipeThreshold && sidebar.classList.contains('active')) {
+        if (swipeDistance < -swipeThreshold && sidebar.classList.contains('active')) {
             sidebar.classList.remove('active');
             const sidebarContent = document.querySelector('.sidebar-content');
             if (sidebarContent) sidebarContent.scrollTop = 0;
@@ -2085,14 +2065,9 @@ mainContainer.addEventListener('touchend', (e) => {
     }
     // Desktop mode (>1024px)
     else {
-        // Swipe left-to-right (expand sidebar if collapsed)
-        if (swipeDistance > swipeThreshold && sidebar.classList.contains('collapsed')) {
-            sidebar.classList.remove('collapsed');
-            container.classList.remove('expanded');
-            localStorage.setItem('futianSidebarCollapsed', 'false');
-        }
+        // Swipe left-to-right (expand sidebar if collapsed) functionality removed
         // Swipe right-to-left (collapse sidebar if expanded)
-        else if (swipeDistance < -swipeThreshold && !sidebar.classList.contains('collapsed')) {
+        if (swipeDistance < -swipeThreshold && !sidebar.classList.contains('collapsed')) {
             sidebar.classList.add('collapsed');
             container.classList.add('expanded');
             localStorage.setItem('futianSidebarCollapsed', 'true');

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
     <title>Campus Navigator | Interactive Map</title>
     <link rel="icon" type="image/png" href="Futia_LogoX.png">
     <meta name="description"
@@ -638,6 +638,35 @@
 
     <script src="script.js"></script>
     <script>
+        // ===== MOBILE KEYBOARD HANDLING =====
+        // Dynamically resize picker modal when mobile keyboard opens/closes
+        if (window.visualViewport) {
+            function handleViewportResize() {
+                const pickerContainer = document.querySelector('.location-picker-modula.active .picker-container');
+                if (pickerContainer) {
+                    const viewportHeight = window.visualViewport.height;
+                    const offsetTop = window.visualViewport.offsetTop;
+                    pickerContainer.style.height = viewportHeight + 'px';
+                    pickerContainer.style.top = offsetTop + 'px';
+                    pickerContainer.style.bottom = 'auto';
+                } else {
+                    // Reset when picker is not active
+                    document.querySelectorAll('.picker-container').forEach(el => {
+                        el.style.height = '';
+                        el.style.top = '';
+                        el.style.bottom = '';
+                    });
+                }
+
+                // Also prevent body from scrolling when keyboard is open
+                document.body.style.height = window.visualViewport.height + 'px';
+                document.body.style.overflow = 'hidden';
+            }
+
+            window.visualViewport.addEventListener('resize', handleViewportResize);
+            window.visualViewport.addEventListener('scroll', handleViewportResize);
+        }
+
         // Help modal functionality
         const helpBtn = document.getElementById('help-btn');
         const helpModal = document.getElementById('help-modal');

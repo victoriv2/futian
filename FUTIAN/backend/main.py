@@ -263,6 +263,10 @@ maps_path = os.path.join(DATA_DIR, "location-data")
 if os.path.exists(maps_path):
     app.mount("/maps", StaticFiles(directory=maps_path), name="maps")
 
+officer_images_path = os.path.join(DATA_DIR, "vc-registrar-bursar-librarian")
+if os.path.exists(officer_images_path):
+    app.mount("/officers-images", StaticFiles(directory=officer_images_path), name="officers-images")
+
 if os.path.exists(FRONTEND_DIR):
     app.mount("/app", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend_app")
 
@@ -1104,9 +1108,39 @@ async def chat_endpoint(request: ChatRequest):
             "when their name is in the data.\n"
         )
 
+    officer_instruction = ""
+    is_asking_office = "office" in user_message.lower() or "where" in user_message.lower() or "direction" in user_message.lower()
+    
+    officers_asked = []
+    expanded_msg_lower = expanded_message.lower()
+    
+    if re.search(r'\b(vice chancellor|vc|leo daniel)\b', expanded_msg_lower) and not is_asking_office:
+        officers_asked.append(("vc-picture", "Vice Chancellor"))
+    if re.search(r'\b(registrar|nkang)\b', expanded_msg_lower) and not is_asking_office:
+        officers_asked.append(("registrar-picture", "Registrar"))
+    if re.search(r'\b(bursar|mbobo)\b', expanded_msg_lower) and not is_asking_office:
+        officers_asked.append(("bursar-picture", "Bursar"))
+    if re.search(r'\b(librarian|akor)\b', expanded_msg_lower) and not is_asking_office:
+        officers_asked.append(("librarian-picture", "University Librarian"))
+
+    if officers_asked:
+        img_mds = []
+        from urllib.parse import quote
+        for folder, title in officers_asked:
+            img_mds.append(f"![{title}]({BASE_URL}/officers-images/{quote(folder)}/1.jpg)")
+        
+        officer_instruction = (
+            f"\n**OFFICER PICTURE TASK**: The user is asking about an official. You MUST include their picture in your response exactly as formatted below:\n"
+            f"{' '.join(img_mds)}\n"
+        )
+
+    vc_formatting_instruction = (
+        "\n**FORMATTING RULE**: When giving the name of the Vice Chancellor, format it EXACTLY like this: **Professor Leo Daniel** FIM, AFAIAA, FRAeS. Do NOT bold the titles 'FIM, AFAIAA, FRAeS'.\n"
+    )
+
     agent_system_prompt = (
         f"{base_system}\n"
-        f"{typo_text}\n{ambiguity_text}\n{direction_instruction}\n{student_instruction}\n"
+        f"{typo_text}\n{ambiguity_text}\n{direction_instruction}\n{student_instruction}\n{officer_instruction}\n{vc_formatting_instruction}\n"
         "**YOUR INSTRUCTIONS**:\n"
         "1. Answer the user's query using the LOCAL SCHOOL DATA below if possible.\n"
         "2. If the answer is NOT in the local data, you MUST use the `perform_web_search` tool to search the internet (specifically the school's website).\n"

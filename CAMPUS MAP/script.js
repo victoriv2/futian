@@ -1482,8 +1482,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Initial render
         renderPickerList('');
 
-        // Focus search after animation
-        setTimeout(() => pickerSearchInput.focus(), 300);
+        // Don't auto-focus search input - user should tap it to activate
     }
 
     function closeLocationPicker() {
@@ -1882,45 +1881,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadBuildingImages(folderPath) {
-        // Common image extensions
-        const extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
-        const images = [];
-        const checkPromises = [];
+        // Reordered extensions by likelihood to match them faster
+        const extensions = ['jpg', 'png', 'jpeg', 'webp', 'gif'];
+        const validImages = [];
+        let consecutiveMissing = 0;
 
-        // Try to load images numbered from 1 to 20 - use parallel checking for speed
+        // Load sequentially instead of firing 100 requests simultaneously to avoid overloading the network queue
         for (let i = 1; i <= 20; i++) {
+            let found = false;
             for (const ext of extensions) {
                 const imagePath = `${folderPath}/${i}.${ext}`;
-                checkPromises.push(
-                    checkImageExists(imagePath).then(exists => {
-                        if (exists) {
-                            return { path: imagePath, index: i };
-                        }
-                        return null;
-                    })
-                );
+                const exists = await checkImageExists(imagePath);
+                if (exists) {
+                    validImages.push(imagePath);
+                    found = true;
+                    consecutiveMissing = 0;
+                    break; // Stop checking other extensions once we find the image
+                }
+            }
+            if (!found) {
+                consecutiveMissing++;
+                // If 2 sequential numbers are missing, assume there are no more to prevent wasted requests
+                if (consecutiveMissing >= 2) break;
             }
         }
 
-        // Wait for all checks to complete
-        const results = await Promise.all(checkPromises);
-
-        // Filter valid images and sort by index
-        const validImages = results.filter(r => r !== null);
-
-        // Remove duplicates (same index different extension)
-        const uniqueImages = [];
-        const seenIndices = new Set();
-        validImages.forEach(img => {
-            if (!seenIndices.has(img.index)) {
-                seenIndices.add(img.index);
-                uniqueImages.push(img);
-            }
-        });
-
-        // Sort by index and return paths
-        uniqueImages.sort((a, b) => a.index - b.index);
-        return uniqueImages.map(img => img.path);
+        return validImages;
     }
 
     function checkImageExists(url) {
@@ -2344,8 +2330,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Count images in a folder
     async function countBuildingImages(folderPath) {
-        const extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+        const extensions = ['jpg', 'png', 'jpeg', 'webp', 'gif'];
         let count = 0;
+        let consecutiveMissing = 0;
 
         for (let i = 1; i <= 20; i++) {
             let found = false;
@@ -2355,10 +2342,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (exists) {
                     count++;
                     found = true;
+                    consecutiveMissing = 0;
                     break;
                 }
             }
-            if (!found && i > 5) break; // Stop early if no images found after index 5
+            if (!found) {
+                consecutiveMissing++;
+                // Stop early to prevent unnecessary network requests and speed up UI loading
+                if (consecutiveMissing >= 2) break; 
+            }
         }
         return count;
     }
