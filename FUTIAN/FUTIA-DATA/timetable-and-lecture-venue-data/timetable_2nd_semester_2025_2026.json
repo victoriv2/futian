@@ -1,0 +1,601 @@
+{
+  "document_info": {
+    "title": "DRAFT II LECTURE TIMETABLE FOR SECOND SEMESTER",
+    "academic_session": "2025/2026",
+    "institution": "FEDERAL UNIVERSITY OF TECHNOLOGY, IKOT ABASI (FUTIA)",
+    "status": "DRAFT II",
+    "levels_covered": "100, 200 AND 300 LEVELS"
+  },
+  "timetable": [
+    {
+      "day": "MONDAY",
+      "venues": [
+        {
+          "venue_name": "AUDITORIUM",
+          "slots": [
+            { "time": "8-10", "course": "GST 212" },
+            { "time": "10-12", "course": "GET/FGET 206" },
+            { "time": "1-3", "course": "FCYB 214" },
+            { "time": "3-5", "course": "GET 202" }
+          ]
+        },
+        {
+          "venue_name": "PAVILLION",
+          "slots": [
+            { "time": "8-10", "course": "GST 112" },
+            { "time": "10-12", "course": "PHY 102" },
+            { "time": "1-3", "course": "FAA 104" },
+            { "time": "3-5", "course": "PHY 108" }
+          ]
+        },
+        {
+          "venue_name": "CIT 1",
+          "slots": [
+            { "time": "10-12", "course": "BCH 204" },
+            { "time": "1-3", "course": "FCHM 221" },
+            { "time": "3-5", "course": "BUD 292" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 1",
+          "slots": [
+            { "time": "10-12", "course": "MTH 204" },
+            { "time": "1-3", "course": "LIT 212" },
+            { "time": "3-5", "course": "NAR 202" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 2",
+          "slots": [
+            { "time": "10-12", "course": "FEEE 312" },
+            { "time": "1-3", "course": "AGR 202" },
+            { "time": "3-5", "course": "EEE 324" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 3",
+          "slots": [
+            { "time": "10-12", "course": "PHY 304" },
+            { "time": "1-3", "course": "LIT 112" },
+            { "time": "3-5", "course": "FLIT 122" }
+          ]
+        },
+        {
+          "venue_name": "PAS 1",
+          "slots": [
+            { "time": "10-12", "course": "CSC 308" },
+            { "time": "1-3", "course": "CSC 322" },
+            { "time": "3-5", "course": "FSEN 206" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 1",
+          "slots": [
+            { "time": "8-10", "course": "GST 312" },
+            { "time": "10-12", "course": "MCB 398" },
+            { "time": "1-3", "course": "BCH 308" },
+            { "time": "3-5", "course": "ARC 202" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 2",
+          "slots": [
+            { "time": "10-12", "course": "BCH 306" },
+            { "time": "1-3", "course": "PHY 204" }
+          ]
+        },
+        {
+          "venue_name": "NPC HALL",
+          "slots": [
+            { "time": "10-12", "course": "MEE 306" },
+            { "time": "1-3", "course": "CEE 304" },
+            { "time": "3-5", "course": "ASE 302" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 1",
+          "slots": [
+            { "time": "1-3", "course": "ACC 102" },
+            { "time": "3-5", "course": "BUM 102" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 2",
+          "slots": [
+            { "time": "1-3", "course": "HTM 104" },
+            { "time": "3-5", "course": "TPM 102" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 3",
+          "slots": [
+            { "time": "1-3", "course": "BUM 202" },
+            { "time": "3-5", "course": "ACC 202" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 4",
+          "slots": [
+            { "time": "1-3", "course": "HTM 214" }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "TUESDAY",
+      "venues": [
+        {
+          "venue_name": "AUDITORIUM",
+          "slots": [
+            { "time": "8-10", "course": "COS/FCOS 202" },
+            { "time": "10-12", "course": "GET 210" },
+            { "time": "1-3", "course": "FSEN 112" },
+            { "time": "3-5", "course": "INS/FINS 204" }
+          ]
+        },
+        {
+          "venue_name": "PAVILLION",
+          "slots": [
+            { "time": "8-10", "course": "COS/FCOS 102" },
+            { "time": "10-12", "course": "BIO 102" },
+            { "time": "1-3", "course": "STA 112" },
+            { "time": "3-5", "course": "BIO 108" }
+          ]
+        },
+        {
+          "venue_name": "CIT 1",
+          "slots": [
+            { "time": "8-10", "course": "BCH 202" },
+            { "time": "10-12", "course": "FCYB 104" },
+            { "time": "1-3", "course": "FCHM 210" },
+            { "time": "3-5", "course": "CYB 304" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 1",
+          "slots": [
+            { "time": "8-10", "course": "BUD 222" },
+            { "time": "10-12", "course": "MTH 210" },
+            { "time": "1-3", "course": "AGG 102" },
+            { "time": "3-5", "course": "NAR 204" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 2",
+          "slots": [
+            { "time": "8-10", "course": "AGR 204" },
+            { "time": "10-12", "course": "QTS 104" },
+            { "time": "1-3", "course": "FAA 126" },
+            { "time": "3-5", "course": "EEE 204" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 3",
+          "slots": [
+            { "time": "8-10", "course": "PHY 306" },
+            { "time": "10-12", "course": "BUD 104" },
+            { "time": "1-3", "course": "FSEN 304" },
+            { "time": "3-5", "course": "LIT 114" }
+          ]
+        },
+        {
+          "venue_name": "PAS 1",
+          "slots": [
+            { "time": "8-10", "course": "FCSC 314" },
+            { "time": "10-12", "course": "FCYB 302" },
+            { "time": "1-3", "course": "BCH 304" },
+            { "time": "3-5", "course": "PHY 214" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 1",
+          "slots": [
+            { "time": "8-10", "course": "MCB 322" },
+            { "time": "10-12", "course": "ARC 204" },
+            { "time": "1-3", "course": "MCB 324" },
+            { "time": "3-5", "course": "QTS 202" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 2",
+          "slots": [
+            { "time": "8-10", "course": "BCH 302" },
+            { "time": "10-12", "course": "PHY 206" },
+            { "time": "1-3", "course": "PHY 308" },
+            { "time": "3-5", "course": "FBIO 204" }
+          ]
+        },
+        {
+          "venue_name": "NPC HALL",
+          "slots": [
+            { "time": "8-10", "course": "GET 306" },
+            { "time": "10-12", "course": "FCEE 309" },
+            { "time": "1-3", "course": "FCEE 306" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 1",
+          "slots": [
+            { "time": "8-10", "course": "FACC 108" },
+            { "time": "3-5", "course": "FBUM 112" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 2",
+          "slots": [
+            { "time": "8-10", "course": "HTM 108" },
+            { "time": "10-12", "course": "TPM 104" },
+            { "time": "1-3", "course": "HTM 106" },
+            { "time": "3-5", "course": "TPM 106" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 3",
+          "slots": [
+            { "time": "8-10", "course": "BUM 206" },
+            { "time": "10-12", "course": "FACC 208" },
+            { "time": "1-3", "course": "ACC 206" },
+            { "time": "3-5", "course": "BUM 218" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 4",
+          "slots": [
+            { "time": "8-10", "course": "HTM 216" },
+            { "time": "3-5", "course": "HTM 220" }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "WEDNESDAY",
+      "venues": [
+        {
+          "venue_name": "AUDITORIUM",
+          "slots": [
+            { "time": "8-10", "course": "FCSC 212" },
+            { "time": "10-12", "course": "MTH 202" },
+            { "time": "1-3", "course": "FCSC 214" },
+            { "time": "3-5", "course": "GET 210" }
+          ]
+        },
+        {
+          "venue_name": "PAVILLION",
+          "slots": [
+            { "time": "8-10", "course": "FCSC 102" },
+            { "time": "10-12", "course": "CHM 102" },
+            { "time": "1-3", "course": "CMT 102" },
+            { "time": "3-5", "course": "CHM 108" }
+          ]
+        },
+        {
+          "venue_name": "CIT 1",
+          "slots": [
+            { "time": "8-10", "course": "SEN 302" },
+            { "time": "10-12", "course": "FLIT 222" },
+            { "time": "3-5", "course": "FSEN 316" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 1",
+          "slots": [
+            { "time": "8-10", "course": "STA 202" },
+            { "time": "10-12", "course": "FPGE 212" },
+            { "time": "1-3", "course": "TCH 206" },
+            { "time": "3-5", "course": "LIT 214" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 2",
+          "slots": [
+            { "time": "8-10", "course": "PHY 202" },
+            { "time": "10-12", "course": "QTS 102" },
+            { "time": "1-3", "course": "EEE 202" },
+            { "time": "3-5", "course": "EEE 326" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 3",
+          "slots": [
+            { "time": "8-10", "course": "STA 122" },
+            { "time": "10-12", "course": "BUD 122" },
+            { "time": "1-3", "course": "PHY 318" },
+            { "time": "3-5", "course": "LIT 116" }
+          ]
+        },
+        {
+          "venue_name": "PAS 1",
+          "slots": [
+            { "time": "8-10", "course": "EEE 102" },
+            { "time": "10-12", "course": "FCSC 216" },
+            { "time": "1-3", "course": "ASE 204" },
+            { "time": "3-5", "course": "QTS 204" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 1",
+          "slots": [
+            { "time": "8-10", "course": "BCH 312" },
+            { "time": "10-12", "course": "AGR 206" },
+            { "time": "1-3", "course": "BUD 204" },
+            { "time": "3-5", "course": "BUD 272" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 2",
+          "slots": [
+            { "time": "8-10", "course": "FCHM 201" },
+            { "time": "10-12", "course": "FZOO 212" },
+            { "time": "1-3", "course": "FCHM 208" },
+            { "time": "3-5", "course": "MTH 222" }
+          ]
+        },
+        {
+          "venue_name": "NPC HALL",
+          "slots": [
+            { "time": "8-10", "course": "GET 302" },
+            { "time": "10-12", "course": "ENT 312" },
+            { "time": "1-3", "course": "FMEE 322" },
+            { "time": "3-5", "course": "CEE 308" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 1",
+          "slots": [
+            { "time": "8-10", "course": "AMS 104" },
+            { "time": "10-12", "course": "FACC 106" },
+            { "time": "1-3", "course": "FBUM 104" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 2",
+          "slots": [
+            { "time": "8-10", "course": "ACC 204" },
+            { "time": "10-12", "course": "HTM 102" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 3",
+          "slots": [
+            { "time": "8-10", "course": "BUM 204" },
+            { "time": "10-12", "course": "FACC 212" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 4",
+          "slots": [
+            { "time": "8-10", "course": "HTM 212" },
+            { "time": "10-12", "course": "BUM 216" },
+            { "time": "1-3", "course": "HTM 218" }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "THURSDAY",
+      "venues": [
+        {
+          "venue_name": "AUDITORIUM",
+          "slots": [
+            { "time": "8-10", "course": "IFT 212" },
+            { "time": "10-12", "course": "GET 208" },
+            { "time": "1-3", "course": "FCYB 202" },
+            { "time": "3-5", "course": "GET 102" }
+          ]
+        },
+        {
+          "venue_name": "PAVILLION",
+          "slots": [
+            { "time": "8-10", "course": "MTH/FMTH 102" },
+            { "time": "10-12", "course": "PHY 104" },
+            { "time": "1-3", "course": "FCSC 208" },
+            { "time": "3-5", "course": "FCSC 108" }
+          ]
+        },
+        {
+          "venue_name": "CIT 1",
+          "slots": [
+            { "time": "8-10", "course": "FMCB 216" },
+            { "time": "10-12", "course": "FBTG 202" },
+            { "time": "3-5", "course": "FMCB 218" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 1",
+          "slots": [
+            { "time": "8-10", "course": "LIT 216" },
+            { "time": "10-12", "course": "LIT 218" },
+            { "time": "1-3", "course": "STA 212" },
+            { "time": "3-5", "course": "TCH 202" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 2",
+          "slots": [
+            { "time": "8-10", "course": "FSEN 312" },
+            { "time": "10-12", "course": "BUD 212" },
+            { "time": "1-3", "course": "FEEE 206" },
+            { "time": "3-5", "course": "FBUD 262" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 3",
+          "slots": [
+            { "time": "8-10", "course": "FPHY 324" },
+            { "time": "10-12", "course": "FLIT 118" },
+            { "time": "1-3", "course": "BUD 142" },
+            { "time": "3-5", "course": "FLIT 120" }
+          ]
+        },
+        {
+          "venue_name": "PAS 1",
+          "slots": [
+            { "time": "8-10", "course": "FMCB 426**" },
+            { "time": "10-12", "course": "DTS 304" },
+            { "time": "1-3", "course": "CYB 322" },
+            { "time": "3-5", "course": "SEN 306" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 1",
+          "slots": [
+            { "time": "8-10", "course": "ARC 206" },
+            { "time": "10-12", "course": "FFST 204" },
+            { "time": "1-3", "course": "FARC 210" },
+            { "time": "3-5", "course": "CYB 312" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 2",
+          "slots": [
+            { "time": "1-3", "course": "PHY 208" }
+          ]
+        },
+        {
+          "venue_name": "NPC HALL",
+          "slots": [
+            { "time": "8-10", "course": "GET 304" },
+            { "time": "10-12", "course": "FASE 322" },
+            { "time": "1-3", "course": "FMEE 326" },
+            { "time": "3-5", "course": "EEE 322" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 1",
+          "slots": [
+            { "time": "1-3", "course": "FACC 112" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 3",
+          "slots": [
+            { "time": "8-10", "course": "FACC 214" },
+            { "time": "1-3", "course": "HTM 210" }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "FRIDAY",
+      "venues": [
+        {
+          "venue_name": "AUDITORIUM",
+          "slots": [
+            { "time": "8-10", "course": "FCSC 204" },
+            { "time": "10-12", "course": "GET/FGET 204" },
+            { "time": "1-3", "course": "FCSC 308" }
+          ]
+        },
+        {
+          "venue_name": "PAVILLION",
+          "slots": [
+            { "time": "8-10", "course": "FGST 122" },
+            { "time": "10-12", "course": "FCSC 106" }
+          ]
+        },
+        {
+          "venue_name": "CIT 1",
+          "slots": [
+            { "time": "8-10", "course": "FBIO 202" },
+            { "time": "1-3", "course": "ASE 202" },
+            { "time": "3-5", "course": "FCYB 302" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 1",
+          "slots": [
+            { "time": "8-10", "course": "NAR 214" },
+            { "time": "10-12", "course": "LIT 220" },
+            { "time": "1-3", "course": "NAR 212" }
+          ]
+        },
+        {
+          "venue_name": "ETEC 2",
+          "slots": [
+            { "time": "8-10", "course": "BUD 282" }
+          ]
+        },
+        {
+          "venue_name": "PAS 1",
+          "slots": [
+            { "time": "8-10", "course": "FFST 202" },
+            { "time": "1-3", "course": "FSEN 316" },
+            { "time": "3-5", "course": "SEN 322" }
+          ]
+        },
+        {
+          "venue_name": "RE-HALL 1",
+          "slots": [
+            { "time": "8-10", "course": "FARC 206" }
+          ]
+        },
+        {
+          "venue_name": "NPC HALL",
+          "slots": [
+            { "time": "8-10", "course": "FEEE 302" },
+            { "time": "10-12", "course": "FMEE 324" },
+            { "time": "1-3", "course": "FEEE 306" }
+          ]
+        },
+        {
+          "venue_name": "SMAT 1",
+          "slots": [
+            { "time": "10-12", "course": "FACC 104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "special_courses": [
+    {
+      "course_code": "MTH 302 & STA 312",
+      "time": "10AM - 12PM (MONDAYS)",
+      "venue": "Departmental Office (Teaching Aids to be provided)"
+    },
+    {
+      "course_code": "MTH 308 & FSTA 326",
+      "time": "1PM - 3PM (MONDAYS)",
+      "venue": "Departmental Office (Teaching Aids to be provided)"
+    },
+    {
+      "course_code": "FCYB 304",
+      "time": "3PM - 5PM (MONDAYS)",
+      "venue": "E-LIBRARY"
+    },
+    {
+      "course_code": "MTH 304 & STA 322",
+      "time": "8AM - 10AM (TUESDAYS)",
+      "venue": "Departmental Office (Teaching Aids to be provided)"
+    },
+    {
+      "course_code": "FCSC 308",
+      "time": "3PM - 5PM (WEDNESDAYS)",
+      "venue": "E-LIBRARY"
+    },
+    {
+      "course_code": "MTH 306 & STA 324",
+      "time": "10AM - 12PM (THURSDAYS)",
+      "venue": "Departmental Office (Teaching Aids to be provided)"
+    },
+    {
+      "course_code": "MTH 310",
+      "time": "8AM - 10AM (FRIDAYS)",
+      "venue": "Departmental Office (Teaching Aids to be provided)"
+    }
+  ],
+  "level_keys": {
+    "100_level": "Red",
+    "200_level": "Black",
+    "300_level": "Blue"
+  },
+  "venue_keys": {
+    "NPC HALL": "National Productivity Centre Hall",
+    "RE-HALL 1 & 2": "Renovating Hall 1 & 2",
+    "SMAT 1-4": "School of Management and Technology Halls 1–4",
+    "E-LIBRARY": "Electronic Library"
+  },
+  "committee": {
+    "chairman": "Dr. Okon E. Etim",
+    "secretary": "Dr. Barizorge D. Bestman"
+  }
+}

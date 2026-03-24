@@ -1,0 +1,4313 @@
+[
+  {
+    "Last Name": "Abah",
+    "First Name": "Obochi",
+    "Reg No.": "2023/SCIT/CSC/036",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "abah.obochi@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Abasi-Ikpongke",
+    "First Name": "Utianga",
+    "Reg No.": "2023/SCIT/CSC/038",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "abasi-ikpongke.utianga@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abasiama",
+    "First Name": "Johnny",
+    "Reg No.": "2023/SPAS/MCB/007",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "abasiama.johnny@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abasiekeme",
+    "First Name": "Dickson",
+    "Reg No.": "2023/SCIT/SEN/049",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "abasiekeme.dickson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abasifreke",
+    "First Name": "Hanson",
+    "Reg No.": "2023/SEET/ASE/020",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "abasifreke.hanson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abasifreke",
+    "First Name": "Enangama",
+    "Reg No.": "2023/SCIT/CYB/025",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "abasifreke.enangama@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abasionueme",
+    "First Name": "Amana",
+    "Reg No.": "2023/SEET/ASE/026",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "abasionueme.amana@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abasiubong",
+    "First Name": "Allen",
+    "Reg No.": "2023/SEET/EEE/021",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "abasiubong.allen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abdulazeez",
+    "First Name": "Oladele",
+    "Reg No.": "2023/SEET/MEE/032",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "abdulazeez.oladele@futia.edu.ng",
+    "State": "Ogun"
+  },
+  {
+    "Last Name": "Abigail",
+    "First Name": "Essien",
+    "Reg No.": "2023/SEET/ASE/021",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "abigail.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abraham",
+    "First Name": "Ikpe",
+    "Reg No.": "2023/SEET/CEE/007",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "abraham.ikpe@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Abraham",
+    "First Name": "James",
+    "Reg No.": "2023/SCIT/SEN/023",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "abraham.james@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Adams",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SEET/CEE/041",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "adams.umoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Adi",
+    "First Name": "Ubong",
+    "Reg No.": "2023/SEET/CEE/035",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "adi.ubong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Afodu",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/026",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "afodu.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Agbuku",
+    "First Name": "Igbe",
+    "Reg No.": "2023/SEET/EEE/027",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "agbuku.igbe@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Akan",
+    "First Name": "Ukpong",
+    "Reg No.": "2023/SCIT/CYB/041",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "akan.ukpong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ake-Abasi",
+    "First Name": "Noah",
+    "Reg No.": "2023/SCIT/CYB/010",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ake-abasi.noah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Alexandria",
+    "First Name": "Esin",
+    "Reg No.": "2023/SEET/CEE/037",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "alexandria.esin@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ama-Abasi",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/MCB/015",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "ama-abasi.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Amaeti",
+    "First Name": "Ekpenyong",
+    "Reg No.": "2023/SPAS/MCB/047",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "amaeti.ekpenyong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Amblessed",
+    "First Name": "Oton",
+    "Reg No.": "2023/SPAS/BCH/047",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "amblessed.oton@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Anamofon",
+    "First Name": "Ekwere",
+    "Reg No.": "2023/SPAS/MCB/031",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "anamofon.ekwere@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Andifon",
+    "First Name": "Okon",
+    "Reg No.": "2023/SEET/CEE/0016",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "andifon.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Umo-Idem",
+    "Reg No.": "2023/SPAS/BCH/039",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "andikan.umo-idem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/003",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "andikan.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Paul",
+    "Reg No.": "2023/SCIT/SEN/005",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "andikan.paul@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Andikan",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/033",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "andikan.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Andikara",
+    "First Name": "Nkereuwem",
+    "Reg No.": "2023/SEET/ASE/004",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "andikara.nkereuwem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniebietabasi",
+    "First Name": "Samps0N",
+    "Reg No.": "2023/SEET/ASE/040",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "aniebietabasi.samps0n@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniebietabasi",
+    "First Name": "Udo",
+    "Reg No.": "2023/SPAS/BCH/024",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "aniebietabasi.udo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniebietabasi",
+    "First Name": "Aquaisua",
+    "Reg No.": "2023/SCIT/CYB/006",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "aniebietabasi.aquaisua@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniefiok",
+    "First Name": "Usoro",
+    "Reg No.": "2023/SEET/EEE/036",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "aniefiok.usoro@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniefiok-Abasi",
+    "First Name": "Donald",
+    "Reg No.": "2023/SEET/MEE/027",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "aniefiok-abasi.donald@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniekan",
+    "First Name": "Tom",
+    "Reg No.": "2023/SCIT/LIT/017",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "aniekan.tom@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniekeme",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/LIT/019",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "aniekeme.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniekeme",
+    "First Name": "Wilcox",
+    "Reg No.": "2023/SCIT/SEN/058",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "aniekeme.wilcox@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniekpeno",
+    "First Name": "Noah",
+    "Reg No.": "2023/SCIT/SEN/055",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "aniekpeno.noah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Aniekpon",
+    "First Name": "Ukoekong",
+    "Reg No.": "2023/SPAS/BCH/010",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "aniekpon.ukoekong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Archibong",
+    "First Name": "Akeabasi",
+    "Reg No.": "2023/SEET/ASE/048",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "archibong.akeabasi@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ata-Abasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/CYB/014",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ata-abasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Atom",
+    "First Name": "Anyam",
+    "Reg No.": "2023/SCIT/CSC/020",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "atom.anyam@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Awaji-Isom",
+    "First Name": "Simon",
+    "Reg No.": "2023/SEET/CEE/031",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "awaji-isom.simon@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Awaji-Onyi",
+    "First Name": "Nelson",
+    "Reg No.": "2023/SPAS/BCH/018",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "awaji-onyi.nelson@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Bassey",
+    "First Name": "Peter",
+    "Reg No.": "2023/SEET/ASE/049",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "bassey.peter@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Bassey",
+    "First Name": "Etukudo",
+    "Reg No.": "2023/SEET/CEE/038",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "bassey.etukudo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Beauty",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SPAS/MCB/040",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "beauty.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Benita",
+    "First Name": "Mamman",
+    "Reg No.": "2023/SEET/ASE/033",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "benita.mamman@futia.edu.ng",
+    "State": "Edo"
+  },
+  {
+    "Last Name": "Bill",
+    "First Name": "Ikot",
+    "Reg No.": "2023/SCITSEN/006",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "bill.ikot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessed",
+    "First Name": "Macaulay",
+    "Reg No.": "2023/SPAS/MCB/010",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "blessed.macaulay@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Ntuk",
+    "Reg No.": "2023/SPAS/BCH/008",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "blessing.ntuk@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Francis",
+    "Reg No.": "2023/SPAS/BCH/019",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "blessing.francis@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SCIT/CSC/037",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "blessing.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/LIT/018",
+    "Gender": "Female",
+    "Department": "Library & Information Technology",
+    "Email Address": "blessing.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Edet",
+    "Reg No.": "2023/SPAS/MCB/011",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Asukwo",
+    "Reg No.": "2023/SPAS/MCB/022",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.asukwo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Jennison",
+    "Reg No.": "2023/SPAS/MCB/023",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.jennison@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "William",
+    "Reg No.": "2023/SPAS/MCB/026",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.william@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Monday",
+    "Reg No.": "2023/SPAS/MCB/032",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.monday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Oboho",
+    "Reg No.": "2023/SPAS/MCB/034",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.oboho@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Blessing",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/MCB/043",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "blessing.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Bright",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/BCH/029",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "bright.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Charles",
+    "First Name": "Obute",
+    "Reg No.": "2023/SCIT/CYB/034",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "charles.obute@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Chikadibia",
+    "First Name": "Chukwudi",
+    "Reg No.": "2023/SEET/EEE/026",
+    "Gender": "Female",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "chikadibia.chukwudi@futia.edu.ng",
+    "State": "Abia"
+  },
+  {
+    "Last Name": "Chinecherem",
+    "First Name": "Nwafor",
+    "Reg No.": "2023/SPAS/BCH/003",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "chinecherem.nwafor@futia.edu.ng",
+    "State": "Anambra"
+  },
+  {
+    "Last Name": "Chisom",
+    "First Name": "Amos",
+    "Reg No.": "2023/SPAS/BCH/002",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "chisom.amos@futia.edu.ng",
+    "State": "Ebonyi"
+  },
+  {
+    "Last Name": "Christian",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/035",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "christian.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Christiana",
+    "First Name": "Ekerenam",
+    "Reg No.": "2023/SPAS/MCB/012",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "christiana.ekerenam@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Christopher",
+    "First Name": "Etuk",
+    "Reg No.": "2023/SPAS/BCH/020",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "christopher.etuk@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Christopher",
+    "First Name": "Asuqwo",
+    "Reg No.": "2023/SPAS/MCB/037",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "christopher.asuqwo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Comfort",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SEET/CEE/0015",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "comfort.thompson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Confidence",
+    "First Name": "Jessy",
+    "Reg No.": "2023/SEET/MEE/018",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "confidence.jessy@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Cornelius",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SEET/ASE/012",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "cornelius.udoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Covenant",
+    "First Name": "Ukpong",
+    "Reg No.": "2023/SCIT/CSC/040",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "covenant.ukpong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Covenant",
+    "First Name": "Nkanang",
+    "Reg No.": "2023/SCIT/CYB/022",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "covenant.nkanang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Covenant",
+    "First Name": "Udobia",
+    "Reg No.": "2023/SEET/EEE/003",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "covenant.udobia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Cyril",
+    "First Name": "Ekwe",
+    "Reg No.": "2023/SCIT/SEN/039",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "cyril.ekwe@futia.edu.ng",
+    "State": "Cross River"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Josiah",
+    "Reg No.": "2023/SCIT/CYB/033",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "daniel.josiah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Osai",
+    "Reg No.": "2023/SEET/EEE/006",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.osai@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Umouko",
+    "Reg No.": "2023/SEET/EEE/039",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.umouko@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Anietie",
+    "Reg No.": "2023/SEET/EEE/042",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.anietie@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Johnny",
+    "Reg No.": "2023/SEET/EEE/050",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "daniel.johnny@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "John",
+    "Reg No.": "2023/SEET/MEE/016",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "daniel.john@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/017",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "daniel.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Asuquo",
+    "Reg No.": "2023/SCIT/SEN/028",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "daniel.asuquo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Daniel",
+    "First Name": "Isong",
+    "Reg No.": "2023/SCIT/SEN/031",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "daniel.isong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Darlington",
+    "First Name": "Abbey",
+    "Reg No.": "2023/SCIT/CYB/013",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "darlington.abbey@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Dattiabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/015",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "dattiabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Abuo",
+    "Reg No.": "2023/SCIT/CSC/025",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "david.abuo@futia.edu.ng",
+    "State": "Niger"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Enemekung",
+    "Reg No.": "2023/SCIT/CYB/035",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "david.enemekung@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Ijomasam",
+    "Reg No.": "2023/SEET/EEE/009",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.ijomasam@futia.edu.ng",
+    "State": "Abia"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Nnamuka",
+    "Reg No.": "2023/SEET/EEE/023",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.nnamuka@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Johnson",
+    "Reg No.": "2023/SEET/EEE/025",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.johnson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Monday",
+    "Reg No.": "2023/SEET/EEE/034",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.monday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Iyire",
+    "Reg No.": "2023/SEET/EEE/041",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "david.iyire@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SCIT/LIT/002",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "david.umoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Jackson",
+    "Reg No.": "2023/SCIT/LIT/011",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "david.jackson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Okpo",
+    "Reg No.": "2023/SPAS/MCB/004",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "david.okpo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Ebie",
+    "Reg No.": "2023/SPAS/PHY/008",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "david.ebie@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Udoyo",
+    "Reg No.": "2023/SCIT/SEN/037",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "david.udoyo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Okodi",
+    "Reg No.": "2023/SCIT/SEN/038",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "david.okodi@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "David",
+    "First Name": "Ekong",
+    "Reg No.": "2023/SCIT/SEN/057",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "david.ekong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Deborah",
+    "First Name": "Archibong",
+    "Reg No.": "2023/SPAS/MCB/016",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "deborah.archibong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Delight",
+    "First Name": "Boniface",
+    "Reg No.": "2023/SCIT/CSC/030",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "delight.boniface@futia.edu.ng",
+    "State": "Abia"
+  },
+  {
+    "Last Name": "Delight",
+    "First Name": "Macauley",
+    "Reg No.": "2023/SEET/EEE/012",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "delight.macauley@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/CYB/018",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "destiny.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/EEE/030",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "destiny.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Ewang",
+    "Reg No.": "2023/SEET/EEE/052",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "destiny.ewang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Adaramola",
+    "Reg No.": "2023/SCIT/SEN/029",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "destiny.adaramola@futia.edu.ng",
+    "State": "Ondo"
+  },
+  {
+    "Last Name": "Destiny",
+    "First Name": "Attia",
+    "Reg No.": "2023/SCIT/SEN/047",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "destiny.attia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Divine",
+    "First Name": "Ibiok",
+    "Reg No.": "2023/SEET/ASE/007",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "divine.ibiok@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Divine-Dembari",
+    "First Name": "Leneh",
+    "Reg No.": "2023/SCIT/SEN/044",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "divine-dembari.leneh@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Dominic",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SPAS/BCH/036",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "dominic.udoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Dominic",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/EEE/028",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "dominic.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Dominion",
+    "First Name": "Daniel",
+    "Reg No.": "2023/SEET/ASE/008",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "dominion.daniel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Donald",
+    "First Name": "Udobia",
+    "Reg No.": "2023/SCIT/LIT/022",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "donald.udobia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Dorathy",
+    "First Name": "Clement",
+    "Reg No.": "2023/SPAS/BCH/016",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "dorathy.clement@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Etuk",
+    "Reg No.": "2023/SEET/ASE/041",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "edidiong.etuk@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Philip",
+    "Reg No.": "2023/SPAS/BCH/006",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "edidiong.philip@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Ben",
+    "Reg No.": "2023/SCIT/CSC/013",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "edidiong.ben@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Usoro",
+    "Reg No.": "2023/SCIT/CSC/042",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "edidiong.usoro@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Etekpo",
+    "Reg No.": "2023/SCIT/CSC/051",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "edidiong.etekpo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Dickson",
+    "Reg No.": "2023/SEET/EEE/002",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "edidiong.dickson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Peter",
+    "Reg No.": "2023/SPAS/MCB/028",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "edidiong.peter@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/MCB/041",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "edidiong.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Edidiong",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/SEN/011",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "edidiong.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ediomo",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/LIT/023",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "ediomo.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Effiong",
+    "First Name": "Willie",
+    "Reg No.": "2023/SEET/ASE/011",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "effiong.willie@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ejilemele",
+    "First Name": "Ejims",
+    "Reg No.": "2023/SEET/EEE/031",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ejilemele.ejims@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Ekanem",
+    "First Name": "Umo",
+    "Reg No.": "2023/SEET/ASE/042",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ekanem.umo@futia.edu.ng",
+    "State": "Cross River"
+  },
+  {
+    "Last Name": "Ekemini",
+    "First Name": "Dan",
+    "Reg No.": "2023/SPAS/MCB/019",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "ekemini.dan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ekemini",
+    "First Name": "Joshua",
+    "Reg No.": "2023/SCIT/SEN/051",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "ekemini.joshua@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ekom",
+    "First Name": "Umoette",
+    "Reg No.": "2023/SPAS/BCH/028",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "ekom.umoette@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Philip",
+    "Reg No.": "2023/SEET/ASE/014",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "elijah.philip@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/CEE/0018",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "elijah.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Friday",
+    "Reg No.": "2023/SCIT/CSC/003",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "elijah.friday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Jonah",
+    "Reg No.": "2023/SCIT/CYB/016",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "elijah.jonah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Elijah",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/010",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "elijah.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Elisha",
+    "First Name": "Nkereuwem",
+    "Reg No.": "2023/SCIT/CSC/047",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "elisha.nkereuwem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emaekop",
+    "First Name": "Ufot",
+    "Reg No.": "2023/SPAS/MCB/017",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "emaekop.ufot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Obot",
+    "Reg No.": "2023/SPAS/BCH/048",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "emediong.obot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SEET/CEE/0019",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "emediong.udoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Jacob",
+    "Reg No.": "2023/SPAS/MCB/042",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "emediong.jacob@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emediong",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/SEN/013",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "emediong.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emenyi",
+    "First Name": "Emenyi",
+    "Reg No.": "2023/SCIT/CSC/002",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "emenyi.emenyi@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Michael",
+    "Reg No.": "2023/SEET/ASE/002",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "emmanuel.michael@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Unyime",
+    "Reg No.": "2023/SEET/ASE/028",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "emmanuel.unyime@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ibok",
+    "Reg No.": "2023/SPAS/BCH/023",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "emmanuel.ibok@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Macaulay",
+    "Reg No.": "2023/SPAS/BCH/027",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "emmanuel.macaulay@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Jacob",
+    "Reg No.": "2023/SEET/CEE/024",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "emmanuel.jacob@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/CSC/019",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "emmanuel.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Simon",
+    "Reg No.": "2023/SCIT/CSC/053",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "emmanuel.simon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SCIT/CYB/003",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "emmanuel.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SCIT/CYB/030",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "emmanuel.thompson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ekerette",
+    "Reg No.": "2023/SCIT/CYB/038",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "emmanuel.ekerette@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SEET/EEE/038",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "emmanuel.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Godswill",
+    "Reg No.": "2023/SEET/EEE/051",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "emmanuel.godswill@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Solomon",
+    "Reg No.": "2023/SCIT/LIT/004",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "emmanuel.solomon@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Matthew",
+    "Reg No.": "2023/SPAS/MCB/038",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "emmanuel.matthew@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ikechukwu",
+    "Reg No.": "2023/SEET/MEE/006",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "emmanuel.ikechukwu@futia.edu.ng",
+    "State": "Enugu"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Otioro",
+    "Reg No.": "2023/SEET/MEE/014",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "emmanuel.otioro@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Ufot",
+    "Reg No.": "2023/SEET/MEE/025",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "emmanuel.ufot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/MEE/029",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "emmanuel.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuel",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/MEE/033",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "emmanuel.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmanuella",
+    "First Name": "Edet",
+    "Reg No.": "2023/SPAS/BCH/015",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "emmanuella.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmaunel",
+    "First Name": "Eshiet",
+    "Reg No.": "2023/SEET/CEE/006",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "emmaunel.eshiet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmaunel",
+    "First Name": "Peter",
+    "Reg No.": "2023/SEET/CEE/0013",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "emmaunel.peter@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Emmaunel",
+    "First Name": "Akpanudo",
+    "Reg No.": "2023/SEET/EEE/015",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "emmaunel.akpanudo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Eniebiet-Obong",
+    "First Name": "Timmy",
+    "Reg No.": "2023/SEET/EEE/010",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "eniebiet-obong.timmy@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Eno-Obong",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SEET/EEE/016",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "eno-obong.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Enobong",
+    "First Name": "Efiong",
+    "Reg No.": "2023/SEET/ASE/025",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "enobong.efiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Enoch",
+    "First Name": "Peter",
+    "Reg No.": "2023/SCIT/CYB/040",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "enoch.peter@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Enomfon",
+    "First Name": "Isaac",
+    "Reg No.": "2023/SCIT/LIT/012",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "enomfon.isaac@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Enwongabasi",
+    "First Name": "Ibia",
+    "Reg No.": "2023/SCIT/CYB/031",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "enwongabasi.ibia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Enwongo",
+    "First Name": "Etekpo",
+    "Reg No.": "2023/SEET/CEE/039",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "enwongo.etekpo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Enwongoh",
+    "First Name": "John",
+    "Reg No.": "2023/SPAS/PHY/009",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "enwongoh.john@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ephriam",
+    "First Name": "Akpanabba",
+    "Reg No.": "2023/SEET/CEE/009",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "ephriam.akpanabba@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ese-Camillus",
+    "First Name": "Ukponginuen",
+    "Reg No.": "2023/SCIT/SEN/030",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "ese-camillus.ukponginuen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Udo",
+    "Reg No.": "2023/SPAS/BCH/042",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "esther.udo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Andem",
+    "Reg No.": "2023/SPAS/MCB/025",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "esther.andem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/MCB/044",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "esther.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Esther",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/SEN/032",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "esther.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Etette",
+    "First Name": "William",
+    "Reg No.": "2023/SEET/CEE/030",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "etette.william@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Eti-Abasi",
+    "First Name": "Enang",
+    "Reg No.": "2023/SCIT/CYB/012",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "eti-abasi.enang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Etiene-Abasi",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/SEN/024",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "etiene-abasi.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Etieno",
+    "First Name": "Arthur",
+    "Reg No.": "2023/SCIT/SEN/009",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "etieno.arthur@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Etimbuk",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SEET/MEE/005",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "etimbuk.thompson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Etini",
+    "First Name": "Lawrence",
+    "Reg No.": "2023/SEET/CEE/008",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "etini.lawrence@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ezekiel",
+    "First Name": "Cyril",
+    "Reg No.": "2023/SEET/EEE/024",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ezekiel.cyril@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Faith",
+    "First Name": "Nmegwa",
+    "Reg No.": "2023/SCIT/CYB/023",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "faith.nmegwa@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "Faith",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SCIT/CYB/032",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "faith.thompson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Julius",
+    "Reg No.": "2023/SEET/ASE/027",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "favour.julius@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Inyang",
+    "Reg No.": "2023/SEET/ASE/034",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "favour.inyang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Oboh",
+    "Reg No.": "2023/SPAS/BCH/031",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "favour.oboh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Ekwah",
+    "Reg No.": "2023/SCIT/CSC/009",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "favour.ekwah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Gabriel",
+    "Reg No.": "2023/ SCIT/CSC/015",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "favour.gabriel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SCIT/CSC/031",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "favour.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SCIT/CYB/002",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "favour.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/CYB/017",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "favour.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Akpabio",
+    "Reg No.": "2023/SPAS/MCB/003",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "favour.akpabio@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Favour",
+    "First Name": "Eyo",
+    "Reg No.": "2023/SCIT/SEN/042",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "favour.eyo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Finedaughter",
+    "First Name": "Anyanwu",
+    "Reg No.": "2023/SPAS/MCB/020",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "finedaughter.anyanwu@futia.edu.ng",
+    "State": "Abia"
+  },
+  {
+    "Last Name": "Flourish",
+    "First Name": "Sandy",
+    "Reg No.": "2023/SCIT/SEN/019",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "flourish.sandy@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Francis",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SCIT/CSC/016",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "francis.umoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Gentle",
+    "First Name": "Nimuno",
+    "Reg No.": "2023/SEET/ASE/046",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "gentle.nimuno@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "George",
+    "First Name": "Umoren",
+    "Reg No.": "2023/SPAS/BCH/004",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "george.umoren@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "George",
+    "First Name": "Uchua",
+    "Reg No.": "2023/SCIT/SEN/014",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "george.uchua@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Gerald",
+    "First Name": "Ikeagummuo",
+    "Reg No.": "2023/SPAS/MCB/052",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "gerald.ikeagummuo@futia.edu.ng",
+    "State": "Anambra"
+  },
+  {
+    "Last Name": "Gideon",
+    "First Name": "Uko",
+    "Reg No.": "2023/SPAS/BCH/030",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "gideon.uko@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Gideon",
+    "First Name": "Usoro",
+    "Reg No.": "2023/SEET/EEE/037",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "gideon.usoro@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Gideon",
+    "First Name": "Johnson",
+    "Reg No.": "2023/SPAS/MCB/006",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "gideon.johnson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Gideon",
+    "First Name": "Udo",
+    "Reg No.": "2023/SPAS/PHY/002",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "gideon.udo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Giftsamuel",
+    "First Name": "Chukwuka",
+    "Reg No.": "2023/SEET/ASE/039",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "giftsamuel.chukwuka@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "God'Sgift",
+    "First Name": "Okon",
+    "Reg No.": "2023/SEET/ASE/006",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "god'sgift.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "God'Spower",
+    "First Name": "Umoinam",
+    "Reg No.": "2023/SEET/ASE/005",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "god'spower.umoinam@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "God'Swealth",
+    "First Name": "Allen",
+    "Reg No.": "2023/SPAS/BCH/022",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "god'swealth.allen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godsend",
+    "First Name": "Ebong",
+    "Reg No.": "2023/SPAS/BCH/021",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "godsend.ebong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godspower",
+    "First Name": "Ikechi",
+    "Reg No.": "2023/SEET/ASE/017",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "godspower.ikechi@futia.edu.ng",
+    "State": "Ebonyi"
+  },
+  {
+    "Last Name": "Godspromise",
+    "First Name": "Eyo",
+    "Reg No.": "2023/SPAS/BCH/017",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "godspromise.eyo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Victor",
+    "Reg No.": "2023/SCIT/CYB/004",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "godswill.victor@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Attara",
+    "Reg No.": "2023/SCIT/CYB/047",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "godswill.attara@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Jonhson",
+    "Reg No.": "2023/SCIT/LIT/006",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "godswill.jonhson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Willie",
+    "Reg No.": "2023/SEET/MEE/021",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "godswill.willie@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godswill",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/SEN/007",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "godswill.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Godwin",
+    "First Name": "Anyebe",
+    "Reg No.": "2023/SEET/ASE/013",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "godwin.anyebe@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Godwin",
+    "First Name": "Samuel",
+    "Reg No.": "2023/SEET/EEE/005",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "godwin.samuel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Goodluck",
+    "First Name": "Udoeka",
+    "Reg No.": "2023/SEET/ASE/003",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "goodluck.udoeka@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Goodluck",
+    "First Name": "Imoh",
+    "Reg No.": "2023/SEET/ASE/018",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "goodluck.imoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Goodness",
+    "First Name": "Agene",
+    "Reg No.": "2023/SEET/ASE/022",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "goodness.agene@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Goodnews",
+    "First Name": "James",
+    "Reg No.": "2023/SEET/CEE/040",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "goodnews.james@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Goodnews",
+    "First Name": "Itighise",
+    "Reg No.": "2023/SPAS/PHY/013",
+    "Gender": "Female",
+    "Department": "Physics",
+    "Email Address": "goodnews.itighise@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Gospel",
+    "First Name": "Dickson",
+    "Reg No.": "2023/SEET/MEE/004",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "gospel.dickson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Grace",
+    "First Name": "Nathaniel",
+    "Reg No.": "2023/SCIT/CSC/039",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "grace.nathaniel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Gracious",
+    "First Name": "Simon",
+    "Reg No.": "2023/SCIT/CSC/029",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "gracious.simon@futia.edu.ng",
+    "State": "Kaduna"
+  },
+  {
+    "Last Name": "Great",
+    "First Name": "Gaka-Phimia",
+    "Reg No.": "2023/SEET/MEE/023",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "great.gaka-phimia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Halleluyah",
+    "First Name": "Obot",
+    "Reg No.": "2023/SPAS/BCH/033",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "halleluyah.obot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Henrietta",
+    "First Name": "Akaeme",
+    "Reg No.": "2023/SEET/MEE/007",
+    "Gender": "Female",
+    "Department": "Mechanical Engineering",
+    "Email Address": "henrietta.akaeme@futia.edu.ng",
+    "State": "Abia"
+  },
+  {
+    "Last Name": "Hope",
+    "First Name": "Eshiet",
+    "Reg No.": "2023/SCIT/SEN/027",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "hope.eshiet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Hossana",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/ASE/029",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "hossana.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Idara",
+    "First Name": "Inyang",
+    "Reg No.": "2023/SCIT/CYB/046",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "idara.inyang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Idara",
+    "First Name": "Effiom",
+    "Reg No.": "2023/SCIT/SEN/021",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "idara.effiom@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Idaraobong",
+    "First Name": "Udom",
+    "Reg No.": "2023/SCIT/CSC/010",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "idaraobong.udom@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Idare",
+    "First Name": "Alexander",
+    "Reg No.": "2023/SCIT/SEN/012",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "idare.alexander@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Idorenyin",
+    "First Name": "John",
+    "Reg No.": "2023/SCIT/CYB/024",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "idorenyin.john@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ikono",
+    "First Name": "Ikono",
+    "Reg No.": "2023/SCIT/CYB/037",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ikono.ikono@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ikouwem",
+    "First Name": "Udomfu",
+    "Reg No.": "2023/SEET/CEE/0012",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "ikouwem.udomfu@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Imoh",
+    "First Name": "Ukpabio",
+    "Reg No.": "2023/SEET/MEE/034",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "imoh.ukpabio@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Iniubong",
+    "First Name": "Udofia",
+    "Reg No.": "2023/SEET/ASE/001",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "iniubong.udofia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Inyene",
+    "First Name": "Pius",
+    "Reg No.": "2023/SCIT/CYB/008",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "inyene.pius@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Inyeneobong",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/043",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "inyeneobong.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Isaac",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SCIT/CSC/001",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "isaac.umoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Isaac",
+    "First Name": "Eniefiok",
+    "Reg No.": "2023/SCIT/CSC/026",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "isaac.eniefiok@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Israel",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SPAS/BCH/005",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "israel.umoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Israel",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/EEE/040",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "israel.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Isreal",
+    "First Name": "Edet",
+    "Reg No.": "2023/SPAS/PHY/010",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "isreal.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ita",
+    "First Name": "Peter",
+    "Reg No.": "2023/SCIT/CSC/049",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ita.peter@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "James",
+    "First Name": "Joseph",
+    "Reg No.": "2023/SCIT/CSC/004",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "james.joseph@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "James",
+    "First Name": "Michael",
+    "Reg No.": "2023/SEET/EEE/013",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "james.michael@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "James",
+    "First Name": "Umoanwan",
+    "Reg No.": "2023/SEET/MEE/003",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "james.umoanwan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Jeremiah",
+    "First Name": "Ufia",
+    "Reg No.": "2023/SEET/CEE/036",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "jeremiah.ufia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Jesse",
+    "First Name": "Isangadighi",
+    "Reg No.": "2023/SEET/ASE/024",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "jesse.isangadighi@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Jessica",
+    "First Name": "Willie",
+    "Reg No.": "2023/SPAS/BCH/025",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "jessica.willie@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joel",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/SEN/002",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "joel.sunday@futia.edu.ng",
+    "State": "Kogi"
+  },
+  {
+    "Last Name": "John",
+    "First Name": "Abua",
+    "Reg No.": "2023/SEET/ASE/035",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "john.abua@futia.edu.ng",
+    "State": "Cross River"
+  },
+  {
+    "Last Name": "John",
+    "First Name": "Etim",
+    "Reg No.": "2023/SEET/CEE/032",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "john.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "John",
+    "First Name": "Edet",
+    "Reg No.": "2023/SEET/MEE/026",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "john.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "John",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/SEN/056",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "john.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Jonathan",
+    "First Name": "Cookey",
+    "Reg No.": "2023/SCIT/CYB/001",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "jonathan.cookey@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Ekong",
+    "Reg No.": "2023/SEET/ASE/010",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joseph.ekong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Ignatius",
+    "Reg No.": "2023/SEET/CEE/042",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "joseph.ignatius@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Edet",
+    "Reg No.": "2023/SCIT/CSC/021",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "joseph.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "William",
+    "Reg No.": "2023/SCIT/CSC/023",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "joseph.william@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Ekpe",
+    "Reg No.": "2023/SEET/EEE/045",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "joseph.ekpe@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joseph",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SPAS/MCB/014",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "joseph.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joshua",
+    "First Name": "Charles",
+    "Reg No.": "2023/SEET/ASE/023",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joshua.charles@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joshua",
+    "First Name": "Ekpe",
+    "Reg No.": "2023/SCIT/CSC/018",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "joshua.ekpe@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joshua",
+    "First Name": "Okon",
+    "Reg No.": "2023/SEET/EEE/043",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "joshua.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joshua",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/MEE/015",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "joshua.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Monday",
+    "Reg No.": "2023/SEET/ASE/009",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joy.monday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Aman",
+    "Reg No.": "2023/SEET/ASE/016",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "joy.aman@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Out",
+    "Reg No.": "2023/SPAS/BCH/046",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "joy.out@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Joy",
+    "First Name": "Monday",
+    "Reg No.": "2023/SPAS/MCB/050",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "joy.monday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Jude",
+    "First Name": "Essoh",
+    "Reg No.": "2023/SCIT/SEN/035",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "jude.essoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Justice",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/ASE/036",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "justice.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Justice",
+    "First Name": "Paul",
+    "Reg No.": "2023/SEET/ASE/047",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "justice.paul@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Justice",
+    "First Name": "Asinam",
+    "Reg No.": "2023/SEET/EEE/048",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "justice.asinam@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Kemfon",
+    "First Name": "Aqua",
+    "Reg No.": "2023/SEET/CEE/004",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kemfon.aqua@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Kemfon",
+    "First Name": "Jimmy",
+    "Reg No.": "2023/SCIT/CSC/027",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "kemfon.jimmy@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Kesit",
+    "First Name": "Udofia",
+    "Reg No.": "2023/SCIT/SEN/016",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "kesit.udofia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "King",
+    "First Name": "Allen",
+    "Reg No.": "2023/SCIT/CSC/014",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "king.allen@futia.edu.ng",
+    "State": "Rivers"
+  },
+  {
+    "Last Name": "Kingsley",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/CEE/001",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kingsley.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Kingsley",
+    "First Name": "Jimmy",
+    "Reg No.": "2023/SEET/CEE/034",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kingsley.jimmy@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Kingsley",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/MEE/011",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "kingsley.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Kubiat",
+    "First Name": "Rankin",
+    "Reg No.": "2023/SEET/CEE/003",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "kubiat.rankin@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Kufre",
+    "First Name": "Pius",
+    "Reg No.": "2023/SPAS/PHY/006",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "kufre.pius@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Leonora",
+    "First Name": "Nestor",
+    "Reg No.": "2023/SPAS/BCH/009",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "leonora.nestor@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Liberty",
+    "First Name": "Umoren",
+    "Reg No.": "2023/SCIT/CYB/027",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "liberty.umoren@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Linus",
+    "First Name": "Massody",
+    "Reg No.": "2023/SCIT/CSC/045",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "linus.massody@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Maclord",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SCIT/SEN/053",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "maclord.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Marshall",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SCIT/CYB/045",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "marshall.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Marvelous",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/CSC/008",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "marvelous.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Marvelous",
+    "First Name": "Eyo",
+    "Reg No.": "2023/SEET/MEE/009",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "marvelous.eyo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Maryagnes",
+    "First Name": "Oscar",
+    "Reg No.": "2023/SEET/CEE/010",
+    "Gender": "Female",
+    "Department": "Civil Engineering",
+    "Email Address": "maryagnes.oscar@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Matilda",
+    "First Name": "Ekping",
+    "Reg No.": "2023/SCIT/CYB/026",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "matilda.ekping@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Matthias",
+    "First Name": "Afaha",
+    "Reg No.": "2023/SCIT/CSC/007",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "matthias.afaha@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mercy",
+    "First Name": "Obeten",
+    "Reg No.": "2023/SPAS/MCB/009",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "mercy.obeten@futia.edu.ng",
+    "State": "Cross River"
+  },
+  {
+    "Last Name": "Mercy",
+    "First Name": "Ikwot",
+    "Reg No.": "2023/SEET/MEE/013",
+    "Gender": "Female",
+    "Department": "Mechanical Engineering",
+    "Email Address": "mercy.ikwot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mfoniso",
+    "First Name": "Ifreke",
+    "Reg No.": "2023/SEET/EEE/022",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "mfoniso.ifreke@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Micah-Edara",
+    "First Name": "Solomon",
+    "Reg No.": "2023/SEET/EEE/001",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "micah-edara.solomon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Michael",
+    "First Name": "Henry",
+    "Reg No.": "2023/SCIT/CSC/046",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "michael.henry@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Michael",
+    "First Name": "Ekerete",
+    "Reg No.": "2023/SPAS/MCB/039",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "michael.ekerete@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Michael",
+    "First Name": "Duff",
+    "Reg No.": "2023/SCIT/SEN/008",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "michael.duff@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Michelle",
+    "First Name": "Abah",
+    "Reg No.": "2023/SCIT/LIT/007",
+    "Gender": "Female",
+    "Department": "Library & Information Technology",
+    "Email Address": "michelle.abah@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SEET/ASE/015",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "miracle.thompson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Elijah",
+    "Reg No.": "2023/SPAS/BCH/038",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "miracle.elijah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Marcus",
+    "Reg No.": "2023/SEET/CEE/026",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "miracle.marcus@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Silas",
+    "Reg No.": "2023/SCIT/CYB/036",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "miracle.silas@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Ehicuyer",
+    "Reg No.": "2023/SEET/MEE/022",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "miracle.ehicuyer@futia.edu.ng",
+    "State": "Edo"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Michael",
+    "Reg No.": "2023/SPAS/PHY/005",
+    "Gender": "Female",
+    "Department": "Physics",
+    "Email Address": "miracle.michael@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Miracle",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/SEN/045",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "miracle.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Miriam",
+    "First Name": "Edem",
+    "Reg No.": "2023/SPAS/BCH/001",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "miriam.edem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mkpoikana-Abasi",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/CSC/012",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "mkpoikana-abasi.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mkpongo-Abasi",
+    "First Name": "Udousen",
+    "Reg No.": "2023/SEET/EEE/033",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "mkpongo-abasi.udousen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mmedeuwak",
+    "First Name": "Jimmy",
+    "Reg No.": "2023/SCIT/CSC/024",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "mmedeuwak.jimmy@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mmekomabasi",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SCIT/LIT/009",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "mmekomabasi.udoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mmemekobong",
+    "First Name": "Assam",
+    "Reg No.": "2023/SCIT/CYB/009",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "mmemekobong.assam@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Mmenyeneabasi",
+    "First Name": "Ime",
+    "Reg No.": "2023/SEET/EEE/032",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "mmenyeneabasi.ime@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Moses",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/ASE/043",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "moses.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Moses",
+    "First Name": "Dan-Abia",
+    "Reg No.": "2023/SCIT/CYB/011",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "moses.dan-abia@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Moses",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/MEE/008",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "moses.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ndedu",
+    "First Name": "Etuk",
+    "Reg No.": "2023/SCIT/CSC/017",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ndedu.etuk@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ndianabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/CSC/052",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ndianabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ndifreke",
+    "First Name": "Elijah",
+    "Reg No.": "2023/SEET/EEE/008",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ndifreke.elijah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ndifreke",
+    "First Name": "Smith",
+    "Reg No.": "2023/SEET/EEE/018",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "ndifreke.smith@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ndifreke",
+    "First Name": "Joel",
+    "Reg No.": "2023/SEET/MEE/012",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "ndifreke.joel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ndipmong",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SCIT/CSC/050",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ndipmong.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Nelson",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/MEE/030",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "nelson.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Newdawn",
+    "First Name": "Ezekiel",
+    "Reg No.": "2023/SCIT/CSC/043",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "newdawn.ezekiel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Nick",
+    "First Name": "Paul",
+    "Reg No.": "2023/SCIT/SEN/018",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "nick.paul@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Nseabasi",
+    "First Name": "Essien",
+    "Reg No.": "2023/SPAS/MCB/046",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "nseabasi.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Nsikak",
+    "First Name": "Sampson",
+    "Reg No.": "2023/SEET/EEE/049",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "nsikak.sampson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Nsikak",
+    "First Name": "Okon",
+    "Reg No.": "2023/SCIT/SEN/059",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "nsikak.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Nsikan",
+    "First Name": "Jackson",
+    "Reg No.": "2023/SEET/EEE/035",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "nsikan.jackson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Nsinana",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/CSC/034",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "nsinana.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Obedience",
+    "First Name": "Udoidiong",
+    "Reg No.": "2023/SPAS/PHY/007",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "obedience.udoidiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Obi",
+    "First Name": "Effiong",
+    "Reg No.": "2023/SEET/CEE/020",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "obi.effiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Obot",
+    "First Name": "Dennis",
+    "Reg No.": "2023/SEET/MEE/020",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "obot.dennis@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ofiok",
+    "First Name": "Ekausen",
+    "Reg No.": "2023/SEET/CEE/0014",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "ofiok.ekausen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ofofon",
+    "First Name": "Peter",
+    "Reg No.": "2023/SPAS/BCH/037",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "ofofon.peter@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Oluwafemi",
+    "First Name": "Ogunlade",
+    "Reg No.": "2023/SCIT/CSC/032",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "oluwafemi.ogunlade@futia.edu.ng",
+    "State": "Ogun"
+  },
+  {
+    "Last Name": "Oluwafemi",
+    "First Name": "Okechukwu",
+    "Reg No.": "2023/SCIT/CYB/038",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "oluwafemi.okechukwu@futia.edu.ng",
+    "State": "Abia"
+  },
+  {
+    "Last Name": "Oto-Obong",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SPAS/PHY/001",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "oto-obong.thompson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Otobong",
+    "First Name": "Umahaeyo",
+    "Reg No.": "2023/SPAS/MTS/002",
+    "Gender": "Male",
+    "Department": "Mathematics/ Statistics",
+    "Email Address": "otobong.umahaeyo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Patience",
+    "First Name": "Ndom",
+    "Reg No.": "2023/SPAS/BCH/011",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "patience.ndom@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Patience",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/MCB/045",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "patience.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Paul",
+    "First Name": "Etim",
+    "Reg No.": "2023/SEET/CEE/027",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "paul.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Paul",
+    "First Name": "Ndep",
+    "Reg No.": "2023/SEET/EEE/007",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "paul.ndep@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Paul",
+    "First Name": "Ekuwem",
+    "Reg No.": "2023/SEET/MEE/017",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "paul.ekuwem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Peace",
+    "First Name": "George",
+    "Reg No.": "2023/SPAS/MCB/035",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "peace.george@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "Peace",
+    "First Name": "Gabriel",
+    "Reg No.": "2023/SPAS/PHY/003",
+    "Gender": "Female",
+    "Department": "Physics",
+    "Email Address": "peace.gabriel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Peacespring",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/MEE/010",
+    "Gender": "Female",
+    "Department": "Mechanical Engineering",
+    "Email Address": "peacespring.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Peter",
+    "First Name": "Alfred",
+    "Reg No.": "2023/SPAS/MCB/029",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "peter.alfred@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Peter",
+    "First Name": "Ameh",
+    "Reg No.": "2023/SCIT/SEN/001",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "peter.ameh@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Philomen",
+    "First Name": "Joseph",
+    "Reg No.": "2023/SPAS/MCB/027",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "philomen.joseph@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Praise",
+    "First Name": "Obo",
+    "Reg No.": "2023/SCIT/CYB/005",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "praise.obo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Praise",
+    "First Name": "Odafe",
+    "Reg No.": "2023/SEET/MEE/024",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "praise.odafe@futia.edu.ng",
+    "State": "Delta"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Archibong",
+    "Reg No.": "2023/SPAS/BCH/013",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "precious.archibong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/044",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "precious.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Idorenyin",
+    "Reg No.": "2023/SCIT/LIT/001",
+    "Gender": "Female",
+    "Department": "Library & Information Technology",
+    "Email Address": "precious.idorenyin@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Affang",
+    "Reg No.": "2023/SCIT/LIT/020",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "precious.affang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Daniel",
+    "Reg No.": "2023/SPAS/MCB/054",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "precious.daniel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Precious",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/SEN/050",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "precious.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Prince",
+    "First Name": "Umoette",
+    "Reg No.": "2023/SEET/MEE/031",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "prince.umoette@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Princely",
+    "First Name": "Kingsley",
+    "Reg No.": "2023/SEET/CEE/022",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "princely.kingsley@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Promise",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SPAS/BCH/045",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "promise.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Prosper",
+    "First Name": "Sunday",
+    "Reg No.": "2023/SEET/EEE/011",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "prosper.sunday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Prosper",
+    "First Name": "Micheal",
+    "Reg No.": "2023/SPAS/MTS/001",
+    "Gender": "Male",
+    "Department": "Mathematics/ Statistics",
+    "Email Address": "prosper.micheal@futia.edu.ng",
+    "State": "Abia"
+  },
+  {
+    "Last Name": "Queen",
+    "First Name": "Nteyen",
+    "Reg No.": "2023/SPAS/MCB/008",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "queen.nteyen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Rebecca",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/BCH/007",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "rebecca.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Rebecca",
+    "First Name": "Edem",
+    "Reg No.": "2023/SPAS/MCB/030",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "rebecca.edem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Richard",
+    "First Name": "Robson",
+    "Reg No.": "2023/SEET/CEE/025",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "richard.robson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Richman",
+    "First Name": "Iwok",
+    "Reg No.": "2023/SPAS/MCB/002",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "richman.iwok@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Richmond",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/BCH/014",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "richmond.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Richmond",
+    "First Name": "Ibatt",
+    "Reg No.": "2023/SCIT/CSC/006",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "richmond.ibatt@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Rita",
+    "First Name": "Ekpo-Otu",
+    "Reg No.": "2023/SCIT/CSC/033",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "rita.ekpo-otu@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Roni",
+    "First Name": "Ita",
+    "Reg No.": "2023/SCIT/LIT/003",
+    "Gender": "Female",
+    "Department": "Library & Information Technology",
+    "Email Address": "roni.ita@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Rose",
+    "First Name": "Kinanee",
+    "Reg No.": "2023/SCIT/LIT/014",
+    "Gender": "Female",
+    "Department": "Library & Information Technology",
+    "Email Address": "rose.kinanee@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ruth",
+    "First Name": "Oscar",
+    "Reg No.": "2023/SCIT/CYB/019",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "ruth.oscar@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sabrina",
+    "First Name": "Nimuno",
+    "Reg No.": "2023/SPAS/MCB/053",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "sabrina.nimuno@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Chinyeaka",
+    "Reg No.": "2023/SEET/ASE/030",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "samuel.chinyeaka@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Ebute",
+    "Reg No.": "2023/SEET/ASE/032",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "samuel.ebute@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Eshiet",
+    "Reg No.": "2023/SEET/CEE/005",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "samuel.eshiet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Thompson",
+    "Reg No.": "2023/SCIT/CSC/022",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "samuel.thompson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Alexendar",
+    "Reg No.": "2023/SEET/EEE/004",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "samuel.alexendar@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "David",
+    "Reg No.": "2023/SEET/EEE/014",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "samuel.david@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Patrick",
+    "Reg No.": "2023/SEET/MEE/001",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "samuel.patrick@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Samuel",
+    "First Name": "Nelson",
+    "Reg No.": "2023/SCIT/SEN/004",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "samuel.nelson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Saviour",
+    "First Name": "Monday",
+    "Reg No.": "2023/SPAS/MCB/048",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "saviour.monday@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Seth",
+    "First Name": "Ekarika",
+    "Reg No.": "2023/SEET/CEE/029",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "seth.ekarika@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Shalom",
+    "First Name": "Udoudo",
+    "Reg No.": "2023/SEET/ASE/044",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "shalom.udoudo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Shedrach",
+    "First Name": "Usen",
+    "Reg No.": "2023/SCIT/SEN/034",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "shedrach.usen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Shulammite",
+    "First Name": "John",
+    "Reg No.": "2023/SPAS/BCH/026",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "shulammite.john@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sifon",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SPAS/BCH/040",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "sifon.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sifon",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/MCB/021",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "sifon.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Simeon",
+    "First Name": "Adinya",
+    "Reg No.": "2023/SCIT/LIT/021",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "simeon.adinya@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Simon",
+    "First Name": "Ibok",
+    "Reg No.": "2023/SCIT/SEN/054",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "simon.ibok@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sitoabasi",
+    "First Name": "Udofot",
+    "Reg No.": "2023/SPAS/MCB/001",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "sitoabasi.udofot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Solomon",
+    "First Name": "Iyanam",
+    "Reg No.": "2023/SEET/CEE/028",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "solomon.iyanam@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Stella",
+    "First Name": "Sylvanus",
+    "Reg No.": "2023/SCIT/CSC/ 041",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "stella.sylvanus@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Stella",
+    "First Name": "Etim",
+    "Reg No.": "2023/SPAS/MCB/024",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "stella.etim@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Success",
+    "First Name": "Peter",
+    "Reg No.": "2023/SEET/EEE/044",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "success.peter@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sunday",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/EEE/019",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "sunday.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sunny",
+    "First Name": "Harrison",
+    "Reg No.": "2023/SEET/CEE/023",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "sunny.harrison@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sylvester",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/CSC/028",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "sylvester.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Sylvester",
+    "First Name": "Iwong",
+    "Reg No.": "2023/SCIT/SEN/036",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "sylvester.iwong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Tangmfon",
+    "First Name": "Nkine",
+    "Reg No.": "2023/SPAS/MCB/049",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "tangmfon.nkine@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Testimony",
+    "First Name": "Sampson",
+    "Reg No.": "2023/SEET/ASE/045",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "testimony.sampson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Thankgod",
+    "First Name": "Akaka",
+    "Reg No.": "2023/SCIT/SEN/040",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "thankgod.akaka@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Thomas",
+    "First Name": "Ede",
+    "Reg No.": "2023/SCIT/CYB/043",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "thomas.ede@futia.edu.ng",
+    "State": "Cross River"
+  },
+  {
+    "Last Name": "Timothy",
+    "First Name": "Jerome",
+    "Reg No.": "2023/SEET/EEE/029",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "timothy.jerome@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Titus",
+    "First Name": "Oguadiuru",
+    "Reg No.": "2023/SEET/MEE/028",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "titus.oguadiuru@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "Tony",
+    "First Name": "Ekanem",
+    "Reg No.": "2023/SCIT/LIT/013",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "tony.ekanem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Toroabasi",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SCIT/CYB/021",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "toroabasi.umoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Treasure",
+    "First Name": "Edike",
+    "Reg No.": "2023/SCIT/SEN/048",
+    "Gender": "Female",
+    "Department": "Software Engineering",
+    "Email Address": "treasure.edike@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Trust",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SPAS/PHY/004",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "trust.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ubokabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/046",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "ubokabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ubon-Abasi",
+    "First Name": "Godwin",
+    "Reg No.": "2023/SCIT/CSC/011",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "ubon-abasi.godwin@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ubong",
+    "First Name": "Nkang",
+    "Reg No.": "2023/SPAS/MCB/051",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "ubong.nkang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ubong",
+    "First Name": "Paulinus",
+    "Reg No.": "2023/SEET/MEE/035",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "ubong.paulinus@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ubong-Abasi",
+    "First Name": "Odiong",
+    "Reg No.": "2023/SCIT/LIT/015",
+    "Gender": "Female",
+    "Department": "Library & Information Technology",
+    "Email Address": "ubong-abasi.odiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ubongabasi",
+    "First Name": "Essien",
+    "Reg No.": "2023/SCIT/LIT/016",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "ubongabasi.essien@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Udeme",
+    "First Name": "Morrison",
+    "Reg No.": "2023/SPAS/PHY/011",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "udeme.morrison@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Uduakobong",
+    "First Name": "Okon",
+    "Reg No.": "2023/SPAS/MCB/018",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "uduakobong.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ug0Nna",
+    "First Name": "Ndubueze",
+    "Reg No.": "2023/SEET/ASE/038",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ug0nna.ndubueze@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "Ukeme",
+    "First Name": "Willamson",
+    "Reg No.": "2023/SEET/ASE/037",
+    "Gender": "Female",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ukeme.willamson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ukemeabasi",
+    "First Name": "Gideon",
+    "Reg No.": "2023/SCIT/SEN/025",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "ukemeabasi.gideon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ukpono",
+    "First Name": "Udoukor",
+    "Reg No.": "2023/SEET/CEE/033",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "ukpono.udoukor@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ukpono",
+    "First Name": "Usen",
+    "Reg No.": "2023/SCIT/CYB/044",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "ukpono.usen@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ukpono",
+    "First Name": "Emmanuel",
+    "Reg No.": "2023/SCIT/LIT/010",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "ukpono.emmanuel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Ungwanen",
+    "First Name": "Tanya",
+    "Reg No.": "2023/SEET/ASE/019",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "ungwanen.tanya@futia.edu.ng",
+    "State": "Benue"
+  },
+  {
+    "Last Name": "Unwana",
+    "First Name": "George",
+    "Reg No.": "2023/SPAS/BCH/041",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "unwana.george@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Unwana",
+    "First Name": "Daniel",
+    "Reg No.": "2023/SEET/MEE/019",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "unwana.daniel@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Unwanaabasi",
+    "First Name": "Ifreke",
+    "Reg No.": "2023/SPAS/MCB/013",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "unwanaabasi.ifreke@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Usoro",
+    "First Name": "Paul",
+    "Reg No.": "2023/SCIT/SEN/052",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "usoro.paul@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Utibe",
+    "First Name": "James",
+    "Reg No.": "2023/SEET/EEE/046",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "utibe.james@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Utibe",
+    "First Name": "Okon",
+    "Reg No.": "2023/SEET/MEE/002",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "utibe.okon@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Utibeabasi",
+    "First Name": "James",
+    "Reg No.": "2023/SCIT/CSC/005",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "utibeabasi.james@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Utibeabasi",
+    "First Name": "John",
+    "Reg No.": "2023/SCIT/SEN/020",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "utibeabasi.john@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Utibeabasi",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SCIT/SEN/044",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "utibeabasi.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Utibeima",
+    "First Name": "Jacobinyang",
+    "Reg No.": "2023/SEET/EEE/047",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "utibeima.jacobinyang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Uwakmfon",
+    "First Name": "Noah",
+    "Reg No.": "2023/SPAS/BCH/034",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "uwakmfon.noah@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Uwem",
+    "First Name": "Joseph",
+    "Reg No.": "2023/SCIT/CYB/015",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "uwem.joseph@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Uyama",
+    "First Name": "Eyo",
+    "Reg No.": "2023/SEET/CEE/0011",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "uyama.eyo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Uyoh",
+    "First Name": "Uyoh",
+    "Reg No.": "2023/SCIT/CSC/035",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "uyoh.uyoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Effik",
+    "Reg No.": "2023/SEET/ASE/031",
+    "Gender": "Male",
+    "Department": "Aerospace Engineering",
+    "Email Address": "victor.effik@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Diamond",
+    "Reg No.": "2023/SCIT/CSC/048",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "victor.diamond@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Offiong",
+    "Reg No.": "2023/SCIT/CSC/054",
+    "Gender": "Male",
+    "Department": "Computer Science",
+    "Email Address": "victor.offiong@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Edem",
+    "Reg No.": "2023/SPAS/MCB/036",
+    "Gender": "Male",
+    "Department": "Microbiology",
+    "Email Address": "victor.edem@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victor",
+    "First Name": "Francis",
+    "Reg No.": "2023/SPAS/PHY/012",
+    "Gender": "Male",
+    "Department": "Physics",
+    "Email Address": "victor.francis@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victoria",
+    "First Name": "Nestor",
+    "Reg No.": "2023/SCIT/LIT/005",
+    "Gender": "Female",
+    "Department": "Library & Information Technology",
+    "Email Address": "victoria.nestor@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Sampson",
+    "Reg No.": "2023/SPAS/BCH/012",
+    "Gender": "Female",
+    "Department": "Biochemistry",
+    "Email Address": "victory.sampson@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SEET/CEE/0017",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "victory.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Umoh",
+    "Reg No.": "2023/SEET/CEE/021",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "victory.umoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Udoh",
+    "Reg No.": "2023/SCIT/CYB/007",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "victory.udoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Edet",
+    "Reg No.": "2023/SPAS/MCB/005",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "victory.edet@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Victory",
+    "First Name": "Asimatang",
+    "Reg No.": "2023/SPAS/MCB/033",
+    "Gender": "Female",
+    "Department": "Microbiology",
+    "Email Address": "victory.asimatang@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Walter",
+    "First Name": "Martin",
+    "Reg No.": "2023/SEET/CEE/002",
+    "Gender": "Male",
+    "Department": "Civil Engineering",
+    "Email Address": "walter.martin@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Winner",
+    "First Name": "Asuquo",
+    "Reg No.": "2023/SCIT/CSC/044",
+    "Gender": "Female",
+    "Department": "Computer Science",
+    "Email Address": "winner.asuquo@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Winner",
+    "First Name": "William",
+    "Reg No.": "2023/SCIT/SEN/022",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "winner.william@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Ukoh",
+    "Reg No.": "2023/SPAS/BCH/032",
+    "Gender": "Male",
+    "Department": "Biochemistry",
+    "Email Address": "wisdom.ukoh@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Kingsley",
+    "Reg No.": "2023/SCIT/CYB/028",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "wisdom.kingsley@futia.edu.ng",
+    "State": "Imo"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Onukwube",
+    "Reg No.": "2023/SCIT/CYB/029",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "wisdom.onukwube@futia.edu.ng",
+    "State": "Ebonyi"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Christopher",
+    "Reg No.": "2023/SCIT/CYB/042",
+    "Gender": "Male",
+    "Department": "Cyber Security",
+    "Email Address": "wisdom.christopher@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Sifonobot",
+    "Reg No.": "2023/SEET/EEE/017",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "wisdom.sifonobot@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Ikotinyie",
+    "Reg No.": "2023/SEET/EEE/020",
+    "Gender": "Male",
+    "Department": "Electrical/Electronics Engineering",
+    "Email Address": "wisdom.ikotinyie@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Akpakwa",
+    "Reg No.": "2023/SCIT/LIT/008",
+    "Gender": "Male",
+    "Department": "Library & Information Technology",
+    "Email Address": "wisdom.akpakwa@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Wisdom",
+    "First Name": "Akpan",
+    "Reg No.": "2023/SEET/MEE/036",
+    "Gender": "Male",
+    "Department": "Mechanical Engineering",
+    "Email Address": "wisdom.akpan@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Zebulun",
+    "First Name": "Marcus",
+    "Reg No.": "2023/SCIT/SEN/041",
+    "Gender": "Male",
+    "Department": "Software Engineering",
+    "Email Address": "zebulun.marcus@futia.edu.ng",
+    "State": "Akwa Ibom"
+  },
+  {
+    "Last Name": "Zelia",
+    "First Name": "Bassey",
+    "Reg No.": "2023/SCIT/CYB/020",
+    "Gender": "Female",
+    "Department": "Cyber Security",
+    "Email Address": "zelia.bassey@futia.edu.ng",
+    "State": "Akwa Ibom"
+  }
+]
