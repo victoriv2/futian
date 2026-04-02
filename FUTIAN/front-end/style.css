@@ -1,13 +1,21 @@
-/* --- BASE STYLES --- */
+html {
+    height: -webkit-fill-available;
+}
+
 body {
     background-color: #000;
     margin: 0;
     font-family: sans-serif;
     display: flex;
     align-items: flex-start;
-    min-height: 100dvh;
-    height: 100dvh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    height: 100vh;
+    height: -webkit-fill-available;
     overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    overscroll-behavior: none;
 }
 
 /* Remove default focus outline */
@@ -500,7 +508,8 @@ html.sidebar-collapsed-preference .sidebar .sidebar-content::-webkit-scrollbar {
 .container {
     padding: 10px;
     width: calc(100% - 250px);
-    height: 100dvh;
+    height: 100vh;
+    height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -37,3 +37,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Large files
+CAMPUS MAP/LOCATION DATA.zip
+*.zip
