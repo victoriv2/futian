@@ -26,8 +26,8 @@ PORT = int(os.getenv("PORT", "8000"))
 if not XAI_API_KEY:
     raise ValueError("XAI_API_KEY not found in environment variables. Please check your .env file.")
 
-# Model - xAI's Grok model with reasoning capabilities
-MODEL = "grok-4-1-fast-reasoning"
+# Model - xAI's Grok model (Non-Reasoning)
+MODEL = "grok-4.20-0309-non-reasoning"
 
 # --- PATHS ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
